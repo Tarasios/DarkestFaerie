@@ -1,0 +1,417 @@
+{
+ "logo-name": "Darkest Faerie 100%",
+ "nav-acts": "Acts",
+ "nav-home": "Home",
+ "nav-tools": "Tools",
+ "gt-filter": "filter…",
+ "gt-hide-done": "hide completed",
+ "gt-missable-only": "missable only",
+ "gt-count": "%1 / %2 done",
+ "gt-overall": "Total: %1 / %2 (%3%)",
+ "gt-nothing": "Nothing matches the current filter.",
+ "gt-reset": "Reset all progress",
+ "gt-reset-confirm": "Reset ALL tracker progress for this game?",
+ "gt-toggle-all": "toggle all",
+ "gt-dash-title": "Progress overview",
+ "gt-dash-section": "Section",
+ "gt-dash-progress": "Progress",
+ "gt-th-progress": "Tracked progress",
+ "gt-auto-badge": "auto",
+ "gt-auto-tip": "Earned automatically from %1",
+ "gt-missable-badge": "missable",
+ "gt-missable-tip": "Missable — belongs to Act-locked content. Once you leave the Act you can no longer obtain it.",
+ "gt-element-tip": "%1 — weak to %2 (deal extra damage; block/deflect %2 attacks)",
+ "gt-section-for": "%1 — %2",
+ "gt-world-complete": "complete",
+ "page-title": "Darkest Faerie — Act 1 — Tormund's Story",
+ "df-title": "Act 1 — Tormund's Story",
+ "df-subtitle": "Treasure chests, quests, neggs and clovers for this Act. Items marked missable lock once you leave the Act.",
+ "kp-export": "Export progress",
+ "kp-import": "Import progress",
+ "kp-note": "Backs up / restores ALL Darkest Faerie tracker progress on this site as a JSON file.",
+ "kp-import-confirm": "Importing will overwrite the saved progress of every tracker on this site with the file's contents. Continue?",
+ "kp-import-error": "That file could not be read as a progress export.",
+ "theme-to-day": "Day",
+ "theme-to-night": "Night",
+ "theme-toggle-aria": "Toggle bright theme",
+ "tabbtn-quests": "Quests",
+ "tabbtn-worlds": "Zones",
+ "tabbtn-treasures": "Treasures",
+ "tabbtn-neggs": "Neggs",
+ "tabbtn-clovers": "Clovers",
+ "sec-quests": "Quests",
+ "sec-treasures": "Treasure Chests",
+ "sec-neggs": "Neggs",
+ "sec-clovers": "Clovers",
+ "th-quests-name": "Quest",
+ "th-quests-kind": "Type",
+ "th-quests-detail": "Where / how",
+ "th-quests-reward": "Reward",
+ "th-treasures-name": "Chest",
+ "th-treasures-where": "Zone",
+ "th-neggs-name": "Negg",
+ "th-neggs-effect": "Effect",
+ "th-neggs-where": "Where to find it",
+ "th-clovers-name": "Clover",
+ "th-clovers-where": "Where to find it",
+ "note-quests": "Main-story quests are listed in the order you unlock them; side quests are grouped by the town/zone where they become available. Side quests in Acts 1–3 are missable — finish them before leaving the Act.",
+ "note-treasures": "Every treasure chest in this Act, grouped by zone (counts from the RetroAchievements “Treasure Hunter” set). Use the Zones tab for a by-zone overview.",
+ "note-neggs": "Red Neggs raise Health, Starry Neggs raise Magic, and Golden Neggs raise both — permanently. Silver Neggs are consumables that fully restore HP & MP. Cumulative upgrade totals are tracked on the Achievements page. This list covers the guide-sourced neggs; more are hidden in the world.",
+ "note-clovers": "Clovers permanently raise your luck (drop rate). Cumulative luck-bar milestones are tracked on the Achievements page. This list covers the guide-sourced clovers; more are hidden in the world.",
+ "gt-worlds-title": "Collectibles by Zone",
+ "items": {
+  "treasures": [
+   {
+    "name": "Chest 1",
+    "where": "Ellis Family Farm"
+   },
+   {
+    "name": "Chest 2",
+    "where": "Ellis Family Farm"
+   },
+   {
+    "name": "Chest 3",
+    "where": "Ellis Family Farm"
+   },
+   {
+    "name": "Chest 4",
+    "where": "Ellis Family Farm"
+   },
+   {
+    "name": "Chest 1",
+    "where": "Farm Road"
+   },
+   {
+    "name": "Chest 2",
+    "where": "Farm Road"
+   },
+   {
+    "name": "Chest 3",
+    "where": "Farm Road"
+   },
+   {
+    "name": "Chest 1",
+    "where": "Root Cellar"
+   },
+   {
+    "name": "Chest 2",
+    "where": "Root Cellar"
+   },
+   {
+    "name": "Chest 1",
+    "where": "Bandit Caves"
+   },
+   {
+    "name": "Chest 2",
+    "where": "Bandit Caves"
+   },
+   {
+    "name": "Chest 3",
+    "where": "Bandit Caves"
+   },
+   {
+    "name": "Chest 4",
+    "where": "Bandit Caves"
+   },
+   {
+    "name": "Chest 1",
+    "where": "Meridell Outskirts"
+   },
+   {
+    "name": "Chest 1",
+    "where": "Meridell Plains"
+   },
+   {
+    "name": "Chest 2",
+    "where": "Meridell Plains"
+   },
+   {
+    "name": "Chest 3",
+    "where": "Meridell Plains"
+   },
+   {
+    "name": "Chest 1",
+    "where": "Haunted Tombs"
+   },
+   {
+    "name": "Chest 2",
+    "where": "Haunted Tombs"
+   },
+   {
+    "name": "Chest 3",
+    "where": "Haunted Tombs"
+   },
+   {
+    "name": "Chest 4",
+    "where": "Haunted Tombs"
+   },
+   {
+    "name": "Chest 5",
+    "where": "Haunted Tombs"
+   },
+   {
+    "name": "Chest 1",
+    "where": "Drackon Ridge"
+   },
+   {
+    "name": "Chest 2",
+    "where": "Drackon Ridge"
+   },
+   {
+    "name": "Chest 3",
+    "where": "Drackon Ridge"
+   },
+   {
+    "name": "Chest 4",
+    "where": "Drackon Ridge"
+   },
+   {
+    "name": "Chest 5",
+    "where": "Drackon Ridge"
+   },
+   {
+    "name": "Chest 6",
+    "where": "Drackon Ridge"
+   },
+   {
+    "name": "Chest 7",
+    "where": "Drackon Ridge"
+   },
+   {
+    "name": "Chest 1",
+    "where": "Shadowglen Woods"
+   },
+   {
+    "name": "Chest 2",
+    "where": "Shadowglen Woods"
+   },
+   {
+    "name": "Chest 3",
+    "where": "Shadowglen Woods"
+   },
+   {
+    "name": "Chest 4",
+    "where": "Shadowglen Woods"
+   },
+   {
+    "name": "Chest 1",
+    "where": "Meridell Castle 3rd Floor"
+   },
+   {
+    "name": "Chest 2",
+    "where": "Meridell Castle 3rd Floor"
+   },
+   {
+    "name": "Chest 1",
+    "where": "Meridell Castle Courtyard"
+   },
+   {
+    "name": "Chest 2",
+    "where": "Meridell Castle Courtyard"
+   },
+   {
+    "name": "Chest 1",
+    "where": "Meridell Sewers"
+   },
+   {
+    "name": "Chest 2",
+    "where": "Meridell Sewers"
+   },
+   {
+    "name": "Chest 3",
+    "where": "Meridell Sewers"
+   },
+   {
+    "name": "Chest 1",
+    "where": "Illusen's Glade"
+   },
+   {
+    "name": "Chest 2",
+    "where": "Illusen's Glade"
+   },
+   {
+    "name": "Chest 3",
+    "where": "Illusen's Glade"
+   },
+   {
+    "name": "Chest 4",
+    "where": "Illusen's Glade"
+   }
+  ],
+  "quests": [
+   {
+    "name": "A Hero's First Steps",
+    "kind": "Main",
+    "detail": "Obtain the Wooden Sword",
+    "reward": "—"
+   },
+   {
+    "name": "Deliver Package",
+    "kind": "Main",
+    "detail": "Deliver Dad's package to the Army Recruitment Centre in Meridell",
+    "reward": "—"
+   },
+   {
+    "name": "Becoming a Squire",
+    "kind": "Main",
+    "detail": "Take your sponsorship papers to Officer Kendrick",
+    "reward": "—"
+   },
+   {
+    "name": "Find Your Sister!",
+    "kind": "Main",
+    "detail": "Save your sister from some REAL trouble...",
+    "reward": "—"
+   },
+   {
+    "name": "Negg-tastic Discovery",
+    "kind": "Main",
+    "detail": "Find your first Red Negg or Golden Negg and enjoy the extra health benefits!",
+    "reward": "—"
+   },
+   {
+    "name": "Catch the Miamice",
+    "kind": "Main",
+    "detail": "Catch all of the Miamice in the Castle Storeroom",
+    "reward": "—"
+   },
+   {
+    "name": "Clog Duty",
+    "kind": "Main",
+    "detail": "Enter the Castle Sewers and remove the drain clogs",
+    "reward": "—"
+   },
+   {
+    "name": "Squire Chores Over",
+    "kind": "Main",
+    "detail": "Complete all of the chores that Sir Torak assigns to you. Shew! What a day!",
+    "reward": "—"
+   },
+   {
+    "name": "Ixi Raiders",
+    "kind": "Main",
+    "detail": "Venture into the Cogham Steppes and defeat the Ixi Raider Chieftain",
+    "reward": "—"
+   },
+   {
+    "name": "I Dub Thee, Sir Tormund!",
+    "kind": "Main",
+    "detail": "Receive a knighthood",
+    "reward": "—"
+   },
+   {
+    "name": "Beast Beneath the Blade",
+    "kind": "Main",
+    "detail": "Defeat the great beast Gnarfas",
+    "reward": "—"
+   },
+   {
+    "name": "Escape the Castle",
+    "kind": "Main",
+    "detail": "RUN! RUN! RUN! Escape the castle and reach the conclusion of Act 1",
+    "reward": "—"
+   },
+   {
+    "name": "Hide and Seek",
+    "kind": "Side",
+    "detail": "Farm Road — aisha across the lake",
+    "reward": "Random Mote"
+   },
+   {
+    "name": "Dangerous Weeds",
+    "kind": "Side",
+    "detail": "Farm Road — aisha by the farmhouse",
+    "reward": "4-Leaf Clover"
+   },
+   {
+    "name": "Noises in the Root Cellar",
+    "kind": "Side",
+    "detail": "Farm Road — Juppie Farms root cellar",
+    "reward": "100 NP · Shadowglen Treasure Map"
+   },
+   {
+    "name": "Protect Bogg's Field",
+    "kind": "Side",
+    "detail": "Farm Road — Old Man Bogg's chokato patch",
+    "reward": "Chokato"
+   },
+   {
+    "name": "The Gelert Prince",
+    "kind": "Side",
+    "detail": "Meridell Outskirts — Bandit Caves",
+    "reward": "Speckled Negg · Golden Rose · 350 NP"
+   },
+   {
+    "name": "Spyder Venom",
+    "kind": "Side",
+    "detail": "Meridell Village — Gamon, Shoppe of Curious Wonders",
+    "reward": "500 NP"
+   },
+   {
+    "name": "A Magic Skull",
+    "kind": "Side",
+    "detail": "Meridell Village — Mistress Morag → Haunted Tombs",
+    "reward": "750 NP"
+   },
+   {
+    "name": "The Arbendus Flower",
+    "kind": "Side",
+    "detail": "Meridell Village — Angus the Apothecary → Shadowglen Woods",
+    "reward": "500 NP"
+   },
+   {
+    "name": "Courting Lady Prunella",
+    "kind": "Side",
+    "detail": "Meridell Castle — Lady Prunella, courtyard",
+    "reward": "Silver Negg"
+   },
+   {
+    "name": "Growth Pod",
+    "kind": "Side",
+    "detail": "Cogham Steppes — Cogham food shoppe owner",
+    "reward": "Red Negg"
+   }
+  ],
+  "neggs": [
+   {
+    "name": "Red Negg",
+    "effect": "+ Health (permanent)",
+    "where": "Reward: Growth Pod (Cogham Steppes)"
+   },
+   {
+    "name": "Red Negg",
+    "effect": "+ Health (permanent)",
+    "where": "Haunted Tombs — fully explore during A Magic Skull"
+   },
+   {
+    "name": "Starry / Golden Negg",
+    "effect": "+ Magic (permanent)",
+    "where": "First found in Act 1 → “Mystical Nourishment”"
+   },
+   {
+    "name": "Silver Negg",
+    "effect": "Fully restores HP & MP (consumable)",
+    "where": "Reward: Courting Lady Prunella"
+   },
+   {
+    "name": "Speckled Negg",
+    "effect": "Sellable negg",
+    "where": "Reward: The Gelert Prince"
+   }
+  ],
+  "clovers": [
+   {
+    "name": "4-Leaf Clover",
+    "where": "Reward: Dangerous Weeds (Farm Road)"
+   },
+   {
+    "name": "4-Leaf Clover",
+    "where": "Haunted Tombs — fully explore during A Magic Skull"
+   },
+   {
+    "name": "12-Leaf Clover",
+    "where": "Found in a large clearing → “Three Times the Luck”"
+   }
+  ]
+ }
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; object-src 'none'; base-uri 'self'; form-action 'self'">
+    <title>Darkest Faerie — Act 1</title>
+    <script src="../js/theme.js"></script>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/df.css">
+</head>
+<body data-page="act1-tracker" data-root="../">
+    <nav>
+        <div class="container">
+            <div class="nav-content">
+                <a href="../" class="logo" id="logo-name"></a>
+                <div class="nav-right">
+                    <ul class="nav-links">
+                    <li class="has-menu">
+                        <button class="nav-menu-btn" id="games-menu-btn" type="button" aria-haspopup="true" aria-expanded="false">Acts <span class="caret" aria-hidden="true">&#9662;</span></button>
+        <ul class="nav-menu" id="games-menu">
+        <li><a href="../tools/act1.html">Act 1 — Tormund's Story</a></li>
+        <li><a href="../tools/act2.html">Act 2 — Roberta's Story</a></li>
+        <li><a href="../tools/act3.html">Act 3 — Heroes United</a></li>
+        <li><a href="../tools/act4.html">Act 4 — Legends of Altador</a></li>
+        <li><a href="../tools/achievements.html">Achievements</a></li>
+        <li><a href="../tools/bestiary.html">Bestiary &amp; Elements</a></li>
+        </ul>
+                    </li>
+                    </ul>
+                    <div class="theme-toggle">
+                        <button id="themeToggle" class="theme-btn" type="button">
+                            <span class="theme-icon" id="theme-icon" aria-hidden="true"></span>
+                            <span class="theme-text" id="theme-text"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container df">
+        <header class="df-header">
+            <figure class="banner df-logo"><img class="banner-img" src="../images/banners/act1.jpg" alt=""></figure>
+            <h1 id="df-title"></h1>
+            <p class="sub" id="df-subtitle"></p>
+        </header>
+
+        <div class="charbar" id="charbar" style="margin-top:12px">
+            <span class="countbadge" style="margin:0" id="playing-as"></span>
+            <span class="countbadge" id="overallNote"></span>
+        </div>
+
+        <div class="tabs" id="tabs"></div>
+        <main class="df-main" id="panels"></main>
+    </div>
+
+    <script src="../js/i18n.js"></script>
+    <script src="../js/df-common.js"></script>
+    <script src="../js/act1-data.js"></script>
+    <script src="../js/df-tracker.js"></script>
+    <script src="../js/df-progress.js"></script>
+    <script src="../js/banners.js"></script>
+    <script src="../js/nav.js"></script>
+</body>
+</html>

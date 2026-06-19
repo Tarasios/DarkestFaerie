@@ -1,0 +1,4 @@
+# Raw scraped source pages (large, copyrighted) — kept out of version control.
+# The generator scripts + derived JSON in source/ are tracked.
+source/*.html
+source/*.txt

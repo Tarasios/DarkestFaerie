@@ -1,0 +1,392 @@
+{
+ "logo-name": "Darkest Faerie 100%",
+ "nav-acts": "Acts",
+ "nav-home": "Home",
+ "nav-tools": "Tools",
+ "gt-filter": "filter…",
+ "gt-hide-done": "hide completed",
+ "gt-missable-only": "missable only",
+ "gt-count": "%1 / %2 done",
+ "gt-overall": "Total: %1 / %2 (%3%)",
+ "gt-nothing": "Nothing matches the current filter.",
+ "gt-reset": "Reset all progress",
+ "gt-reset-confirm": "Reset ALL tracker progress for this game?",
+ "gt-toggle-all": "toggle all",
+ "gt-dash-title": "Progress overview",
+ "gt-dash-section": "Section",
+ "gt-dash-progress": "Progress",
+ "gt-th-progress": "Tracked progress",
+ "gt-auto-badge": "auto",
+ "gt-auto-tip": "Earned automatically from %1",
+ "gt-missable-badge": "missable",
+ "gt-missable-tip": "Missable content.",
+ "gt-element-tip": "%1 — weak to %2 (deal extra damage; block/deflect %2 attacks)",
+ "gt-section-for": "%1 — %2",
+ "gt-world-complete": "complete",
+ "page-title": "Darkest Faerie — Bestiary & Elements",
+ "df-title": "Bestiary & Elements",
+ "df-subtitle": "Every enemy and boss, grouped by element. The game hides elements, but they matter: each element has an OPPOSITE — Fire ↔ Water, Air ↔ Earth, Light ↔ Dark. Hit a foe with its opposite element for extra damage; wear/equip the matching element to reduce damage and deflect attacks with a shield. Hover an element pill to see its opposite.",
+ "kp-export": "Export progress",
+ "kp-import": "Import progress",
+ "kp-note": "Backs up / restores ALL Darkest Faerie tracker progress on this site as a JSON file.",
+ "kp-import-confirm": "Importing will overwrite the saved progress of every tracker on this site with the file's contents. Continue?",
+ "kp-import-error": "That file could not be read as a progress export.",
+ "theme-to-day": "Day",
+ "theme-to-night": "Night",
+ "theme-toggle-aria": "Toggle bright theme",
+ "tabbtn-air": "Air",
+ "sec-air": "Air enemies",
+ "th-air-name": "Enemy",
+ "th-air-el": "Element",
+ "th-air-desc": "Appearance / how to beat it",
+ "tabbtn-earth": "Earth",
+ "sec-earth": "Earth enemies",
+ "th-earth-name": "Enemy",
+ "th-earth-el": "Element",
+ "th-earth-desc": "Appearance / how to beat it",
+ "tabbtn-dark": "Dark",
+ "sec-dark": "Dark enemies",
+ "th-dark-name": "Enemy",
+ "th-dark-el": "Element",
+ "th-dark-desc": "Appearance / how to beat it",
+ "tabbtn-fire": "Fire",
+ "sec-fire": "Fire enemies",
+ "th-fire-name": "Enemy",
+ "th-fire-el": "Element",
+ "th-fire-desc": "Appearance / how to beat it",
+ "tabbtn-light": "Light",
+ "sec-light": "Light enemies",
+ "th-light-name": "Enemy",
+ "th-light-el": "Element",
+ "th-light-desc": "Appearance / how to beat it",
+ "tabbtn-water": "Water",
+ "sec-water": "Water enemies",
+ "th-water-name": "Enemy",
+ "th-water-el": "Element",
+ "th-water-desc": "Appearance / how to beat it",
+ "tabbtn-bosses": "Bosses",
+ "sec-bosses": "Bosses",
+ "th-bosses-name": "Boss",
+ "th-bosses-el": "Element",
+ "th-bosses-act": "Act",
+ "th-bosses-loc": "Location",
+ "note-bosses": "Bosses in encounter order. Watch the element column — some foes return in a later Act with a different alignment (the Ixi Chieftain is Earth in Act 1, Dark in Act 3).",
+ "note-air": "Air enemies are weak to Earth. Equip Earth to block/deflect their attacks.",
+ "note-earth": "Earth enemies are weak to Air.",
+ "note-dark": "Dark enemies are weak to Light.",
+ "note-fire": "Fire enemies are weak to Water.",
+ "note-light": "Light enemies are weak to Dark.",
+ "note-water": "Water enemies are weak to Fire.",
+ "items": {
+  "air": [
+   {
+    "name": "Crokabek",
+    "desc": "Really just a large crow petpet. Jump attacks seem most effective."
+   },
+   {
+    "name": "Minion Archer (Blue)",
+    "desc": "A flying blue skeith. Deflect it's air based attacks with a shield."
+   },
+   {
+    "name": "Minion Grunt (Blue)",
+    "desc": "A small, flying blue skeith that attacks you at will."
+   },
+   {
+    "name": "Minion Warrior (Blue)",
+    "desc": "A small, heavy-built blue skeith that attacks you with combos."
+   },
+   {
+    "name": "Mountain Crokabek",
+    "desc": "A large brown crow found in the mountains. Jump attacks."
+   },
+   {
+    "name": "Swamp Crokabek",
+    "desc": "A large green crow found in swampy areas. Jump attacks."
+   }
+  ],
+  "earth": [
+   {
+    "name": "Flower Monster",
+    "desc": "A flower with a face! Simply attack."
+   },
+   {
+    "name": "Flower Monster (Walking)",
+    "desc": "Pretty much a walking flower monster. Simply attack."
+   },
+   {
+    "name": "Ixi Spearman",
+    "desc": "An ixi with a spear, dodge its attacks."
+   },
+   {
+    "name": "Ixi Archer",
+    "desc": "An ixi with a bow and arrow. Deflect its arrows."
+   },
+   {
+    "name": "Ixi Henchman",
+    "desc": "Pretty much the same thing as a spearman, but more powerful?"
+   },
+   {
+    "name": "Minion Archer (Yellow)",
+    "desc": "A flying yellow skeith, deflect its attacks."
+   },
+   {
+    "name": "Minion Artillery (Green)",
+    "desc": "A huge green skeith that fires ammo which you can deflect, but watch out for its charge attack!"
+   },
+   {
+    "name": "Minion Brute (Yellow)",
+    "desc": "A huge, yellow heavy-built skeith. Watch for its huge arms."
+   },
+   {
+    "name": "Minion Grunt (Green)",
+    "desc": "A small, flying skeith that attacks at will."
+   },
+   {
+    "name": "Minion Warrior (Light Blue)",
+    "desc": "A small, heavy-built skeith. Watch out for its's combo!"
+   },
+   {
+    "name": "Plant Gunner",
+    "desc": "A weird, walking plant that fires its attacks which you can deflect."
+   },
+   {
+    "name": "Poison Flower Monster",
+    "desc": "A planted flower with a face that can shoot poisionous gas at you."
+   },
+   {
+    "name": "Poison Flower Monster (Walking)",
+    "desc": "Pretty much a walking flower monster that has poisionous attacks."
+   },
+   {
+    "name": "Poison Spyder",
+    "desc": "A spider with poisionous bites; they have a green tint to them"
+   },
+   {
+    "name": "Spore Monster",
+    "desc": "A weird, walking plant that fires its attacks which you can deflect."
+   }
+  ],
+  "dark": [
+   {
+    "name": "Bandit",
+    "desc": "A monster with a club for a weapon."
+   },
+   {
+    "name": "Drub",
+    "desc": "A one time monster, just a thief with a name."
+   },
+   {
+    "name": "Dark Knight",
+    "desc": "A huge, skulking monster with tons of armor and a big sword."
+   },
+   {
+    "name": "Darrick the Blade",
+    "desc": "A one time monster, just a rogue with a name."
+   },
+   {
+    "name": "Dumb Skeleton",
+    "desc": "A skeith skeleton that rises up from the ground."
+   },
+   {
+    "name": "Evil Harris",
+    "desc": "Pretty much what an evil harris would look like-dark and evil looking."
+   },
+   {
+    "name": "Minion Archer (Purple)",
+    "desc": "A small, flying purple skeith that fires ammo at you which you can deflect."
+   },
+   {
+    "name": "Minion Artillery (Purple)",
+    "desc": "A huge purple skeith that fires ammo which you can deflect, but watch out for its charge attack!"
+   },
+   {
+    "name": "Minion Grunt (Purple)",
+    "desc": "A small, flying Purple skeith that attacks you at will."
+   },
+   {
+    "name": "Restless Spirit",
+    "desc": "Pretty much a floating ghostly figure that is transparent. Can drain energy from you."
+   },
+   {
+    "name": "Rogue",
+    "desc": "A monster equipped with a blade."
+   },
+   {
+    "name": "Sid the Vicious",
+    "desc": "A one time monster, just a bandit with a name."
+   },
+   {
+    "name": "Skeleton Wizard",
+    "desc": "A techo skeleton that fires spells which you can deflect."
+   },
+   {
+    "name": "Skeleton Fighter",
+    "desc": "A tall skeith skeleton, I think, that has a sword and shield."
+   },
+   {
+    "name": "Spirit Skull",
+    "desc": "EXTREMELY annoying floating skull, surrounded by items which can be thrown at you."
+   },
+   {
+    "name": "Spirit Sword",
+    "desc": "Your average floating sword that attacks."
+   },
+   {
+    "name": "Spyder",
+    "desc": "Just a regular plain old spider that bites."
+   },
+   {
+    "name": "Thief",
+    "desc": "A monster equipped with a dagger, attacks can open up your pockets."
+   }
+  ],
+  "fire": [
+   {
+    "name": "Drackonack",
+    "desc": "A purple dragon with black stripes that is vicious, and charges pretty quickly, too."
+   },
+   {
+    "name": "Giant Drackonack",
+    "desc": "Just a larger version of the Drackonack."
+   },
+   {
+    "name": "Minion Archer (Red)",
+    "desc": "A tiny flying skeith that fires arrows at you which you can deflect"
+   },
+   {
+    "name": "Minion Artillery (Red)",
+    "desc": "A huge, red skeith that fires ammo which you can deflect, just watch out for its charging attack if you get too close!"
+   },
+   {
+    "name": "Minion Brute (Red)",
+    "desc": "A ginourmous red skeith with hulking arms."
+   },
+   {
+    "name": "Minion Magician (Red)",
+    "desc": "A floating, red skeith that fires magic spells at you which you can deflect. Also can make other minions appear."
+   },
+   {
+    "name": "Minion Warrior (Orange)",
+    "desc": "A small, heavy-built orange skeith that attacks you with combos."
+   },
+   {
+    "name": "Minion Wizard (Red)",
+    "desc": "A floating, red skeith that has a kind of \"coat\". The most annoying of the minions, you CANNOT deflect its attacks, even if you use a nova mote. It also can change a fellow minion's magical alignment."
+   },
+   {
+    "name": "Werelupe Basher",
+    "desc": "A red lupe, which attacks you with its claws."
+   },
+   {
+    "name": "Werelupe Bone Thrower",
+    "desc": "A red lupe that throws bones at you which you can deflect."
+   },
+   {
+    "name": "Werelupe Elite",
+    "desc": "A black lupe with bones for armor, and vicious attacks."
+   }
+  ],
+  "light": [
+   {
+    "name": "Minion Grunt (Yellow)",
+    "desc": "A small, flying yellow skeith that attacks you at will."
+   },
+   {
+    "name": "Minion Magician (Yellow)",
+    "desc": "A flying yellow skeith that fires magic spells at you which you can deflect."
+   },
+   {
+    "name": "Minion Wizard (Yellow)",
+    "desc": "A floating, yellow skeith that has a kind of \"coat\". The most annoying"
+   }
+  ],
+  "water": [
+   {
+    "name": "Minion Brute (Blue)",
+    "desc": "A huge, blue skeith with hulking arms."
+   },
+   {
+    "name": "Minion Magician (Blue)",
+    "desc": "A flying, blue skeith that fires spells at you which you can deflect."
+   },
+   {
+    "name": "Slorg",
+    "desc": "A mean, green slug that fires spitballs at you!"
+   },
+   {
+    "name": "Sludgy",
+    "desc": "A..well pile of brown sludgy stuff that fires sludgeballs at you and can freeze you in place!"
+   },
+   {
+    "name": "Swamp Tentacle",
+    "desc": "A octopus looking green tentacle usually found in swamps"
+   },
+   {
+    "name": "Tentacle",
+    "desc": "A smaller version of the Swamp Tentacle found in other watery places"
+   }
+  ],
+  "bosses": [
+   {
+    "name": "Juppie Monster (Act 1)",
+    "loc": "Shadowglen Woods",
+    "act": "Act 1"
+   },
+   {
+    "name": "Ixi Chieftan (Act 1)",
+    "loc": "Cogham Steppes",
+    "act": "Act 1"
+   },
+   {
+    "name": "Gnarfas",
+    "loc": "Illusen's Glade/Lightwater Forest",
+    "act": "Act 1"
+   },
+   {
+    "name": "Plague Serpent",
+    "loc": "Bogshot Swamp",
+    "act": "Act 3"
+   },
+   {
+    "name": "Werelupe King",
+    "loc": "Werelupe Burrows",
+    "act": "Act 3"
+   },
+   {
+    "name": "Juppie Monster (Act 3)",
+    "loc": "Shadowglen Woods",
+    "act": "Act 3"
+   },
+   {
+    "name": "Ixi Chieftan (Act 3)",
+    "loc": "Abandoned Mines in Cogham Steppes",
+    "act": "Act 3"
+   },
+   {
+    "name": "Gelert Assassin",
+    "loc": "Illusen's Glade, same place Gnarfas was",
+    "act": "Act 3"
+   },
+   {
+    "name": "Black Knight",
+    "loc": "Knight's Keep, in his castle",
+    "act": "Act 3"
+   },
+   {
+    "name": "Undead Draik Skeleton",
+    "loc": "Meridell Vault, underneath Meridell",
+    "act": "Act 3"
+   },
+   {
+    "name": "Dark Faerie Sisters",
+    "loc": "[Tainted] Meridell Castle, in the throne room",
+    "act": "Act 3"
+   },
+   {
+    "name": "The Darkest Faerie",
+    "loc": "Faerieland Castle",
+    "act": "Act 4"
+   }
+  ]
+ }
+}

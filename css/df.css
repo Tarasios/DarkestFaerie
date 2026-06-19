@@ -1,0 +1,310 @@
+/* ============================================================
+   BBS Command Melding Calculator — styles ported from the
+   original single-file version, scoped under .df
+   ============================================================ */
+
+.df-header { padding: 22px 0 8px; max-width: 1100px; margin: 0 auto; }
+.df-header h1 { font-size: 22px; margin: 0 0 4px; letter-spacing: .3px; }
+.df-header .sub { color: var(--dim); font-size: 13px; margin: 0; }
+
+.df .tabs { display: flex; gap: 6px; max-width: 1100px; margin: 14px auto 0; flex-wrap: wrap; }
+.df .tab { background: var(--panel); border: 1px solid var(--line); color: var(--dim); padding: 8px 14px;
+    border-radius: 10px 10px 0 0; cursor: pointer; font-size: 13px; font-weight: 600; }
+.df .tab.active { background: var(--panel2); color: var(--ink); border-bottom-color: var(--panel2); }
+
+.df-main { max-width: 1100px; margin: 0 auto; padding: 0 0 60px; }
+.df .card { background: var(--panel2); border: 1px solid var(--line); border-radius: 0 12px 12px 12px; padding: 18px; }
+.df .row { display: flex; gap: 14px; flex-wrap: wrap; }
+.df .slot { flex: 1; min-width: 220px; }
+.df label { display: block; font-size: 12px; text-transform: uppercase; letter-spacing: .6px; color: var(--dim); margin: 0 0 6px; }
+.df select, .df input[type=text] { width: 100%; background: var(--panel); border: 1px solid var(--line); color: var(--ink);
+    padding: 10px 12px; border-radius: 10px; font-size: 14px; appearance: none; }
+.df select:focus, .df input:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+.df .crystal-row { margin-top: 14px; }
+.df .hint { color: var(--dim); font-size: 12px; margin: 10px 0 0; }
+.df .results { margin-top: 18px; }
+.df .grp-title { font-size: 13px; color: var(--accent2); text-transform: uppercase; letter-spacing: .7px; margin: 18px 0 8px; }
+.df table { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+.df th, .df td { text-align: left; padding: 9px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.df th { color: var(--dim); font-weight: 600; font-size: 11.5px; text-transform: uppercase; letter-spacing: .5px; }
+.df tbody tr:hover { background: rgba(95, 179, 255, .06); }
+.df .cmd { font-weight: 700; color: var(--ink); }
+.df .ing { color: var(--ink); }
+.df .type-pill { display: inline-block; min-width: 22px; text-align: center; background: var(--chip); border: 1px solid var(--line);
+    border-radius: 6px; padding: 1px 7px; font-weight: 700; font-size: 12px; }
+.df .pct { color: var(--dim); }
+.df .pct.low { color: #ff8e8e; }
+.df .ability { color: #6fe39a; font-weight: 600; }
+.df .crystal-tag { color: var(--dim); font-size: 12px; }
+.df .empty { color: var(--dim); padding: 24px 4px; font-size: 14px; }
+.df .pillbar { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 6px; }
+.df .pill { background: var(--chip); border: 1px solid var(--line); color: var(--ink); padding: 5px 10px; border-radius: 999px; font-size: 12.5px; cursor: pointer; }
+.df .pill.on { background: var(--accent); color: #06203b; border-color: var(--accent); font-weight: 700; }
+.df .countbadge { color: var(--dim); font-size: 12px; margin-left: 8px; }
+.df .ablist { display: flex; flex-wrap: wrap; gap: 5px; }
+.df .abtag { background: #15351f; border: 1px solid #2c5b3c; color: #6fe39a; border-radius: 6px; padding: 1px 7px; font-size: 12px; }
+/* completed ability = red + strikethrough (strikethrough carries the
+   meaning for colourblind readers), used across all tabs */
+.df .abtag.done { background: #3a1414; border-color: #7a2c2c; color: #ff8e8e; text-decoration: line-through; }
+.df .ability.done { color: #ff8e8e; text-decoration: line-through; }
+.df .celldone { background: rgba(255, 90, 90, .16); color: #ff8e8e; text-decoration: line-through; }
+/* tracker */
+.df .trk-cat { font-size: 13px; color: var(--accent2); text-transform: uppercase; letter-spacing: .7px; margin: 20px 0 8px; }
+.df .trk-table td, .df .trk-table th { vertical-align: middle; }
+.df .trk-name { font-weight: 600; }
+.df .trk-name.done { color: #ff8e8e; text-decoration: line-through; }
+.df .stepper { display: inline-flex; align-items: center; gap: 8px; }
+.df .stepbtn { width: 28px; height: 28px; border-radius: 7px; border: 1px solid var(--line); background: var(--panel);
+    color: var(--ink); font-size: 16px; cursor: pointer; line-height: 1; }
+.df .stepbtn:hover { border-color: var(--accent); color: var(--accent); }
+.df .stepval { min-width: 54px; text-align: center; font-variant-numeric: tabular-nums; }
+.df .stepval .mx { color: var(--dim); font-size: 12px; }
+.df .donepill { background: #3a1414; border: 1px solid #7a2c2c; color: #ff8e8e; border-radius: 999px; padding: 2px 9px; font-size: 11.5px; font-weight: 700; }
+.df .crystaltag { font-size: 11px; color: var(--dim); }
+.df .trk-progress { height: 6px; border-radius: 4px; background: var(--panel); overflow: hidden; min-width: 70px; }
+.df .trk-progress > i { display: block; height: 100%; background: #6fe39a; }
+.df .trk-progress.full > i { background: #ff6b6b; }
+.df .trk-summary { display: flex; gap: 18px; flex-wrap: wrap; font-size: 13px; color: var(--dim); margin: 4px 0 0; }
+.df .trk-summary b { color: var(--ink); }
+/* search-by-ability */
+.df .recipe-have { background: rgba(111, 227, 154, .10); }
+.df .chip-have { background: #15351f; border: 1px solid #2c5b3c; color: #6fe39a; border-radius: 6px; padding: 1px 7px; font-size: 12px; }
+.df .chip-need { background: var(--panel); border: 1px solid var(--line); color: var(--dim); border-radius: 6px; padding: 1px 7px; font-size: 12px; }
+.df .recipe-line { font-size: 13px; }
+.df .havechip { background: #15351f; border: 1px solid #2c5b3c; color: #6fe39a; border-radius: 6px; padding: 1px 7px; font-size: 12px; }
+.df .toolbar { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; margin-bottom: 8px; }
+.df .clearbtn { background: var(--panel); border: 1px solid var(--line); color: var(--dim); border-radius: 8px; padding: 7px 12px; cursor: pointer; font-size: 12px; }
+.df .clearbtn:hover { color: var(--ink); }
+.df .legend { font-size: 12px; color: var(--dim); margin-top: 6px; }
+/* combobox */
+.df .combo { position: relative; }
+.df .combo input { width: 100%; }
+.df .combo .clearx { position: absolute; right: 8px; top: 50%; transform: translateY(-50%); background: none; border: none;
+    color: var(--dim); font-size: 16px; cursor: pointer; line-height: 1; padding: 2px 4px; }
+.df .combo .clearx:hover { color: var(--ink); }
+.df .menu { position: absolute; z-index: 30; left: 0; right: 0; top: calc(100% + 4px); background: var(--panel);
+    border: 1px solid var(--line); border-radius: 10px; max-height: 260px; overflow: auto;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, .45); display: none; }
+.df .menu.open { display: block; }
+.df .opt { padding: 8px 12px; font-size: 14px; cursor: pointer; }
+.df .opt:hover, .df .opt.active { background: var(--chip); }
+.df .opt .match { color: var(--accent); font-weight: 700; }
+.df .opt.none { color: var(--dim); cursor: default; }
+/* character filter */
+.df .charbar { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin: 4px 0 0; }
+.df .charbtn { display: flex; align-items: center; gap: 6px; background: var(--panel); border: 1px solid var(--line);
+    color: var(--dim); padding: 7px 12px; border-radius: 999px; cursor: pointer; font-size: 13px; font-weight: 600; }
+.df .charbtn.on { color: #06203b; font-weight: 700; }
+.df .charbtn[data-c="terra"].on { background: #ff9b6b; border-color: #ff9b6b; }
+.df .charbtn[data-c="ventus"].on { background: #7be07b; border-color: #7be07b; }
+.df .charbtn[data-c="aqua"].on { background: #6fb8ff; border-color: #6fb8ff; }
+.df .charbtn .dot { width: 9px; height: 9px; border-radius: 50%; }
+.df .charbtn[data-c="terra"] .dot { background: #ff7a3c; }
+.df .charbtn[data-c="ventus"] .dot { background: #3fc23f; }
+.df .charbtn[data-c="aqua"] .dot { background: #3c93ff; }
+.df .userbadge { display: inline-flex; gap: 4px; margin-left: 6px; }
+.df .ub { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+.df .ub.terra { background: #ff7a3c; }
+.df .ub.ventus { background: #3fc23f; }
+.df .ub.aqua { background: #3c93ff; }
+.df .ub.off { background: var(--line); }
+/* crystal chart */
+.df .ctype { font-weight: 700; text-align: center; background: var(--chip); }
+.df .crystal-table td { font-size: 13px; }
+.df .crystal-table th { position: sticky; top: 0; background: var(--panel2); z-index: 2; }
+.df .cryhead { color: var(--accent2); }
+.df .cellhit { background: rgba(95, 179, 255, .18); color: var(--ink); font-weight: 700; border-radius: 4px; }
+.df .scrollx { overflow-x: auto; }
+
+/* ============================================================
+   BBS achievement / completion tracker additions
+   ============================================================ */
+.df .chk { width: 16px; height: 16px; accent-color: var(--accent); cursor: pointer; }
+.df .chk:disabled { cursor: default; }
+.df td.chkcell { width: 30px; text-align: center; }
+.df tr.donerow td { color: var(--dim); }
+.df tr.donerow .itemname { text-decoration: line-through; color: var(--dim); }
+.df .itemname { font-weight: 600; color: var(--ink); }
+.df .srcbadge { display: inline-block; margin-left: 6px; background: #15351f; border: 1px solid #2c5b3c; color: #6fe39a;
+    border-radius: 6px; padding: 0 6px; font-size: 11px; font-weight: 700; vertical-align: 1px; }
+.df .rewardbadge { display: inline-block; background: var(--chip); border: 1px solid var(--line); color: var(--accent2);
+    border-radius: 6px; padding: 1px 7px; font-size: 12px; font-weight: 600; white-space: nowrap; }
+.df .rarity { display: inline-block; min-width: 64px; text-align: center; border-radius: 6px; padding: 1px 8px;
+    font-size: 11.5px; font-weight: 700; border: 1px solid var(--line); background: var(--chip); color: var(--dim); }
+.df .rarity.platinum { color: #cfe6ff; border-color: #6f93c4; }
+.df .rarity.gold { color: var(--accent2); border-color: #8a6f2c; }
+.df .rarity.silver { color: #d7dce8; border-color: #76819e; }
+.df .rarity.bronze { color: #e0a878; border-color: #8a5d33; }
+.df .stars { color: var(--accent2); letter-spacing: 1px; white-space: nowrap; }
+.df .prgchip { display: inline-block; background: var(--panel); border: 1px solid var(--line); color: var(--dim);
+    border-radius: 999px; padding: 1px 9px; font-size: 12px; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.df .prgchip.full { color: #6fe39a; border-color: #2c5b3c; }
+.df .dash-table td, .df .dash-table th { vertical-align: middle; }
+.df .dashbar { display: inline-block; vertical-align: middle; width: 90px; height: 6px; border-radius: 4px;
+    background: var(--panel); overflow: hidden; margin-left: 8px; }
+.df .dashbar > i { display: block; height: 100%; background: var(--accent); }
+.df .dashbar.full > i { background: #6fe39a; }
+.df .dashnum { font-variant-numeric: tabular-nums; color: var(--ink); }
+.df .hidelbl { display: inline-flex; align-items: center; gap: 6px; color: var(--dim); font-size: 12px;
+    text-transform: none; letter-spacing: 0; margin: 0; cursor: pointer; }
+.df .sub-title { font-size: 13px; color: var(--accent); text-transform: uppercase; letter-spacing: .7px; margin: 22px 0 8px; }
+.df .grpbtn { margin-left: 10px; background: var(--panel); border: 1px solid var(--line); color: var(--dim);
+    border-radius: 6px; padding: 2px 9px; cursor: pointer; font-size: 11px; font-weight: 600;
+    text-transform: none; letter-spacing: 0; vertical-align: 1px; }
+.df .grpbtn:hover { color: var(--accent); border-color: var(--accent); }
+/* Sora / Riku character buttons (CoM, DDD trackers) */
+.df .charbtn[data-c="sora"].on { background: #6fb8ff; border-color: #6fb8ff; }
+.df .charbtn[data-c="riku"].on { background: #c79bff; border-color: #c79bff; }
+.df .charbtn[data-c="sora"] .dot { background: #3c93ff; }
+.df .charbtn[data-c="riku"] .dot { background: #9a5cff; }
+
+/* ---- command-type icons + meld action (melding calculator) ----
+   Sized to sit inside the 13.5px table text without inflating rows. */
+.df .cmdicon { width: 14px; height: 14px; vertical-align: -2px; margin-right: 5px; }
+.df .grp-title .cmdicon { width: 15px; height: 15px; vertical-align: -3px; }
+/* owned in the Achievement Tracker = gold highlight (no extra marker).
+   :not(.done) so a completed ability keeps its red strikethrough. */
+.df .abtag.ach:not(.done) { background: #3a3114; border-color: #8a6d1d; color: #e6c450; }
+.df .ability.ach:not(.done) { color: #e6c450; }
+.df .cellach:not(.celldone) { background: rgba(230, 196, 80, .14); color: #e6c450; }
+.df .pill.ach { border-color: #8a6d1d; box-shadow: inset 0 0 0 1px #8a6d1d; }
+.df .achpill { background: #3a3114; border: 1px solid #8a6d1d; color: #e6c450; border-radius: 999px; padding: 2px 9px; font-size: 11.5px; font-weight: 700; }
+/* selectable ability tags */
+.df .abtag.pick { cursor: pointer; }
+.df .abtag.pick:hover { border-color: var(--accent); }
+.df .abtag.sel { background: var(--accent); border-color: var(--accent); color: #06203b; font-weight: 700; }
+.df .abtag.sel.done { text-decoration: line-through; }
+/* "None" pick tag (meld without an ability) */
+.df .abtag.none { background: var(--panel); border-color: var(--line); color: var(--dim); }
+.df .abtag.none.sel { background: var(--accent); border-color: var(--accent); color: #06203b; }
+/* owned-result indicators — row tint only; names/chips never wrap mid-name */
+.df .owned-row { background: rgba(111, 227, 154, .08); }
+.df .ownname { white-space: nowrap; }
+.df .ing .chip-have, .df .ing .chip-need { white-space: nowrap; display: inline-block; }
+.df .meldbtn { background: var(--panel); border: 1px solid var(--accent); color: var(--accent); border-radius: 8px;
+    padding: 5px 12px; cursor: pointer; font-size: 12px; font-weight: 700; white-space: nowrap; }
+.df .meldbtn:hover:not(:disabled) { background: var(--accent); color: #06203b; }
+.df .meldbtn:disabled { border-color: var(--line); color: var(--dim); cursor: not-allowed; opacity: .6; }
+.meldtoast { position: fixed; left: 50%; bottom: 26px; transform: translateX(-50%) translateY(12px); background: #15351f;
+    border: 1px solid #2c5b3c; color: #6fe39a; border-radius: 10px; padding: 10px 18px; font-size: 13.5px; font-weight: 600;
+    opacity: 0; pointer-events: none; transition: opacity .25s, transform .25s; z-index: 60; }
+.meldtoast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+/* import/export progress bar */
+.df .kp-bar { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; margin-top: 10px; }
+.df .kp-note { color: var(--dim); font-size: 12px; }
+
+/* ============================================================
+   Mobile: scrollable single-row tabs, smaller text, and
+   horizontally-scrollable wide tables. Desktop is untouched.
+   ============================================================ */
+@media (max-width: 768px) {
+  .df-header h1 { font-size: 18px; }
+  .df-header .sub { font-size: 12px; }
+
+  /* Tabs stay on one row and scroll horizontally (swipe) instead of
+     wrapping onto several rows. */
+  .df .tabs { flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; padding-bottom: 2px; }
+  .df .tab { flex: 0 0 auto; }
+
+  /* Denser tables so text wraps less on a phone. */
+  .df table { font-size: 12px; }
+  .df th, .df td { padding: 7px 7px; }
+  .df .grp-title, .df .sub-title, .df .trk-cat { font-size: 12px; }
+  .df .countbadge { font-size: 11px; }
+
+  /* The progress-overview dashboards have fixed per-character columns;
+     let them scroll sideways rather than overflow the screen. */
+  .df .dash { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .df .dash-table { min-width: 480px; }
+}
+
+/* Ice-cream ingredient "Needed ×N" cell. */
+.df .needcell { font-variant-numeric: tabular-nums; color: var(--accent2); white-space: nowrap; font-weight: 600; }
+
+/* Inline header/name markup from the lang files:
+   {{name}} -> .hdricon (small inline icon), [[text|tip]] -> .hasinfo (hover). */
+.df .hdricon { height: 1em; width: auto; vertical-align: -0.14em; margin-right: 0.35em; }
+.df .hasinfo { border-bottom: 1px dotted currentColor; cursor: help; }
+
+/* ---- Worlds tab: collapsible world / collectible-type groups ---- */
+.df .wgroup { border-bottom: 1px solid var(--line); }
+.df summary.wsum, .df summary.tsum { cursor: pointer; list-style: none; user-select: none; }
+.df summary.wsum::-webkit-details-marker, .df summary.tsum::-webkit-details-marker { display: none; }
+.df summary.wsum::before, .df summary.tsum::before {
+  content: "\25B8"; display: inline-block; margin-right: 7px; color: var(--dim); transition: transform .15s; }
+.df details[open] > summary.wsum::before, .df details[open] > summary.tsum::before { transform: rotate(90deg); }
+.df summary.wsum { font-size: 13px; color: var(--accent2); text-transform: uppercase; letter-spacing: .7px; font-weight: 700; padding: 12px 0 8px; }
+.df summary.tsum { font-size: 12px; color: var(--accent); text-transform: uppercase; letter-spacing: .6px; font-weight: 600; margin-left: 4px; padding: 8px 0 4px; }
+.df .wcount { color: var(--dim); font-weight: 600; font-variant-numeric: tabular-nums; margin-left: 8px; text-transform: none; letter-spacing: 0; }
+.df .wtable { margin: 0 0 6px 18px; }
+.df .wtable td { padding: 7px 10px; }
+
+/* ---- completion toasts (appended to <body>, outside .df) ---- */
+#df-toasts { position: fixed; right: 16px; bottom: 16px; z-index: 9999; display: flex;
+  flex-direction: column; gap: 8px; max-width: min(340px, calc(100vw - 32px)); pointer-events: none; }
+.df-toast { display: flex; align-items: center; gap: 10px; background: var(--panel2); color: var(--ink);
+  border: 1px solid var(--line); border-left: 4px solid var(--accent); border-radius: 10px;
+  padding: 11px 14px; font-size: 13.5px; line-height: 1.35; box-shadow: 0 10px 30px rgba(0,0,0,.38);
+  opacity: 0; transform: translateY(14px) scale(.98); transition: opacity .35s ease, transform .35s ease; }
+.df-toast.show { opacity: 1; transform: translateY(0) scale(1); }
+.df-toast.hide { opacity: 0; transform: translateY(8px) scale(.98); }
+.df-toast-ic { font-size: 19px; line-height: 1; }
+@media (prefers-reduced-motion: reduce) { .df-toast { transition: opacity .2s; transform: none; } }
+
+/* Progress Overview: each character's column wears its signature colour
+   (Terra red, Ventus green, Aqua blue) — fixed, never the themed accent. */
+.df .dash-table th.c-terra { color: var(--terra); }
+.df .dash-table th.c-ventus { color: var(--ventus); }
+.df .dash-table th.c-aqua { color: var(--aqua); }
+.df .dash-table td.c-terra .dashbar > i { background: var(--terra); }
+.df .dash-table td.c-ventus .dashbar > i { background: var(--ventus); }
+.df .dash-table td.c-aqua .dashbar > i { background: var(--aqua); }
+.df .dash-table td.c-terra .dashnum { color: var(--terra); }
+.df .dash-table td.c-ventus .dashnum { color: var(--ventus); }
+.df .dash-table td.c-aqua .dashnum { color: var(--aqua); }
+
+/* World fully complete: a distinct colour for the name PLUS a highlighted
+   bar (left border + tinted fill) and an explicit bordered "✓ 100%" badge,
+   so completion reads through several cues, not hue alone (colour-blind). */
+.df summary.wsum.wdone { color: var(--ok); background: var(--ok-bg);
+  border-left: 3px solid var(--ok); border-radius: 6px; padding-left: 9px; }
+.df summary.wsum.wdone::before { color: var(--ok); }
+.df summary.wsum.wdone .wcount { color: var(--ok); }
+.df .wbadge { display: inline-block; margin-left: 8px; font-size: 10.5px; font-weight: 800;
+  letter-spacing: .4px; text-transform: none; color: var(--ok); border: 1.5px solid var(--ok);
+  border-radius: 999px; padding: 1px 8px; vertical-align: middle; }
+
+/* World-summary colour swatch (e.g. DF1 trinity colours); hover/focus shows
+   its colour name (colour-blind friendly). */
+.df .wswatch { display: inline-block; width: 10px; height: 10px; border-radius: 50%;
+  border: 1px solid var(--line); margin-right: 7px; vertical-align: middle; cursor: help; }
+.df .wswatch[title]:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+/* Per-group note under a group header (e.g. how a Trinity is unlocked). */
+.df .gnote { color: var(--dim); font-size: 12px; font-weight: 400; font-style: italic; padding: 2px 2px 8px; }
+/* Dashboard section labels link to their tab. */
+.df a.dashlink { color: var(--ink); text-decoration: none; border-bottom: 1px dotted var(--line); cursor: pointer; }
+.df a.dashlink:hover, .df a.dashlink:focus { color: var(--accent); border-bottom-color: var(--accent); }
+
+/* ===== Darkest Faerie additions ===== */
+/* Element pills — the six elements + neutral. Each element has an opposite
+   (Fire↔Water, Air↔Earth, Light↔Dark); the opposite is shown on hover. */
+.df .element { display: inline-block; min-width: 58px; text-align: center; border-radius: 999px;
+    padding: 1px 9px; font-size: 11.5px; font-weight: 700; border: 1px solid var(--line);
+    background: var(--chip); color: var(--dim); white-space: nowrap; }
+.df .element[title] { cursor: help; }
+.df .el-fire   { color: #ff9d6b; border-color: #b5572c; background: rgba(181, 87, 44, .14); }
+.df .el-water  { color: #6fd0ff; border-color: #2c79b5; background: rgba(44, 121, 181, .14); }
+.df .el-air    { color: #cfe0ff; border-color: #8aa0c4; background: rgba(138, 160, 196, .14); }
+.df .el-earth  { color: #8fdf8a; border-color: #3c8a3c; background: rgba(60, 138, 60, .14); }
+.df .el-light  { color: #ffe98a; border-color: #b59a2c; background: rgba(181, 154, 44, .14); }
+.df .el-dark   { color: #c79bff; border-color: #6e44b5; background: rgba(110, 68, 181, .16); }
+.df .el-neutral, .df .el-none, .df .el-varies { color: var(--dim); }
+
+/* Missable items — a warning badge on the name, a tinted row, and a
+   matching "missable only" toolbar toggle. */
+.df .missbadge { display: inline-block; margin-left: 6px; background: #3a1c1c; border: 1px solid #7a3b3b;
+    color: #ff9b9b; border-radius: 6px; padding: 0 6px; font-size: 11px; font-weight: 700; vertical-align: 1px;
+    cursor: help; }
+.df tr.missable td:first-child { box-shadow: inset 3px 0 0 0 #c0504d; }
+.df tr.missable.donerow td:first-child { box-shadow: inset 3px 0 0 0 #5a4040; }
+.df .misslbl { color: #e69a9a; }

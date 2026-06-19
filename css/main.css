@@ -1,0 +1,1046 @@
+/* ============================================================
+   Site-wide theme — dark navy palette shared with the melding
+   calculator. Blue/gold accents (colourblind-safe pairing);
+   state is never shown by colour alone.
+   ============================================================ */
+:root {
+    --bg: #0c1326;
+    --panel: #141d38;
+    --panel2: #1b2748;
+    --line: #2a3a66;
+    --ink: #e8ecf7;
+    --dim: #9aa6c8;
+    --accent: #5fb3ff;
+    --accent2: #ffcb5f;
+    --ok: #56d98b;
+    --ok-bg: rgba(86, 217, 139, 0.14);
+    --glow: #1a2a55;
+    --chip: #243466;
+    /* Fixed character signature colours (never themed by active character). */
+    --terra: #ff8a73;
+    --ventus: #6fd58c;
+    --aqua: #6fb8ff;
+    --nav-bg: rgba(20, 29, 56, 0.92);
+    /* Scrim layered over per-game wallpapers so text stays readable. */
+    --bg-scrim: linear-gradient(rgba(12, 19, 38, 0.62), rgba(12, 19, 38, 0.78));
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    /* Dark base so a short page / iOS rubber-band never shows white. */
+    background: var(--bg);
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    color: var(--ink);
+    /* No background-attachment: fixed — it tears/leaves white gaps when
+       scrolling on iOS. The per-game wallpaper uses a fixed ::before
+       layer instead (see the per-game background block). */
+    background: radial-gradient(1200px 700px at 70% -10%, var(--glow) 0%, var(--bg) 55%);
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+a {
+    color: var(--accent);
+}
+
+a:focus, button:focus {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+}
+
+/* ---------- Navigation ---------- */
+nav {
+    background: var(--nav-bg);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--line);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7rem 0;
+    gap: 1rem;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.logo {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--ink);
+    text-decoration: none;
+    letter-spacing: 0.3px;
+    white-space: nowrap;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 0.2rem;
+    flex-wrap: wrap;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--dim);
+    font-weight: 600;
+    font-size: 0.85rem;
+    padding: 0.35rem 0.7rem;
+    border-radius: 8px;
+    border: 1px solid transparent;
+}
+
+.nav-links a:hover {
+    color: var(--ink);
+    background: var(--panel2);
+    border-color: var(--line);
+}
+
+/* ---------- Language toggle (top right, persistent) ---------- */
+.lang-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    background: var(--panel2);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 0.35rem 0.7rem;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 0.8rem;
+    color: var(--ink);
+}
+
+.lang-btn:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+}
+
+.flag {
+    font-size: 1rem;
+}
+
+/* ---------- Hero / about ---------- */
+.about-section {
+    padding: 2.6rem 0 1.8rem;
+}
+
+.about-section h1 {
+    font-size: 2.2rem;
+    margin-bottom: 0.2rem;
+    letter-spacing: 0.3px;
+}
+
+.subtitle {
+    font-size: 1.05rem;
+    color: var(--accent);
+    font-weight: 600;
+    margin-bottom: 1.1rem;
+}
+
+.about-text p {
+    color: var(--dim);
+    max-width: 70ch;
+    margin-bottom: 0.8rem;
+    font-size: 0.97rem;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 0.7rem;
+    flex-wrap: wrap;
+    margin-top: 1.2rem;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 0.55rem 1.2rem;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 0.9rem;
+    border: 1px solid var(--line);
+}
+
+.cta-button.primary {
+    background: var(--accent);
+    color: #06203b;
+    border-color: var(--accent);
+}
+
+.cta-button.primary:hover {
+    background: #7cc2ff;
+}
+
+.cta-button.secondary {
+    background: var(--panel2);
+    color: var(--ink);
+}
+
+.cta-button.secondary:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+}
+
+/* ---------- Sections ---------- */
+.main-content {
+    padding-bottom: 3rem;
+}
+
+.section {
+    padding: 1.6rem 0 0.6rem;
+    border-top: 1px solid var(--line);
+    margin-top: 1.2rem;
+}
+
+.section h2 {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    color: var(--accent2);
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.section h3 {
+    font-size: 1rem;
+    color: var(--ink);
+    margin-bottom: 0.5rem;
+}
+
+/* ---------- Skills ---------- */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1rem;
+}
+
+.skill-category {
+    background: var(--panel2);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 0.9rem 1rem;
+}
+
+.skill-category h3 {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    color: var(--dim);
+    margin-bottom: 0.6rem;
+}
+
+.skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+}
+
+.skill-tag {
+    background: var(--chip);
+    color: var(--ink);
+    padding: 0.15rem 0.6rem;
+    border-radius: 6px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    border: 1px solid var(--line);
+}
+
+/* ---------- Project / tool cards ---------- */
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+}
+
+.project-card {
+    background: var(--panel2);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 1rem 1.1rem;
+}
+
+a.project-card {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+a.project-card:hover {
+    border-color: var(--accent);
+}
+
+a.project-card:hover h3 {
+    color: var(--accent);
+}
+
+.project-card h3 {
+    font-size: 1rem;
+    margin-bottom: 0.4rem;
+}
+
+.project-card p {
+    color: var(--dim);
+    font-size: 0.88rem;
+    margin-bottom: 0.7rem;
+}
+
+.project-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+}
+
+.tech-tag {
+    background: var(--chip);
+    border: 1px solid var(--line);
+    color: var(--dim);
+    padding: 0.1rem 0.55rem;
+    border-radius: 6px;
+    font-size: 0.74rem;
+    font-weight: 600;
+}
+
+/* ---------- Tools: Games > series > game hierarchy ---------- */
+.series-group {
+    margin-bottom: 1.6rem;
+}
+
+.series-title {
+    font-size: 1.15rem;
+    color: var(--ink);
+    margin-bottom: 0.8rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid var(--line);
+}
+
+.game-group {
+    margin: 0 0 1.2rem 0.2rem;
+    padding-left: 0.9rem;
+    border-left: 2px solid var(--line);
+}
+
+.game-title {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    color: var(--accent);
+    margin-bottom: 0.7rem;
+}
+
+/* ---------- Education / experience rows ---------- */
+.education-timeline {
+    display: flex;
+    flex-direction: column;
+}
+
+.education-item {
+    padding: 0.8rem 0;
+    border-bottom: 1px solid var(--line);
+}
+
+.education-item:last-child {
+    border-bottom: none;
+}
+
+.education-item h3 {
+    font-size: 0.98rem;
+    margin-bottom: 0.1rem;
+}
+
+.education-meta {
+    color: var(--accent2);
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+}
+
+.education-item p {
+    color: var(--dim);
+    font-size: 0.9rem;
+    max-width: 75ch;
+}
+
+/* ---------- Contact ---------- */
+.contact-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 0.8rem;
+}
+
+.contact-item {
+    background: var(--panel2);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 0.8rem 1rem;
+    display: flex;
+    align-items: baseline;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+}
+
+.contact-icon {
+    font-size: 1rem;
+}
+
+.contact-item h3 {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--dim);
+    margin: 0;
+}
+
+.contact-item p {
+    font-size: 0.9rem;
+    color: var(--ink);
+    width: 100%;
+}
+
+/* ---------- Project pages ---------- */
+.project-hero {
+    padding: 2.2rem 0 0.8rem;
+}
+
+.project-hero h1 {
+    font-size: 1.9rem;
+    margin-bottom: 0.2rem;
+}
+
+.project-hero p {
+    color: var(--accent);
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.project-content {
+    padding-bottom: 3rem;
+}
+
+.project-content .section p {
+    color: var(--dim);
+    font-size: 0.95rem;
+    max-width: 75ch;
+    margin-bottom: 0.9rem;
+}
+
+.project-content .section ul {
+    color: var(--dim);
+    font-size: 0.95rem;
+    margin: 0 0 0.9rem 1.3rem;
+}
+
+.project-content .section li {
+    margin-bottom: 0.3rem;
+}
+
+.project-content h3 {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    color: var(--accent2);
+    margin: 1.4rem 0 0.6rem;
+}
+
+.project-image {
+    display: block;
+    width: 100%;
+    max-width: 640px;
+    border-radius: 10px;
+    border: 1px solid var(--line);
+    margin: 1rem 0 1.2rem;
+}
+
+.project-links {
+    display: flex;
+    gap: 0.7rem;
+    margin: 1.4rem 0 0;
+    flex-wrap: wrap;
+}
+
+.project-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    background: var(--panel2);
+    color: var(--ink);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 0.88rem;
+}
+
+.project-link:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+}
+
+.back-button {
+    margin-bottom: 1.2rem;
+    color: var(--dim);
+}
+
+/* ---------- Mobile ---------- */
+@media (max-width: 768px) {
+    .nav-content {
+        flex-direction: column;
+        gap: 0.5rem;
+        padding: 0.6rem 0;
+    }
+
+    .nav-right {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .nav-links {
+        justify-content: center;
+    }
+
+    .about-section h1 {
+        font-size: 1.7rem;
+    }
+
+    .skills-grid,
+    .project-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .game-cards {
+        grid-template-columns: 1fr;
+    }
+
+    /* Scale headings down so they don't dominate a phone screen. */
+    .landing-hero h1,
+    .project-hero h1 {
+        font-size: 1.5rem;
+    }
+
+    .series-headline {
+        font-size: 1.15rem;
+    }
+
+    .landing-hero p,
+    .about-text p {
+        font-size: 0.9rem;
+    }
+
+    .collection-title,
+    .section h2 {
+        font-size: 0.78rem;
+    }
+
+    .container {
+        padding: 0 14px;
+    }
+}
+
+/* ============================================================
+   Day (bright) theme — opt-in via the Night/Day toggle. Night
+   is the default (the :root palette above); this muted, low-glare
+   light palette only applies when the user opts in. Kept after
+   :root so it wins on equal specificity. Per-game backgrounds will
+   be layered on top of these later.
+   ============================================================ */
+[data-theme="day"] {
+    --bg: #e6eaf4;
+    --panel: #f2f4fb;
+    --panel2: #e8ecf7;
+    --line: #c3cadd;
+    --ink: #1b2440;
+    --dim: #4a5570;
+    --accent: #2c63c8;
+    --accent2: #8a6200;
+    --ok: #1f9d5a;
+    --ok-bg: rgba(31, 157, 90, 0.13);
+    --glow: #eef2fb;
+    --chip: #d8deee;
+    --terra: #c24a30;
+    --ventus: #1f9d5a;
+    --aqua: #2c63c8;
+    --nav-bg: rgba(238, 241, 248, 0.92);
+    --bg-scrim: linear-gradient(rgba(230, 234, 244, 0.55), rgba(230, 234, 244, 0.72));
+}
+
+[data-theme="day"] body {
+    background: radial-gradient(1200px 700px at 70% -10%, var(--glow) 0%, var(--bg) 55%);
+}
+
+/* ---------- Per-character accent schemes (DF BBS tracker) ----------
+   Only the primary accent + background glow shift; the neutral panels, text
+   and the gold secondary accent stay put, so contrast/readability hold.
+   Terra = warm red, Ventus = green, Aqua = the original blue. */
+[data-char="terra"]  { --accent: #ff8a73; --glow: #34202a; }
+[data-char="ventus"] { --accent: #57d68f; --glow: #163a2c; }
+[data-char="aqua"]   { --accent: #5fb3ff; --glow: #1a2a55; }
+[data-char="sora"]   { --accent: #5fb3ff; --glow: #1a2a55; }
+[data-char="riku"]   { --accent: #b98cff; --glow: #261a3a; }
+[data-theme="day"][data-char="terra"]  { --accent: #c24a30; --glow: #fbeeec; }
+[data-theme="day"][data-char="ventus"] { --accent: #1f9d5a; --glow: #ecf7f0; }
+[data-theme="day"][data-char="aqua"]   { --accent: #2c63c8; --glow: #eef2fb; }
+[data-theme="day"][data-char="sora"]   { --accent: #2c63c8; --glow: #eef2fb; }
+[data-theme="day"][data-char="riku"]   { --accent: #6a3fc0; --glow: #f1ecfb; }
+
+/* ---------- Theme toggle (mirrors the language toggle) ---------- */
+.theme-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    background: var(--panel2);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 0.35rem 0.7rem;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 0.8rem;
+    color: var(--ink);
+}
+
+.theme-btn:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+}
+
+.theme-icon {
+    font-size: 1rem;
+}
+
+/* ---------- Banner images (per game) ----------
+   Shown by default; js/banners.js (or js/landing.js) hides a figure only
+   if its image fails to load, so a missing file shows nothing. */
+.banner {
+    display: block;
+    margin: 0 0 1.2rem;
+}
+
+.banner img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    border: 1px solid var(--line);
+}
+
+/* ---------- Landing page ---------- */
+.landing-banner {
+    margin-bottom: 1.4rem;   /* spans the full content width */
+}
+/* The series banner is a low-resolution source; at full width its natural
+   height looks over-stretched. Cap it to a wide hero strip with object-fit
+   cover so it keeps full width and aspect (cropped, never squished). */
+.landing-banner img {
+    aspect-ratio: 2.95;
+    height: auto;
+    object-fit: cover;
+    object-position: center 40%;
+}
+
+.landing-hero h1 {
+    font-size: 2rem;
+}
+
+.landing-hero p {
+    color: var(--dim);
+    font-weight: 400;
+    font-size: 0.97rem;
+    max-width: 70ch;
+    margin-top: 0.4rem;
+}
+
+.series-total {
+    background: var(--panel2);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 1.1rem 1.2rem;
+}
+
+.series-headline {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--ink);
+    margin-bottom: 0.7rem;
+    font-variant-numeric: tabular-nums;
+}
+
+.progbar {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+}
+
+.progbar-num {
+    font-variant-numeric: tabular-nums;
+    color: var(--dim);
+    font-size: 0.85rem;
+    white-space: nowrap;
+}
+
+.progbar-track {
+    flex: 1;
+    height: 10px;
+    min-width: 80px;
+    border-radius: 6px;
+    background: var(--panel);
+    border: 1px solid var(--line);
+    overflow: hidden;
+}
+
+.progbar-track > i {
+    display: block;
+    height: 100%;
+    background: var(--accent);
+}
+
+/* Completed bar turns green; the always-present "100%" number carries
+   the meaning too, so it is never colour-alone. */
+.progbar-track.full > i {
+    background: #6fe39a;
+}
+
+.progbar-pct {
+    font-variant-numeric: tabular-nums;
+    color: var(--ink);
+    font-weight: 700;
+    font-size: 0.85rem;
+    min-width: 3ch;
+    text-align: right;
+}
+
+/* Two-metric rows: Achievements (platform trophies) over full 100%
+   completion. The achievements bar is gold so the two read apart even
+   before either hits green at 100%. */
+.prograw {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin-top: 6px;
+}
+.prograw .progbar {
+    flex: 1;
+}
+.prograw-label {
+    min-width: 6.6rem;
+    font-size: 0.68rem;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    font-weight: 700;
+    color: var(--dim);
+}
+.prograw.ach .progbar-track:not(.full) > i {
+    background: var(--accent2);
+}
+
+.game-cards {
+    display: grid;
+    /* Two wide columns: a 4-game collection becomes a clean 2x2, a 2-game
+       collection fills one row, a single game takes one column. Collapses
+       to one column on mobile (see the media query below). */
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.game-card {
+    display: flex;
+    flex-direction: column;
+    background: var(--panel2);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+}
+
+.game-card:hover {
+    border-color: var(--accent);
+}
+
+/* Banner art sits flush at the top of the card (revealed by JS on load). */
+.game-card .card-banner {
+    margin: 0;
+}
+
+.game-card .card-banner img {
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid var(--line);
+}
+
+.game-card-body {
+    padding: 0.8rem 1rem 0.9rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.game-card-body h3 {
+    margin: 0;
+    font-size: 0.98rem;
+}
+
+.game-card:hover .game-card-body h3 {
+    color: var(--accent);
+}
+
+/* ---------- HD-collection grouping on the landing page ---------- */
+.collection {
+    margin-bottom: 2.2rem;
+}
+
+.collection-hero {
+    margin: 0 0 0.9rem;
+}
+
+.collection-hero img {
+    border-radius: 12px;
+    border: 1px solid var(--line);
+}
+
+.collection-title {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    color: var(--accent2);
+    margin: 0 0 0.8rem;
+    font-weight: 700;
+}
+
+/* ---------- Game logo in each tracker header ----------
+   Logos are transparent PNGs; shown small with no box, revealed on load. */
+.df-logo {
+    margin: 2px 0 10px;
+    text-align: left;
+}
+
+.df-logo img {
+    width: auto;
+    max-width: 100%;
+    max-height: 78px;
+    border: 0;
+    border-radius: 0;
+}
+
+/* ============================================================
+   Per-game background art (night AND day). Each tracker gets its own
+   DF-motif wallpaper, keyed on data-page. A translucent scrim
+   (--bg-scrim) is layered over the image so page text stays readable;
+   day mode swaps in the lighter wallpaper variant. Per page we only set
+   --bg-img (dark vs _light per theme); the shared rule does the rest.
+   ============================================================ */
+body[data-page="df1-tracker"],
+body[data-page="df-com-tracker"],
+body[data-page="df2-tracker"],
+body[data-page="df-bbs-tracker"],
+body[data-page="df-ddd-tracker"],
+body[data-page="df02-tracker"],
+body[data-page="df3-tracker"],
+body[data-page="df-melding"] {
+    /* Transparent so the fixed ::before wallpaper shows through; the dark
+       html background is the fallback. (A solid body background here would
+       paint over the negative-z ::before and hide it.) */
+    background: transparent;
+}
+
+/* Fixed wallpaper layer (a real fixed element, unlike the buggy
+   background-attachment: fixed) sat behind the page content. */
+body[data-page="df1-tracker"]::before,
+body[data-page="df-com-tracker"]::before,
+body[data-page="df2-tracker"]::before,
+body[data-page="df-bbs-tracker"]::before,
+body[data-page="df-ddd-tracker"]::before,
+body[data-page="df02-tracker"]::before,
+body[data-page="df3-tracker"]::before,
+body[data-page="df-melding"]::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    background-image: var(--bg-scrim), var(--bg-img);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+
+[data-theme="night"] body[data-page="df1-tracker"]    { --bg-img: url("../images/backgrounds/Background_DF1.png"); }
+[data-theme="night"] body[data-page="df-com-tracker"] { --bg-img: url("../images/backgrounds/Background_COM.png"); }
+[data-theme="night"] body[data-page="df2-tracker"]    { --bg-img: url("../images/backgrounds/Background_DF2.png"); }
+[data-theme="night"] body[data-page="df-bbs-tracker"] { --bg-img: url("../images/backgrounds/Background_BBS.png"); }
+[data-theme="night"] body[data-page="df-ddd-tracker"] { --bg-img: url("../images/backgrounds/Background_3DS.png"); }
+[data-theme="night"] body[data-page="df02-tracker"]   { --bg-img: url("../images/backgrounds/Background_DF02.png"); }
+[data-theme="night"] body[data-page="df3-tracker"]    { --bg-img: url("../images/backgrounds/Background_DF3.png"); }
+[data-theme="night"] body[data-page="df-melding"]     { --bg-img: url("../images/backgrounds/Background_BBS.png"); }
+
+[data-theme="day"] body[data-page="df1-tracker"]    { --bg-img: url("../images/backgrounds/Background_DF1_light.png"); }
+[data-theme="day"] body[data-page="df-com-tracker"] { --bg-img: url("../images/backgrounds/Background_COM_light.png"); }
+[data-theme="day"] body[data-page="df2-tracker"]    { --bg-img: url("../images/backgrounds/Background_DF2_light.png"); }
+[data-theme="day"] body[data-page="df-bbs-tracker"] { --bg-img: url("../images/backgrounds/Background_BBS_light.png"); }
+[data-theme="day"] body[data-page="df-ddd-tracker"] { --bg-img: url("../images/backgrounds/Background_3DS_light.png"); }
+[data-theme="day"] body[data-page="df02-tracker"]   { --bg-img: url("../images/backgrounds/Background_DF02_light.png"); }
+[data-theme="day"] body[data-page="df3-tracker"]    { --bg-img: url("../images/backgrounds/Background_DF3_light.png"); }
+[data-theme="day"] body[data-page="df-melding"]     { --bg-img: url("../images/backgrounds/Background_BBS_light.png"); }
+
+/* ============================================================
+   Games dropdown (header). Opens on hover/focus (desktop + keyboard)
+   or on click via the .open class (js/nav.js, for touch). Birth by
+   Sleep carries a submenu with the Melding Calculator.
+   ============================================================ */
+.has-menu {
+    position: relative;
+}
+
+.nav-menu-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    background: var(--panel2);
+    border: 1px solid var(--line);
+    color: var(--ink);
+    font-weight: 600;
+    font-size: 0.85rem;
+    padding: 0.35rem 0.7rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.nav-menu-btn:hover,
+.has-menu:hover .nav-menu-btn,
+.has-menu:focus-within .nav-menu-btn,
+.has-menu.open .nav-menu-btn {
+    border-color: var(--accent);
+    color: var(--accent);
+}
+
+.caret {
+    color: var(--dim);
+    font-size: 0.8em;
+}
+
+.nav-menu,
+.nav-submenu {
+    list-style: none;
+    position: absolute;
+    min-width: 232px;
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 6px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+    display: none;
+    z-index: 200;
+}
+
+.nav-menu {
+    top: calc(100% + 6px);
+    left: 0;
+}
+
+.nav-submenu {
+    top: -7px;
+    left: calc(100% + 6px);
+    min-width: 200px;
+}
+
+/* Opening is driven by .open (js/nav.js hover-intent + click), with
+   :focus-within for keyboard users — no bare :hover, so the menu doesn't
+   snap shut the instant the pointer leaves the button. */
+.has-menu.open > .nav-menu,
+.has-menu:focus-within > .nav-menu,
+.has-submenu.open > .nav-submenu,
+.has-submenu:focus-within > .nav-submenu {
+    display: block;
+}
+
+.nav-menu a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.6rem;
+    white-space: nowrap;
+    text-decoration: none;
+    color: var(--ink);
+    font-size: 0.86rem;
+    font-weight: 600;
+    padding: 0.5rem 0.7rem;
+    border-radius: 7px;
+}
+
+/* Submenu (BBS) positions against its own row, not the whole menu. */
+.nav-menu li {
+    position: relative;
+}
+
+.nav-menu a:hover,
+.nav-menu a:focus {
+    background: var(--panel2);
+    color: var(--accent);
+    outline: none;
+}
+
+/* Mobile: dropdowns flow inline (no hover on touch). */
+@media (max-width: 768px) {
+    .nav-menu,
+    .nav-submenu {
+        position: static;
+        box-shadow: none;
+        min-width: 0;
+    }
+
+    .nav-submenu {
+        margin: 2px 0 2px 0.9rem;
+    }
+
+    /* On touch the whole menu opens via .open (click); show the submenu
+       inline so the Melding Calculator is reachable. */
+    .has-menu.open > .nav-menu {
+        display: block;
+    }
+
+    .has-menu.open .nav-submenu {
+        display: block;
+    }
+}
+
+/* ---------- Tracker header readability over the wallpaper ---------- */
+.df-header .sub {
+    max-width: 80ch;
+}
+
+/* Natural link to a game's extra tool (e.g. BBS -> Melding Calculator). */
+.df-xlink {
+    margin: 8px 0 0;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.df-xlink a {
+    text-decoration: none;
+}
+
+.df-xlink a:hover {
+    text-decoration: underline;
+}

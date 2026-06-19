@@ -1,0 +1,22 @@
+{
+  "logo-name": "Darkest Faerie 100%",
+  "nav-acts": "Acts",
+  "nav-home": "Home",
+  "page-title": "Darkest Faerie 100% — Completion Tracker",
+  "lg-total-label": "Overall completion",
+  "lg-games-label": "Trackers",
+  "lg-total-count": "%1 / %2 tracked (%3%)",
+  "lg-ach-label": "Achievements",
+  "lg-100-label": "Everything tracked",
+  "coll-story": "Story — by Act",
+  "coll-reference": "Reference",
+  "game-act1": "Act 1 — Tormund's Story",
+  "game-act2": "Act 2 — Roberta's Story",
+  "game-act3": "Act 3 — Heroes United",
+  "game-act4": "Act 4 — Legends of Altador",
+  "game-achievements": "Achievements",
+  "game-bestiary": "Bestiary & Elements",
+  "theme-to-day": "Day",
+  "theme-to-night": "Night",
+  "theme-toggle-aria": "Toggle bright theme"
+}

@@ -1,0 +1,1694 @@
+[
+ {
+  "id": 492942,
+  "title": "A Hero's First Steps",
+  "desc": "Obtain the Wooden Sword",
+  "points": 1,
+  "type": "progression",
+  "badge": "558806.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558806.png"
+ },
+ {
+  "id": 493122,
+  "title": "Today a Reader, Tomorrow a Leader",
+  "desc": "Open any book in the Ellis family home. The books throughout the world contain important information. It is highly recommended that you read them!",
+  "points": 0,
+  "type": "",
+  "badge": "558989.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558989.png"
+ },
+ {
+  "id": 493069,
+  "title": "Ellis Family Farm Treasure Hunter",
+  "desc": "Find and open 4 treasure chests in Ellis Family Farm",
+  "points": 2,
+  "type": "",
+  "badge": "558936.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558936.png"
+ },
+ {
+  "id": 493068,
+  "title": "Farm Road Treasure Hunter",
+  "desc": "Find and open 3 treasure chests in Farm Road",
+  "points": 2,
+  "type": "",
+  "badge": "558935.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558935.png"
+ },
+ {
+  "id": 493052,
+  "title": "Hide and Seek",
+  "desc": "Find Claire for a second time in a game of hide and seek",
+  "points": 2,
+  "type": "",
+  "badge": "558919.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558919.png"
+ },
+ {
+  "id": 492943,
+  "title": "Dangerous Weeds",
+  "desc": "Give the dangerous plants a good threshing for Farmer Tessa",
+  "points": 1,
+  "type": "",
+  "badge": "558807.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558807.png"
+ },
+ {
+  "id": 493070,
+  "title": "Root Cellar Treasure Hunter",
+  "desc": "Find and open 2 treasure chests in Root Cellar",
+  "points": 1,
+  "type": "",
+  "badge": "558937.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558937.png"
+ },
+ {
+  "id": 492944,
+  "title": "Noises in the Root Cellar",
+  "desc": "Provide Farmer Addison some peace by clearing out the Spyders in the cellar",
+  "points": 2,
+  "type": "",
+  "badge": "558808.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558808.png"
+ },
+ {
+  "id": 492945,
+  "title": "Protect Bogg's Field",
+  "desc": "Defeat the Crokabeks raiding Old Man Bogg's chokato patch",
+  "points": 1,
+  "type": "",
+  "badge": "558809.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558809.png"
+ },
+ {
+  "id": 493044,
+  "title": "Gallant Gallion",
+  "desc": "Tame a Gallion Petpet and enjoy the benefit of extra defense",
+  "points": 1,
+  "type": "",
+  "badge": "558911.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558911.png"
+ },
+ {
+  "id": 493099,
+  "title": "Bandit Caves Treasure Hunter",
+  "desc": "Find and open 4 treasure chests in Bandit Caves",
+  "points": 2,
+  "type": "",
+  "badge": "558966.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558966.png"
+ },
+ {
+  "id": 492947,
+  "title": "The Gelert Prince",
+  "desc": "Recover a golden rose from the highwaymen for Prince Tourin",
+  "points": 3,
+  "type": "",
+  "badge": "558811.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558811.png"
+ },
+ {
+  "id": 493042,
+  "title": "Dangerous Doglefox",
+  "desc": "Tame a Doglefox Petpet and enjoy the benefit of extra attack power",
+  "points": 1,
+  "type": "",
+  "badge": "558909.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558909.png"
+ },
+ {
+  "id": 492946,
+  "title": "Lucky Charm",
+  "desc": "Obtain any clover to increase your drop luck",
+  "points": 1,
+  "type": "",
+  "badge": "558810.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558810.png"
+ },
+ {
+  "id": 493112,
+  "title": "Meridell Outskirts Treasure Hunter",
+  "desc": "Find and open 1 treasure chest in Meridell Outskirts",
+  "points": 1,
+  "type": "",
+  "badge": "558979.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558979.png"
+ },
+ {
+  "id": 492948,
+  "title": "Deliver Package",
+  "desc": "Deliver Dad's package to the Army Recruitment Centre in Meridell",
+  "points": 4,
+  "type": "progression",
+  "badge": "558812.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558812.png"
+ },
+ {
+  "id": 492950,
+  "title": "Champion of Meridell",
+  "desc": "Become the new Meridell Champion by defeating all Meridell Arena opponents",
+  "points": 5,
+  "type": "",
+  "badge": "558814.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558814.png"
+ },
+ {
+  "id": 492951,
+  "title": "Splintered Victory",
+  "desc": "Add insult to injury by defeating all Meridell Arena opponents with the wooden sword",
+  "points": 10,
+  "type": "",
+  "badge": "558815.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558815.png"
+ },
+ {
+  "id": 492952,
+  "title": "Sharper Ambitions",
+  "desc": "Obtain the Squire's Sword",
+  "points": 2,
+  "type": "",
+  "badge": "558816.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558816.png"
+ },
+ {
+  "id": 492949,
+  "title": "Wheel of Chance",
+  "desc": "Step right up! Win the grand prize at the spinning wheel in Meridell",
+  "points": 2,
+  "type": "",
+  "badge": "558813.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558813.png"
+ },
+ {
+  "id": 492955,
+  "title": "Becoming a Squire",
+  "desc": "Take your sponsorship papers to Officer Kendrick",
+  "points": 3,
+  "type": "progression",
+  "badge": "558819.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558819.png"
+ },
+ {
+  "id": 493093,
+  "title": "Meridell Plains Treasure Hunter",
+  "desc": "Find and open 3 treasure chests in Meridell Plains",
+  "points": 2,
+  "type": "",
+  "badge": "558960.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558960.png"
+ },
+ {
+  "id": 493095,
+  "title": "Haunted Tombs Treasure Hunter",
+  "desc": "Find and open 5 treasure chests in Haunted Tombs",
+  "points": 3,
+  "type": "",
+  "badge": "558962.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558962.png"
+ },
+ {
+  "id": 492954,
+  "title": "A Magic Skull",
+  "desc": "Give Mistress Morag the magic skull for her new wand",
+  "points": 3,
+  "type": "",
+  "badge": "558818.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558818.png"
+ },
+ {
+  "id": 493080,
+  "title": "Drackon Ridge Treasure Hunter",
+  "desc": "Find and open 7 treasure chests in Drackon Ridge",
+  "points": 4,
+  "type": "",
+  "badge": "558947.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558947.png"
+ },
+ {
+  "id": 493051,
+  "title": "Hunting Drackonacks",
+  "desc": "Hunt Drackonacks for Douglas the Hunter and return their fangs to him, until he says you have hunted enough",
+  "points": 3,
+  "type": "",
+  "badge": "558918.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558918.png"
+ },
+ {
+  "id": 492957,
+  "title": "Spyder Venom",
+  "desc": "Bring 5 vials of Spyder Venom back to Gamon to assist him in creating his Spyder Juice Elixer",
+  "points": 5,
+  "type": "",
+  "badge": "558821.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558821.png"
+ },
+ {
+  "id": 493106,
+  "title": "Shadowglen Woods Treasure Hunter",
+  "desc": "Find and open 4 treasure chests in Shadowglen Woods",
+  "points": 2,
+  "type": "",
+  "badge": "558973.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558973.png"
+ },
+ {
+  "id": 492960,
+  "title": "Find Your Sister!",
+  "desc": "Save your sister from some REAL trouble...",
+  "points": 10,
+  "type": "progression",
+  "badge": "558824.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558824.png"
+ },
+ {
+  "id": 492959,
+  "title": "Three Times the Luck",
+  "desc": "Collect a twelve-leaf clover",
+  "points": 5,
+  "type": "",
+  "badge": "558823.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558823.png"
+ },
+ {
+  "id": 492970,
+  "title": "Mystical Nourishment",
+  "desc": "Find your first Starry Negg or Golden Negg and enjoy the extra mana benefits!",
+  "points": 3,
+  "type": "",
+  "badge": "558834.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558834.png"
+ },
+ {
+  "id": 492956,
+  "title": "The Arbendus Flower",
+  "desc": "Deliver the rare Arbendus Flower to potion-maker Angus",
+  "points": 5,
+  "type": "",
+  "badge": "558820.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558820.png"
+ },
+ {
+  "id": 492953,
+  "title": "Negg-tastic Discovery",
+  "desc": "Find your first Red Negg or Golden Negg and enjoy the extra health benefits!",
+  "points": 3,
+  "type": "progression",
+  "badge": "558817.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558817.png"
+ },
+ {
+  "id": 493046,
+  "title": "Cosmic Discovery",
+  "desc": "Find the elusive Nova Mote",
+  "points": 1,
+  "type": "",
+  "badge": "558913.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558913.png"
+ },
+ {
+  "id": 493100,
+  "title": "Meridell Castle 3rd Floor Treasure Hunter",
+  "desc": "Find and open 2 treasure chests in Meridell Castle 3rd Floor",
+  "points": 1,
+  "type": "",
+  "badge": "558967.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558967.png"
+ },
+ {
+  "id": 492961,
+  "title": "Catch the Miamice",
+  "desc": "Catch all of the Miamice in the Castle Storeroom",
+  "points": 5,
+  "type": "progression",
+  "badge": "558825.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558825.png"
+ },
+ {
+  "id": 493101,
+  "title": "Meridell Castle Courtyard Treasure Hunter",
+  "desc": "Find and open 2 treasure chests in Meridell Castle Courtyard",
+  "points": 2,
+  "type": "",
+  "badge": "558968.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558968.png"
+ },
+ {
+  "id": 493096,
+  "title": "Meridell Sewers Treasure Hunter",
+  "desc": "Find and open 3 treasure chests in Meridell Sewers",
+  "points": 2,
+  "type": "",
+  "badge": "558963.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558963.png"
+ },
+ {
+  "id": 492962,
+  "title": "Clog Duty",
+  "desc": "Enter the Castle Sewers and remove the drain clogs",
+  "points": 5,
+  "type": "progression",
+  "badge": "558826.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558826.png"
+ },
+ {
+  "id": 492963,
+  "title": "Courting Lady Prunella",
+  "desc": "Find Lady Prunella's charm and give it to Sir Cadmere or Sir Lawrence",
+  "points": 3,
+  "type": "",
+  "badge": "558827.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558827.png"
+ },
+ {
+  "id": 492964,
+  "title": "Squire Chores Over",
+  "desc": "Complete all of the chores that Sir Torak assigns to you. Shew! What a day!",
+  "points": 3,
+  "type": "progression",
+  "badge": "558828.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558828.png"
+ },
+ {
+  "id": 492958,
+  "title": "Mote Quest",
+  "desc": "Gather all 12 types of motes to show Motara the Mote Merchant",
+  "points": 5,
+  "type": "",
+  "badge": "558822.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558822.png"
+ },
+ {
+  "id": 493038,
+  "title": "Robes of the Wise One",
+  "desc": "Obtain the Wizard's Gown",
+  "points": 3,
+  "type": "",
+  "badge": "558905.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558905.png"
+ },
+ {
+  "id": 493107,
+  "title": "Cogham Steppes Treasure Hunter",
+  "desc": "Find and open the treasure chest in Cogham Steppes near the boss area",
+  "points": 1,
+  "type": "",
+  "badge": "558974.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558974.png"
+ },
+ {
+  "id": 492965,
+  "title": "Ixi Raiders",
+  "desc": "Venture into the Cogham Steppes and defeat the Ixi Raider Chieftain",
+  "points": 10,
+  "type": "progression",
+  "badge": "558829.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558829.png"
+ },
+ {
+  "id": 492966,
+  "title": "Growth Pod",
+  "desc": "Find a Growth Pod for Elspeth in Cogham to help her plants grow",
+  "points": 5,
+  "type": "",
+  "badge": "558830.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558830.png"
+ },
+ {
+  "id": 493029,
+  "title": "Ironclad Protector",
+  "desc": "Obtain the Iron Shield",
+  "points": 3,
+  "type": "",
+  "badge": "558895.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558895.png"
+ },
+ {
+  "id": 493024,
+  "title": "Sword of Chivalry",
+  "desc": "Obtain the Knight's Sword",
+  "points": 3,
+  "type": "",
+  "badge": "558890.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558890.png"
+ },
+ {
+  "id": 492967,
+  "title": "I Dub Thee, Sir Tormund!",
+  "desc": "Receive a knighthood",
+  "points": 5,
+  "type": "progression",
+  "badge": "558831.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558831.png"
+ },
+ {
+  "id": 493110,
+  "title": "Illusen's Glade Treasure Hunter",
+  "desc": "Find and open 4 treasure chests in Illusen's Glade",
+  "points": 2,
+  "type": "",
+  "badge": "558977.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558977.png"
+ },
+ {
+  "id": 492968,
+  "title": "Beast Beneath the Blade",
+  "desc": "Defeat the great beast Gnarfas",
+  "points": 10,
+  "type": "progression",
+  "badge": "558832.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558832.png"
+ },
+ {
+  "id": 493047,
+  "title": "Spark of the Cosmos",
+  "desc": "Find the Supernova Mote - the rarest mote of all!",
+  "points": 2,
+  "type": "",
+  "badge": "558914.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558914.png"
+ },
+ {
+  "id": 492969,
+  "title": "Escape the Castle",
+  "desc": "RUN! RUN! RUN! Escape the castle and reach the conclusion of Act 1",
+  "points": 10,
+  "type": "progression",
+  "badge": "558833.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558833.png"
+ },
+ {
+  "id": 492974,
+  "title": "Magic Training",
+  "desc": "Have Master Seradar train you in the ways of magic",
+  "points": 5,
+  "type": "progression",
+  "badge": "558839.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558839.png"
+ },
+ {
+  "id": 493040,
+  "title": "Mystical Meowclops",
+  "desc": "Tame a Meowclops Petpet and enjoy the benefit of mana regeneration",
+  "points": 1,
+  "type": "",
+  "badge": "558907.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558907.png"
+ },
+ {
+  "id": 492971,
+  "title": "Faerie Dust Paint",
+  "desc": "Find some faerie dust for painter Howell's painting",
+  "points": 2,
+  "type": "",
+  "badge": "558835.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558835.png"
+ },
+ {
+  "id": 492972,
+  "title": "Harris Rescue",
+  "desc": "Find a way to get the Aisha's pet, Harris, out of the tree",
+  "points": 2,
+  "type": "",
+  "badge": "558836.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558836.png"
+ },
+ {
+  "id": 492973,
+  "title": "Sorcery Unleashed",
+  "desc": "Obtain the Sorcerer's Wand",
+  "points": 5,
+  "type": "",
+  "badge": "558837.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558837.png"
+ },
+ {
+  "id": 493123,
+  "title": "Faerie's Grace",
+  "desc": "Obtain the Faerie Dress",
+  "points": 5,
+  "type": "",
+  "badge": "558990.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558990.png"
+ },
+ {
+  "id": 492976,
+  "title": "Rescue the Aisha",
+  "desc": "You have the heart of a hero. Save the Aisha from her torture",
+  "points": 5,
+  "type": "progression",
+  "badge": "558841.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558841.png"
+ },
+ {
+  "id": 492975,
+  "title": "Escape From Faerieland",
+  "desc": "If only there were something to guide you... Find your way out of the Endless Staircase and escape on Solarin to reach the conclusion of Act 2",
+  "points": 10,
+  "type": "progression",
+  "badge": "558840.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558840.png"
+ },
+ {
+  "id": 493077,
+  "title": "Western Brightvale Treasure Hunter",
+  "desc": "Find and open 2 treasure chests in Western Brightvale",
+  "points": 1,
+  "type": "",
+  "badge": "558944.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558944.png"
+ },
+ {
+  "id": 493078,
+  "title": "Crossroads Treasure Hunter",
+  "desc": "Find and open 2 treasure chests in Crossroads",
+  "points": 1,
+  "type": "",
+  "badge": "558945.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558945.png"
+ },
+ {
+  "id": 493075,
+  "title": "Brightvale Outskirts Treasure Hunter",
+  "desc": "Find and open 1 treasure chest in Brightvale Outskirts",
+  "points": 1,
+  "type": "",
+  "badge": "558942.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558942.png"
+ },
+ {
+  "id": 493030,
+  "title": "Defender of Honor",
+  "desc": "Obtain the Knight's Shield",
+  "points": 3,
+  "type": "",
+  "badge": "558897.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558897.png"
+ },
+ {
+  "id": 493125,
+  "title": "Woven in Magic",
+  "desc": "Obtain the Magic Robes",
+  "points": 3,
+  "type": "",
+  "badge": "558992.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558992.png"
+ },
+ {
+  "id": 493026,
+  "title": "Arcane Awakening",
+  "desc": "Obtain the Training Wand",
+  "points": 3,
+  "type": "",
+  "badge": "558892.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558892.png"
+ },
+ {
+  "id": 492977,
+  "title": "Challenge Accepted",
+  "desc": "What?! But... how? Succeed when challenged to clear the obstacle course in Brightvale within 45 seconds",
+  "points": 4,
+  "type": "",
+  "badge": "558842.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558842.png"
+ },
+ {
+  "id": 492978,
+  "title": "Wheel of Knowledge",
+  "desc": "Win the grand prize on the spinning wheel in Brightvale",
+  "points": 5,
+  "type": "",
+  "badge": "558843.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558843.png"
+ },
+ {
+  "id": 493072,
+  "title": "Brightvale Castle Treasure Hunter",
+  "desc": "Find and open 4 treasure chests in Brightvale Castle",
+  "points": 1,
+  "type": "",
+  "badge": "558939.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558939.png"
+ },
+ {
+  "id": 492995,
+  "title": "Need Research",
+  "desc": "Scour the Brightvale Library for books about \"Purple clouds\"",
+  "points": 5,
+  "type": "progression",
+  "badge": "558860.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558860.png"
+ },
+ {
+  "id": 492980,
+  "title": "The Golden Rose",
+  "desc": "Deliver the Golden Rose to Princess Dona in Brightvale castle",
+  "points": 3,
+  "type": "",
+  "badge": "558845.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558845.png"
+ },
+ {
+  "id": 492979,
+  "title": "Cynthia's Noil",
+  "desc": "Little Cynthia of Brightvale wants a Noil Petpet. Bring her one!",
+  "points": 4,
+  "type": "",
+  "badge": "558844.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558844.png"
+ },
+ {
+  "id": 493041,
+  "title": "Nurturing Noil",
+  "desc": "Tame a Noil Petpet and enjoy the benefit of health restoration",
+  "points": 1,
+  "type": "",
+  "badge": "558908.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558908.png"
+ },
+ {
+  "id": 493076,
+  "title": "Brightvale Coast Treasure Hunter",
+  "desc": "Find and open 3 treasure chests in Brightvale Coast",
+  "points": 2,
+  "type": "",
+  "badge": "558943.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558943.png"
+ },
+ {
+  "id": 493074,
+  "title": "Dungeon Ruins Treasure Hunter",
+  "desc": "Find and open 6 treasure chests in Dungeon Ruins",
+  "points": 3,
+  "type": "",
+  "badge": "558941.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558941.png"
+ },
+ {
+  "id": 492982,
+  "title": "The Lighthouse",
+  "desc": "Get into the Lighthouse cellar and activate the Lighthouse light for Isaac. He's a bit too big!",
+  "points": 3,
+  "type": "",
+  "badge": "558847.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558847.png"
+ },
+ {
+  "id": 492981,
+  "title": "Worried Sister",
+  "desc": "Mistress Marrion would like word from her sister Primrose in Bogshot. Find Primrose and put Marrion's mind at ease",
+  "points": 5,
+  "type": "",
+  "badge": "558846.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558846.png"
+ },
+ {
+  "id": 493073,
+  "title": "Mountain Passage Treasure Hunter",
+  "desc": "Find and open 7 treasure chests in Mountain Pass",
+  "points": 4,
+  "type": "",
+  "badge": "558940.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558940.png"
+ },
+ {
+  "id": 493105,
+  "title": "Bogshot Swamp Treasure Hunter",
+  "desc": "Find and open 3 treasure chests in Bogshot Swamp",
+  "points": 2,
+  "type": "",
+  "badge": "558972.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558972.png"
+ },
+ {
+  "id": 493104,
+  "title": "Bogshot Sinkholes Treasure Hunter",
+  "desc": "Find and open 2 treasure chests in Bogshot Sinkholes",
+  "points": 1,
+  "type": "",
+  "badge": "558971.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558971.png"
+ },
+ {
+  "id": 492996,
+  "title": "Plague Serpent",
+  "desc": "Find out what is lurking in the Bogshot Swamp waters...and kill it!",
+  "points": 10,
+  "type": "progression",
+  "badge": "558861.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558861.png"
+ },
+ {
+  "id": 492997,
+  "title": "Bogberry Cure",
+  "desc": "Cure Bogshot Village. Find the white, red and black bogberries growing in Bogshot Swamp, and return them to Apothecary Fautt",
+  "points": 5,
+  "type": "progression",
+  "badge": "558862.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558862.png"
+ },
+ {
+  "id": 493285,
+  "title": "Tome of Warding",
+  "desc": "Obtain the Tome of Warding",
+  "points": 3,
+  "type": "",
+  "badge": "559067.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/559067.png"
+ },
+ {
+  "id": 493079,
+  "title": "Old Mine Treasure Hunter",
+  "desc": "Find and open 5 treasure chests in Old Mine",
+  "points": 3,
+  "type": "",
+  "badge": "558946.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558946.png"
+ },
+ {
+  "id": 492983,
+  "title": "The Kreludan Blade",
+  "desc": "A true Kreludan Blade! Find and return the Kreludan metal to Grimnar in Bogshot Village",
+  "points": 5,
+  "type": "",
+  "badge": "558848.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558848.png"
+ },
+ {
+  "id": 493081,
+  "title": "Steppe Plateau Treasure Hunter",
+  "desc": "Find and open 3 treasure chests in Steppe Plateau",
+  "points": 2,
+  "type": "",
+  "badge": "558948.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558948.png"
+ },
+ {
+  "id": 492984,
+  "title": "Poison Seeds",
+  "desc": "Apothecary Fautt needs four poison seeds from a poisonous Glooper flower. Get them for him and help cure Hank",
+  "points": 5,
+  "type": "",
+  "badge": "558849.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558849.png"
+ },
+ {
+  "id": 492985,
+  "title": "Missing Kid",
+  "desc": "Find the kid that is missing in the Bogshot Swamps!",
+  "points": 5,
+  "type": "",
+  "badge": "558850.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558850.png"
+ },
+ {
+  "id": 492986,
+  "title": "Leaping to Glory",
+  "desc": "Pick a winner in the Mortog Races in Bogshot Village",
+  "points": 1,
+  "type": "",
+  "badge": "558851.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558851.png"
+ },
+ {
+  "id": 499502,
+  "title": "Motara the Mote-Keeper",
+  "desc": "Give Sir Tallwick the hypothesis from Motara regarding the dark clouds",
+  "points": 3,
+  "type": "",
+  "badge": "566004.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/566004.png"
+ },
+ {
+  "id": 493111,
+  "title": "Werelupe Woods Treasure Hunter",
+  "desc": "Find and open 2 treasure chests in Werelupe Woods",
+  "points": 1,
+  "type": "",
+  "badge": "558978.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558978.png"
+ },
+ {
+  "id": 493027,
+  "title": "The Witch's Favor",
+  "desc": "Obtain the Witch's Wand",
+  "points": 3,
+  "type": "",
+  "badge": "558893.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558893.png"
+ },
+ {
+  "id": 493061,
+  "title": "Werelupe Sinkholes Treasure Hunter",
+  "desc": "Find and open 4 treasure chests in Werelupe Sinkholes",
+  "points": 2,
+  "type": "",
+  "badge": "558928.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558928.png"
+ },
+ {
+  "id": 493062,
+  "title": "Werelupe Graveyard Treasure Hunter",
+  "desc": "Find and open 2 treasure chests in Werelupe Graveyard",
+  "points": 2,
+  "type": "",
+  "badge": "558929.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558929.png"
+ },
+ {
+  "id": 493063,
+  "title": "Crypt of the Fallen Treasure Hunter",
+  "desc": "Find and open 6 treasure chests in Crypt of the Fallen",
+  "points": 3,
+  "type": "",
+  "badge": "558930.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558930.png"
+ },
+ {
+  "id": 493064,
+  "title": "Crypt of the Sentries Treasure Hunter",
+  "desc": "Find and open 9 treasure chests in Crypt of the Sentries",
+  "points": 3,
+  "type": "",
+  "badge": "558931.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558931.png"
+ },
+ {
+  "id": 493065,
+  "title": "Crypt of the Exiled Treasure Hunter",
+  "desc": "Find and open 9 treasure chests in Crypt of the Exiled",
+  "points": 3,
+  "type": "",
+  "badge": "558932.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558932.png"
+ },
+ {
+  "id": 492998,
+  "title": "Fang Necklace",
+  "desc": "Find the Werelupe Fang Necklace in one of the crypts",
+  "points": 5,
+  "type": "progression",
+  "badge": "558863.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558863.png"
+ },
+ {
+  "id": 493113,
+  "title": "Werelupe Burrows Upper Treasure Hunter",
+  "desc": "Find and open 6 treasure chests in Werelupe Burrows Upper",
+  "points": 3,
+  "type": "",
+  "badge": "558980.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558980.png"
+ },
+ {
+  "id": 493066,
+  "title": "Werelupe Burrows Middle Treasure Hunter",
+  "desc": "Find and open 4 treasure chests in Werelupe Burrows Middle",
+  "points": 2,
+  "type": "",
+  "badge": "558933.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558933.png"
+ },
+ {
+  "id": 493067,
+  "title": "Werelupe Burrows Lower Treasure Hunter",
+  "desc": "Find and open 6 treasure chests in Werelupe Burrows Lower",
+  "points": 3,
+  "type": "",
+  "badge": "558934.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558934.png"
+ },
+ {
+  "id": 492999,
+  "title": "The Last Howl",
+  "desc": "Defeat the Werelupe King",
+  "points": 10,
+  "type": "progression",
+  "badge": "558864.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558864.png"
+ },
+ {
+  "id": 493001,
+  "title": "Missing Farmers",
+  "desc": "Save the farmers from a familiar enemy (though, a little darker this time...) and receive the reward from Hubert",
+  "points": 10,
+  "type": "progression",
+  "badge": "558866.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558866.png"
+ },
+ {
+  "id": 493109,
+  "title": "Abandoned Mines Treasure Hunter",
+  "desc": "Find and open 2 treasure chests in Abandoned Mines",
+  "points": 1,
+  "type": "",
+  "badge": "558976.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558976.png"
+ },
+ {
+  "id": 493002,
+  "title": "Missing Miners",
+  "desc": "Defeat the Dark Ixi Chieftain",
+  "points": 10,
+  "type": "progression",
+  "badge": "558867.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558867.png"
+ },
+ {
+  "id": 493003,
+  "title": "Free Cogham Village",
+  "desc": "Speak to Mayor Jurgin after clearing the dark clouds over Cogham to receive the Cloak of Heroes",
+  "points": 5,
+  "type": "progression",
+  "badge": "558868.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558868.png"
+ },
+ {
+  "id": 493025,
+  "title": "Mystical Masterpiece",
+  "desc": "Obtain the Enchanter's Wand",
+  "points": 3,
+  "type": "",
+  "badge": "558891.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558891.png"
+ },
+ {
+  "id": 492987,
+  "title": "The Thunderhammer",
+  "desc": "Ingmar, the Cogham Smithy, has had his hammer stolen. Return it to him!",
+  "points": 5,
+  "type": "",
+  "badge": "558852.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558852.png"
+ },
+ {
+  "id": 492988,
+  "title": "Lodestone",
+  "desc": "Help out Giovanni the Explorer. Find the Lodestone and his assistant!",
+  "points": 5,
+  "type": "",
+  "badge": "558853.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558853.png"
+ },
+ {
+  "id": 493108,
+  "title": "Meriload Mine Treasure Hunter",
+  "desc": "Find and open 2 treasure chests in Meriload Mine",
+  "points": 1,
+  "type": "",
+  "badge": "558975.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558975.png"
+ },
+ {
+  "id": 493286,
+  "title": "Codex of Protection",
+  "desc": "Obtain the Codex of Protection",
+  "points": 3,
+  "type": "",
+  "badge": "559068.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/559068.png"
+ },
+ {
+  "id": 492989,
+  "title": "Mayor's Broken Watch",
+  "desc": "Find a white crystal to replace the one in Mayor Jurgin's Pocketwatch, and get it repaired for him",
+  "points": 5,
+  "type": "",
+  "badge": "558854.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558854.png"
+ },
+ {
+  "id": 493000,
+  "title": "Free Illusen's Village",
+  "desc": "Defeat the Gelert Assassin and rescue Illusen, the Earth Faerie, to free Illusen Village",
+  "points": 10,
+  "type": "progression",
+  "badge": "558865.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558865.png"
+ },
+ {
+  "id": 493121,
+  "title": "The Love Letters",
+  "desc": "Deliver Princess Dona's love letters to Prince Tourin",
+  "points": 5,
+  "type": "",
+  "badge": "558988.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558988.png"
+ },
+ {
+  "id": 493004,
+  "title": "Knightfall at Market Town's Door",
+  "desc": "Defeat the dark knights outside of Market Town. Now, you may enter!",
+  "points": 3,
+  "type": "progression",
+  "badge": "558869.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558869.png"
+ },
+ {
+  "id": 493103,
+  "title": "Black Keep Grounds Treasure Hunter",
+  "desc": "Find and open 6 treasure chests in Black Keep Grounds",
+  "points": 3,
+  "type": "",
+  "badge": "558970.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558970.png"
+ },
+ {
+  "id": 493005,
+  "title": "The Black Knight",
+  "desc": "Get into the Black Knight's castle and put an end to his reign of terror. Return to the Trader's Guild to let them know they're safe",
+  "points": 10,
+  "type": "progression",
+  "badge": "558870.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558870.png"
+ },
+ {
+  "id": 493114,
+  "title": "Black Keep Dungeon Treasure Hunter",
+  "desc": "Find and open 7 treasure chests in Black Keep Dungeon",
+  "points": 4,
+  "type": "",
+  "badge": "558981.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558981.png"
+ },
+ {
+  "id": 493014,
+  "title": "Blade of Valor",
+  "desc": "Obtain the Battle Blade",
+  "points": 3,
+  "type": "",
+  "badge": "558880.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558880.png"
+ },
+ {
+  "id": 493031,
+  "title": "Royal Guard",
+  "desc": "Obtain the Royal Armour",
+  "points": 3,
+  "type": "",
+  "badge": "558898.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558898.png"
+ },
+ {
+  "id": 493028,
+  "title": "Wand of Wonders",
+  "desc": "Obtain the Magician's Wand",
+  "points": 3,
+  "type": "",
+  "badge": "558894.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558894.png"
+ },
+ {
+  "id": 493033,
+  "title": "Golden Bastion",
+  "desc": "Obtain the Golden Shield",
+  "points": 3,
+  "type": "",
+  "badge": "558900.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558900.png"
+ },
+ {
+  "id": 493032,
+  "title": "Enchanted Elegance",
+  "desc": "Obtain the Noble Dress",
+  "points": 3,
+  "type": "",
+  "badge": "558899.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558899.png"
+ },
+ {
+  "id": 493043,
+  "title": "Talented Turmac",
+  "desc": "Tame a Turmac Petpet and enjoy the benefits of extra attack power, extra defense, health regeneration, and mana restoration",
+  "points": 1,
+  "type": "",
+  "badge": "558910.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558910.png"
+ },
+ {
+  "id": 492991,
+  "title": "Pink Posies",
+  "desc": "Sad little Nina misses her pink flowers...return a smile to her face by bringing her some",
+  "points": 5,
+  "type": "",
+  "badge": "558856.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558856.png"
+ },
+ {
+  "id": 493071,
+  "title": "Rathbone Family Crypts Treasure Hunter",
+  "desc": "Find and open 3 treasure chests in Rathbone Family Crypts",
+  "points": 2,
+  "type": "",
+  "badge": "558938.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558938.png"
+ },
+ {
+  "id": 492992,
+  "title": "The Gelert Family Crypts",
+  "desc": "Enter the crypts on the outskirts of Brightvale and find proof of Prince Tourin's lineage",
+  "points": 5,
+  "type": "",
+  "badge": "558857.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558857.png"
+ },
+ {
+  "id": 492990,
+  "title": "Into the Witch's Woods (Trader's Guild Delivery)",
+  "desc": "Deliver the creepy package to Sophie the Swamp Witch in the Werelupe Woods",
+  "points": 5,
+  "type": "",
+  "badge": "558855.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558855.png"
+ },
+ {
+  "id": 492993,
+  "title": "Parts and Peepers (Trader's Guild Delivery)",
+  "desc": "Deliver the spare parts to Tor's Dad, Hubert, and then take the Spyglass to Douglas in Drackon Ridge",
+  "points": 5,
+  "type": "",
+  "badge": "558858.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558858.png"
+ },
+ {
+  "id": 492994,
+  "title": "The King's Saviour (Trader's Guild Delivery)",
+  "desc": "Embark on a delivery and stumble upon a devious plot. Thwart it and save the king!",
+  "points": 5,
+  "type": "",
+  "badge": "558859.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558859.png"
+ },
+ {
+  "id": 493485,
+  "title": "Courtesy Message",
+  "desc": "WARNING! You are about to reach the point of no return. Make sure you've completed all quests and found all items before continuing",
+  "points": 0,
+  "type": "",
+  "badge": "559183.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/559183.png"
+ },
+ {
+  "id": 493006,
+  "title": "Into Meridell",
+  "desc": "Find a way to get into the dungeons beneath Meridell Castle by making a deal with Meerca thieves. THIS IS THE POINT OF NO RETURN",
+  "points": 5,
+  "type": "progression",
+  "badge": "558871.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558871.png"
+ },
+ {
+  "id": 493094,
+  "title": "Ancient Sewers Treasure Hunter",
+  "desc": "Find and open 6 treasure chests in Ancient Sewers",
+  "points": 3,
+  "type": "",
+  "badge": "558961.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558961.png"
+ },
+ {
+  "id": 493007,
+  "title": "Ancient Mechanisms",
+  "desc": "Complete the door gear puzzle at the end of the Ancient Sewers and proceed forward into the Ruined Cave",
+  "points": 3,
+  "type": "progression",
+  "badge": "558872.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558872.png"
+ },
+ {
+  "id": 493097,
+  "title": "Ruined Caves Treasure Hunter",
+  "desc": "Find and open 4 treasure chests in Ruined Caves",
+  "points": 2,
+  "type": "",
+  "badge": "558964.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558964.png"
+ },
+ {
+  "id": 493102,
+  "title": "Oubliette Treasure Hunter",
+  "desc": "Find and open 15 treasure chests in Oubliette",
+  "points": 5,
+  "type": "",
+  "badge": "558969.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558969.png"
+ },
+ {
+  "id": 493008,
+  "title": "Freedom from the Oubliette",
+  "desc": "What a nightmare! Complete the Oubliette and make your way to the exit",
+  "points": 10,
+  "type": "progression",
+  "badge": "558873.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558873.png"
+ },
+ {
+  "id": 493009,
+  "title": "The Forgotten Edge",
+  "desc": "Obtain the Ancient Sword",
+  "points": 3,
+  "type": "progression",
+  "badge": "558874.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558874.png"
+ },
+ {
+  "id": 493098,
+  "title": "Meridell Treasure Vault Treasure Hunter",
+  "desc": "Find and open 4 treasure chests in Meridell Treasure Vault",
+  "points": 1,
+  "type": "",
+  "badge": "558965.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558965.png"
+ },
+ {
+  "id": 493036,
+  "title": "Gilded Guardian",
+  "desc": "Obtain the Golden Gilded Plating",
+  "points": 3,
+  "type": "",
+  "badge": "558903.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558903.png"
+ },
+ {
+  "id": 493010,
+  "title": "Fyora's Rod",
+  "desc": "Defeat the Undead Draik Skeleton and then retrieve Fyora's Rod. Finally... after all of our searching, we have a weapon to fight the Darkest Faerie",
+  "points": 10,
+  "type": "progression",
+  "badge": "558875.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558875.png"
+ },
+ {
+  "id": 493011,
+  "title": "Shadow Sisters Fall",
+  "desc": "Defeat the Darkest Faerie Sisters",
+  "points": 10,
+  "type": "progression",
+  "badge": "558876.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558876.png"
+ },
+ {
+  "id": 493012,
+  "title": "Save Queen Fyora",
+  "desc": "Follow Queen Fyora's instructions and enter the portal to reach the conclusion of Act 3",
+  "points": 10,
+  "type": "progression",
+  "badge": "558877.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558877.png"
+ },
+ {
+  "id": 493082,
+  "title": "Hall of Heroes Treasure Hunter",
+  "desc": "Find and open 1 treasure chest in Hall of Heroes",
+  "points": 1,
+  "type": "",
+  "badge": "558949.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558949.png"
+ },
+ {
+  "id": 493087,
+  "title": "Arena District Treasure Hunter",
+  "desc": "Find and open 2 treasure chests in Arena District",
+  "points": 1,
+  "type": "",
+  "badge": "558954.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558954.png"
+ },
+ {
+  "id": 493084,
+  "title": "Coliseum Treasure Hunter",
+  "desc": "Find and open 1 treasure chest in Coliseum",
+  "points": 1,
+  "type": "",
+  "badge": "558951.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558951.png"
+ },
+ {
+  "id": 493013,
+  "title": "The Gladiator Legend",
+  "desc": "Awaken Torakar in the Arena District of Altador",
+  "points": 10,
+  "type": "progression",
+  "badge": "558878.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558878.png"
+ },
+ {
+  "id": 493124,
+  "title": "Champion of the Coliseum",
+  "desc": "Become the Coliseum Champion in the Arena District",
+  "points": 10,
+  "type": "",
+  "badge": "558991.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558991.png"
+ },
+ {
+  "id": 493039,
+  "title": "Razor Edge",
+  "desc": "Obtain the Razor Sword",
+  "points": 3,
+  "type": "",
+  "badge": "558906.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558906.png"
+ },
+ {
+  "id": 493015,
+  "title": "Keeper of the Arcane",
+  "desc": "Obtain the Wand of the Ancients",
+  "points": 3,
+  "type": "",
+  "badge": "558881.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558881.png"
+ },
+ {
+  "id": 493083,
+  "title": "Secret Sewers Treasure Hunter",
+  "desc": "Find and open 2 treasure chests in Secret Sewers",
+  "points": 1,
+  "type": "",
+  "badge": "558950.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558950.png"
+ },
+ {
+  "id": 493090,
+  "title": "Park District Treasure Hunter",
+  "desc": "Find and open 5 treasure chests in Park District",
+  "points": 3,
+  "type": "",
+  "badge": "558957.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558957.png"
+ },
+ {
+  "id": 493091,
+  "title": "Park Shrine Treasure Hunter",
+  "desc": "Find and open 1 treasure chest in Park Shrine",
+  "points": 1,
+  "type": "",
+  "badge": "558958.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558958.png"
+ },
+ {
+  "id": 493018,
+  "title": "The Petpet Legend",
+  "desc": "Awaken Faun in the Park District of Altador",
+  "points": 10,
+  "type": "progression",
+  "badge": "558884.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558884.png"
+ },
+ {
+  "id": 493089,
+  "title": "Money District Treasure Hunter",
+  "desc": "Find and open 2 treasure chests in Bazaar District",
+  "points": 1,
+  "type": "",
+  "badge": "558956.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558956.png"
+ },
+ {
+  "id": 493086,
+  "title": "Treasury Treasure Hunter",
+  "desc": "Find and open 1 treasure chest in Treasury",
+  "points": 1,
+  "type": "",
+  "badge": "558953.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558953.png"
+ },
+ {
+  "id": 493019,
+  "title": "The Treasurer Legend",
+  "desc": "Awaken Gordos in the Money District of Altador",
+  "points": 10,
+  "type": "progression",
+  "badge": "558885.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558885.png"
+ },
+ {
+  "id": 493020,
+  "title": "Wheel of Prosperity",
+  "desc": "Win the grand prize at the spinning wheel in the Money District of Altador",
+  "points": 5,
+  "type": "",
+  "badge": "558886.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558886.png"
+ },
+ {
+  "id": 493088,
+  "title": "Bazaar District Treasure Hunter",
+  "desc": "Find and open 2 treasure chests in Bazaar District",
+  "points": 1,
+  "type": "",
+  "badge": "558955.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558955.png"
+ },
+ {
+  "id": 493085,
+  "title": "Sewer Shrine Treasure Hunter",
+  "desc": "Find and open 2 treasure chests in Sewer Shrine",
+  "points": 1,
+  "type": "",
+  "badge": "558952.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558952.png"
+ },
+ {
+  "id": 493016,
+  "title": "The Rogue Legend",
+  "desc": "Awaken Kellend in the Bazaar District of Altador",
+  "points": 10,
+  "type": "progression",
+  "badge": "558882.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558882.png"
+ },
+ {
+  "id": 493034,
+  "title": "Eternal Protector",
+  "desc": "Obtain the Legendary Shield",
+  "points": 3,
+  "type": "",
+  "badge": "558901.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558901.png"
+ },
+ {
+  "id": 493035,
+  "title": "Vestments of the Eternal Hero",
+  "desc": "Obtain the Legend Robes",
+  "points": 3,
+  "type": "",
+  "badge": "558902.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558902.png"
+ },
+ {
+  "id": 493017,
+  "title": "Altador's Guardian",
+  "desc": "Obtain the Altadorian Plate Armour",
+  "points": 3,
+  "type": "",
+  "badge": "558883.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558883.png"
+ },
+ {
+  "id": 493092,
+  "title": "Heroes Rest Treasure Hunter",
+  "desc": "Find and open 1 treasure chest in Heroes Rest",
+  "points": 1,
+  "type": "",
+  "badge": "558959.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558959.png"
+ },
+ {
+  "id": 493037,
+  "title": "Blade of Altador's Might",
+  "desc": "Obtain King Altador's Sword",
+  "points": 3,
+  "type": "progression",
+  "badge": "558904.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558904.png"
+ },
+ {
+  "id": 493021,
+  "title": "Awaken Jerdana",
+  "desc": "The legendary sorceress holds the key to stopping the Darkest Faerie. Awaken her!",
+  "points": 10,
+  "type": "progression",
+  "badge": "558887.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558887.png"
+ },
+ {
+  "id": 493022,
+  "title": "The Darkest Faerie",
+  "desc": "Use Jerdana's orb to imprison the Darkest Faerie once and for all!",
+  "points": 25,
+  "type": "progression",
+  "badge": "558888.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558888.png"
+ },
+ {
+  "id": 493023,
+  "title": "The Grand Conclusion",
+  "desc": "Reach the conclusion of Act 4. Congratulations, you completed the game!",
+  "points": 10,
+  "type": "win_condition",
+  "badge": "558889.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558889.png"
+ },
+ {
+  "id": 493049,
+  "title": "Banking Big in Neopia",
+  "desc": "Have 10,000 NeoPoints on hand",
+  "points": 3,
+  "type": "",
+  "badge": "558916.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558916.png"
+ },
+ {
+  "id": 493050,
+  "title": "Neopian Riches",
+  "desc": "Have 25,000 NeoPoints on hand",
+  "points": 10,
+  "type": "",
+  "badge": "558917.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558917.png"
+ },
+ {
+  "id": 493055,
+  "title": "Health Infusion",
+  "desc": "Increase your health bar 5 times by finding Red Neggs or Golden Neggs",
+  "points": 5,
+  "type": "",
+  "badge": "558922.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558922.png"
+ },
+ {
+  "id": 493056,
+  "title": "Vitality Boosted",
+  "desc": "Increase your health bar 10 times by finding Red Neggs or Golden Neggs",
+  "points": 10,
+  "type": "",
+  "badge": "558923.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558923.png"
+ },
+ {
+  "id": 493057,
+  "title": "Edge of Immortality",
+  "desc": "Increase your health bar 15 times by finding Red Neggs or Golden Neggs",
+  "points": 25,
+  "type": "",
+  "badge": "558924.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558924.png"
+ },
+ {
+  "id": 493053,
+  "title": "Stellar Power",
+  "desc": "Increase your mana bar 5 times by finding Starry Neggs or Golden Neggs",
+  "points": 10,
+  "type": "",
+  "badge": "558920.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558920.png"
+ },
+ {
+  "id": 493054,
+  "title": "Mana Overload",
+  "desc": "Increase your mana bar 10 times by finding Starry Neggs or Golden Neggs",
+  "points": 25,
+  "type": "",
+  "badge": "558921.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558921.png"
+ },
+ {
+  "id": 493058,
+  "title": "Fortune's Favourite",
+  "desc": "Increase your luck bar 10 times by finding clovers",
+  "points": 5,
+  "type": "",
+  "badge": "558925.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558925.png"
+ },
+ {
+  "id": 493059,
+  "title": "Clover King",
+  "desc": "Increase your luck bar 15 times by finding clovers",
+  "points": 10,
+  "type": "",
+  "badge": "558926.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558926.png"
+ },
+ {
+  "id": 493060,
+  "title": "Luckiest Neopian Alive",
+  "desc": "Increase your luck bar 20 times by finding clovers",
+  "points": 25,
+  "type": "",
+  "badge": "558927.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558927.png"
+ },
+ {
+  "id": 493115,
+  "title": "Treasure Expedition",
+  "desc": "Find and open 25 treasure chests",
+  "points": 5,
+  "type": "",
+  "badge": "558982.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558982.png"
+ },
+ {
+  "id": 493116,
+  "title": "Path of the Treasure Hunter",
+  "desc": "Find and open 50 treasure chests",
+  "points": 10,
+  "type": "",
+  "badge": "558983.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558983.png"
+ },
+ {
+  "id": 493117,
+  "title": "Treasure Seeker",
+  "desc": "Find and open 100 treasure chests",
+  "points": 25,
+  "type": "",
+  "badge": "558984.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558984.png"
+ },
+ {
+  "id": 493118,
+  "title": "Chests of Fortune",
+  "desc": "Find and open 150 treasure chests",
+  "points": 25,
+  "type": "",
+  "badge": "558985.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558985.png"
+ },
+ {
+  "id": 493119,
+  "title": "Looting Legend",
+  "desc": "Find and open 200 treasure chests",
+  "points": 50,
+  "type": "",
+  "badge": "559733.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/559733.png"
+ },
+ {
+  "id": 493120,
+  "title": "Mote Enthusiast",
+  "desc": "Have 4000 of any mote",
+  "points": 1,
+  "type": "",
+  "badge": "558987.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558987.png"
+ },
+ {
+  "id": 493045,
+  "title": "Ultimate Hoarder",
+  "desc": "Have one of every item in your item bag",
+  "points": 10,
+  "type": "",
+  "badge": "558912.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558912.png"
+ },
+ {
+  "id": 493048,
+  "title": "Petpet World Tour",
+  "desc": "In a single session take a single Petpet type on a grand tour of the world without losing them, starting at Tor's Farm and visiting all of the following locations: Meridell Village, Cogham Village, Brightvale Village, Illusen's Glade, and Bogshot Village",
+  "points": 5,
+  "type": "",
+  "badge": "558915.png",
+  "badgeUrl": "https://media.retroachievements.org/Badge/558915.png"
+ }
+]

@@ -1,0 +1,326 @@
+{
+ "monsters": {
+  "Air": [
+   [
+    "Crokabek",
+    "Really just a large crow petpet. Jump attacks seem most effective."
+   ],
+   [
+    "Minion Archer (Blue)",
+    "A flying blue skeith. Deflect it's air based attacks with a shield."
+   ],
+   [
+    "Minion Grunt (Blue)",
+    "A small, flying blue skeith that attacks you at will."
+   ],
+   [
+    "Minion Warrior (Blue)",
+    "A small, heavy-built blue skeith that attacks you with combos."
+   ],
+   [
+    "Mountain Crokabek",
+    "A large brown crow found in the mountains. Jump attacks."
+   ],
+   [
+    "Swamp Crokabek",
+    "A large green crow found in swampy areas. Jump attacks."
+   ]
+  ],
+  "Earth": [
+   [
+    "Flower Monster",
+    "A flower with a face! Simply attack."
+   ],
+   [
+    "Flower Monster (Walking)",
+    "Pretty much a walking flower monster. Simply attack."
+   ],
+   [
+    "Ixi Spearman",
+    "An ixi with a spear, dodge its attacks."
+   ],
+   [
+    "Ixi Archer",
+    "An ixi with a bow and arrow. Deflect its arrows."
+   ],
+   [
+    "Ixi Henchman",
+    "Pretty much the same thing as a spearman, but more powerful?"
+   ],
+   [
+    "Minion Archer (Yellow)",
+    "A flying yellow skeith, deflect its attacks."
+   ],
+   [
+    "Minion Artillery (Green)",
+    "A huge green skeith that fires ammo which you can deflect, but watch out for its charge attack!"
+   ],
+   [
+    "Minion Brute (Yellow)",
+    "A huge, yellow heavy-built skeith. Watch for its huge arms."
+   ],
+   [
+    "Minion Grunt (Green)",
+    "A small, flying skeith that attacks at will."
+   ],
+   [
+    "Minion Warrior (Light Blue)",
+    "A small, heavy-built skeith. Watch out for its's combo!"
+   ],
+   [
+    "Plant Gunner",
+    "A weird, walking plant that fires its attacks which you can deflect."
+   ],
+   [
+    "Poison Flower Monster",
+    "A planted flower with a face that can shoot poisionous gas at you."
+   ],
+   [
+    "Poison Flower Monster (Walking)",
+    "Pretty much a walking flower monster that has poisionous attacks."
+   ],
+   [
+    "Poison Spyder",
+    "A spider with poisionous bites; they have a green tint to them"
+   ],
+   [
+    "Spore Monster",
+    "A weird, walking plant that fires its attacks which you can deflect."
+   ]
+  ],
+  "Dark": [
+   [
+    "Bandit",
+    "A monster with a club for a weapon."
+   ],
+   [
+    "Drub",
+    "A one time monster, just a thief with a name."
+   ],
+   [
+    "Dark Knight",
+    "A huge, skulking monster with tons of armor and a big sword."
+   ],
+   [
+    "Darrick the Blade",
+    "A one time monster, just a rogue with a name."
+   ],
+   [
+    "Dumb Skeleton",
+    "A skeith skeleton that rises up from the ground."
+   ],
+   [
+    "Evil Harris",
+    "Pretty much what an evil harris would look like-dark and evil looking."
+   ],
+   [
+    "Minion Archer (Purple)",
+    "A small, flying purple skeith that fires ammo at you which you can deflect."
+   ],
+   [
+    "Minion Artillery (Purple)",
+    "A huge purple skeith that fires ammo which you can deflect, but watch out for its charge attack!"
+   ],
+   [
+    "Minion Grunt (Purple)",
+    "A small, flying Purple skeith that attacks you at will."
+   ],
+   [
+    "Restless Spirit",
+    "Pretty much a floating ghostly figure that is transparent. Can drain energy from you."
+   ],
+   [
+    "Rogue",
+    "A monster equipped with a blade."
+   ],
+   [
+    "Sid the Vicious",
+    "A one time monster, just a bandit with a name."
+   ],
+   [
+    "Skeleton Wizard",
+    "A techo skeleton that fires spells which you can deflect."
+   ],
+   [
+    "Skeleton Fighter",
+    "A tall skeith skeleton, I think, that has a sword and shield."
+   ],
+   [
+    "Spirit Skull",
+    "EXTREMELY annoying floating skull, surrounded by items which can be thrown at you."
+   ],
+   [
+    "Spirit Sword",
+    "Your average floating sword that attacks."
+   ],
+   [
+    "Spyder",
+    "Just a regular plain old spider that bites."
+   ],
+   [
+    "Thief",
+    "A monster equipped with a dagger, attacks can open up your pockets."
+   ]
+  ],
+  "Fire": [
+   [
+    "Drackonack",
+    "A purple dragon with black stripes that is vicious, and charges pretty quickly, too."
+   ],
+   [
+    "Giant Drackonack",
+    "Just a larger version of the Drackonack."
+   ],
+   [
+    "Minion Archer (Red)",
+    "A tiny flying skeith that fires arrows at you which you can deflect"
+   ],
+   [
+    "Minion Artillery (Red)",
+    "A huge, red skeith that fires ammo which you can deflect, just watch out for its charging attack if you get too close!"
+   ],
+   [
+    "Minion Brute (Red)",
+    "A ginourmous red skeith with hulking arms."
+   ],
+   [
+    "Minion Magician (Red)",
+    "A floating, red skeith that fires magic spells at you which you can deflect. Also can make other minions appear."
+   ],
+   [
+    "Minion Warrior (Orange)",
+    "A small, heavy-built orange skeith that attacks you with combos."
+   ],
+   [
+    "Minion Wizard (Red)",
+    "A floating, red skeith that has a kind of \"coat\". The most annoying of the minions, you CANNOT deflect its attacks, even if you use a nova mote. It also can change a fellow minion's magical alignment."
+   ],
+   [
+    "Werelupe Basher",
+    "A red lupe, which attacks you with its claws."
+   ],
+   [
+    "Werelupe Bone Thrower",
+    "A red lupe that throws bones at you which you can deflect."
+   ],
+   [
+    "Werelupe Elite",
+    "A black lupe with bones for armor, and vicious attacks."
+   ]
+  ],
+  "Light": [
+   [
+    "Minion Grunt (Yellow)",
+    "A small, flying yellow skeith that attacks you at will."
+   ],
+   [
+    "Minion Magician (Yellow)",
+    "A flying yellow skeith that fires magic spells at you which you can deflect."
+   ],
+   [
+    "Minion Wizard (Yellow)",
+    "A floating, yellow skeith that has a kind of \"coat\". The most annoying"
+   ]
+  ],
+  "Water": [
+   [
+    "Minion Brute (Blue)",
+    "A huge, blue skeith with hulking arms."
+   ],
+   [
+    "Minion Magician (Blue)",
+    "A flying, blue skeith that fires spells at you which you can deflect."
+   ],
+   [
+    "Slorg",
+    "A mean, green slug that fires spitballs at you!"
+   ],
+   [
+    "Sludgy",
+    "A..well pile of brown sludgy stuff that fires sludgeballs at you and can freeze you in place!"
+   ],
+   [
+    "Swamp Tentacle",
+    "A octopus looking green tentacle usually found in swamps"
+   ],
+   [
+    "Tentacle",
+    "A smaller version of the Swamp Tentacle found in other watery places"
+   ]
+  ]
+ },
+ "bosses": [
+  {
+   "name": "Juppie Monster (Act 1)",
+   "loc": "Shadowglen Woods",
+   "el": "Earth",
+   "diff": "Easy"
+  },
+  {
+   "name": "Ixi Chieftan (Act 1)",
+   "loc": "Cogham Steppes",
+   "el": "Earth",
+   "diff": "Easy"
+  },
+  {
+   "name": "Gnarfas",
+   "loc": "Illusen's Glade/Lightwater Forest",
+   "el": "Fire",
+   "diff": "Medium"
+  },
+  {
+   "name": "Plague Serpent",
+   "loc": "Bogshot Swamp",
+   "el": "Water",
+   "diff": "Medium"
+  },
+  {
+   "name": "Werelupe King",
+   "loc": "Werelupe Burrows",
+   "el": "Fire",
+   "diff": "Easy"
+  },
+  {
+   "name": "Juppie Monster (Act 3)",
+   "loc": "Shadowglen Woods",
+   "el": "Earth",
+   "diff": "Easy"
+  },
+  {
+   "name": "Ixi Chieftan (Act 3)",
+   "loc": "Abandoned Mines in Cogham Steppes",
+   "el": "Dark",
+   "diff": "Easy"
+  },
+  {
+   "name": "Gelert Assassin",
+   "loc": "Illusen's Glade, same place Gnarfas was",
+   "el": "Dark? I used a Nova Mote =)",
+   "diff": "Medium"
+  },
+  {
+   "name": "Black Knight",
+   "loc": "Knight's Keep, in his castle",
+   "el": "Dark",
+   "diff": "Medium-Hardish"
+  },
+  {
+   "name": "Undead Draik Skeleton",
+   "loc": "Meridell Vault, underneath Meridell",
+   "el": "Fire and Water",
+   "diff": "Medium"
+  },
+  {
+   "name": "Dark Faerie Sisters",
+   "loc": "[Tainted] Meridell Castle, in the throne room",
+   "el": "Dark",
+   "diff": "Low-Medium"
+  },
+  {
+   "name": "The Darkest Faerie",
+   "loc": "Faerieland Castle",
+   "el": "Everything",
+   "diff": "Mediumish"
+  }
+ ]
+}

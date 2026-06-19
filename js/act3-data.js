@@ -1,0 +1,240 @@
+/* =====================================================================
+   Neopets: The Darkest Faerie — Act 3 tracker data, for the generic
+   engine (js/df-tracker.js). Quests (main story + side), Treasures
+   by zone, Neggs and Clovers. Items flagged "m": true are MISSABLE.
+   Display text lives in lang/messages/en/act3-tracker.json.
+   Zone chest counts come from RetroAchievements; side quests, neggs
+   and clovers from prinisse's GameFAQs walkthrough.
+   ===================================================================== */
+var TRACKER_GAME = {
+  "id": "act3",
+  "storeKey": "df_act3_v1",
+  "charKey": null,
+  "chars": [],
+  "trophyAuto": null,
+  "worldSummary": { "worlds": ["Western Brightvale", "Crossroads", "Brightvale Outskirts", "Brightvale Castle", "Brightvale Coast", "Dungeon Ruins", "Mountain Pass", "Bogshot Swamp", "Bogshot Sinkholes", "Old Mine", "Steppe Plateau", "Werelupe Woods", "Werelupe Sinkholes", "Werelupe Graveyard", "Crypt of the Fallen", "Crypt of the Sentries", "Crypt of the Exiled", "Werelupe Burrows Upper", "Werelupe Burrows Middle", "Werelupe Burrows Lower", "Abandoned Mines", "Meriload Mine", "Black Keep Grounds", "Black Keep Dungeon", "Rathbone Family Crypts", "Ancient Sewers", "Ruined Caves", "Oubliette", "Meridell Treasure Vault"], "sections": ["treasures","neggs","clovers"] },
+  "tabs": [
+    {
+      "id": "quests",
+      "sections": [
+        {
+          "id": "quests",
+          "cols": [ {"k": "name", "name": true},{"k": "kind"},{"k": "detail"},{"k": "reward"} ],
+          "items": [
+            {"g": "Main Story", "name": "Need Research"},
+            {"g": "Main Story", "name": "Plague Serpent"},
+            {"g": "Main Story", "name": "Bogberry Cure"},
+            {"g": "Main Story", "name": "Fang Necklace"},
+            {"g": "Main Story", "name": "The Last Howl"},
+            {"g": "Main Story", "name": "Missing Farmers"},
+            {"g": "Main Story", "name": "Missing Miners"},
+            {"g": "Main Story", "name": "Free Cogham Village"},
+            {"g": "Main Story", "name": "Free Illusen's Village"},
+            {"g": "Main Story", "name": "Knightfall at Market Town's Door"},
+            {"g": "Main Story", "name": "The Black Knight"},
+            {"g": "Main Story", "name": "Into Meridell"},
+            {"g": "Main Story", "name": "Ancient Mechanisms"},
+            {"g": "Main Story", "name": "Freedom from the Oubliette"},
+            {"g": "Main Story", "name": "The Forgotten Edge"},
+            {"g": "Main Story", "name": "Fyora's Rod"},
+            {"g": "Main Story", "name": "Shadow Sisters Fall"},
+            {"g": "Main Story", "name": "Save Queen Fyora"},
+            {"g": "Side Quests", "name": "The Golden Rose", "m": true},
+            {"g": "Side Quests", "name": "Worried Sister", "m": true},
+            {"g": "Side Quests", "name": "Cynthia's Noil", "m": true},
+            {"g": "Side Quests", "name": "The Lighthouse", "m": true},
+            {"g": "Side Quests", "name": "The Kreludan Blade", "m": true},
+            {"g": "Side Quests", "name": "Poison Seeds", "m": true},
+            {"g": "Side Quests", "name": "Missing Kid", "m": true},
+            {"g": "Side Quests", "name": "The Thunderhammer", "m": true},
+            {"g": "Side Quests", "name": "Lodestone", "m": true},
+            {"g": "Side Quests", "name": "Mayor's Broken Watch", "m": true},
+            {"g": "Side Quests", "name": "Pink Posies", "m": true},
+            {"g": "Side Quests", "name": "The Gelert Family Crypts", "m": true},
+            {"g": "Side Quests", "name": "Into the Witch's Woods (Trader's Guild Delivery)", "m": true},
+            {"g": "Side Quests", "name": "Parts and Peepers (Trader's Guild Delivery)", "m": true},
+            {"g": "Side Quests", "name": "The King's Saviour (Trader's Guild Delivery)", "m": true},
+            {"g": "Side Quests", "name": "The Love Letters", "m": true}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "treasures",
+      "sections": [
+        {
+          "id": "treasures",
+          "cols": [ {"k": "name", "name": true},{"k": "where"} ],
+          "items": [
+            {"g": "Western Brightvale", "name": "Chest 1", "m": true},
+            {"g": "Western Brightvale", "name": "Chest 2", "m": true},
+            {"g": "Crossroads", "name": "Chest 1", "m": true},
+            {"g": "Crossroads", "name": "Chest 2", "m": true},
+            {"g": "Brightvale Outskirts", "name": "Chest 1", "m": true},
+            {"g": "Brightvale Castle", "name": "Chest 1", "m": true},
+            {"g": "Brightvale Castle", "name": "Chest 2", "m": true},
+            {"g": "Brightvale Castle", "name": "Chest 3", "m": true},
+            {"g": "Brightvale Castle", "name": "Chest 4", "m": true},
+            {"g": "Brightvale Coast", "name": "Chest 1", "m": true},
+            {"g": "Brightvale Coast", "name": "Chest 2", "m": true},
+            {"g": "Brightvale Coast", "name": "Chest 3", "m": true},
+            {"g": "Dungeon Ruins", "name": "Chest 1", "m": true},
+            {"g": "Dungeon Ruins", "name": "Chest 2", "m": true},
+            {"g": "Dungeon Ruins", "name": "Chest 3", "m": true},
+            {"g": "Dungeon Ruins", "name": "Chest 4", "m": true},
+            {"g": "Dungeon Ruins", "name": "Chest 5", "m": true},
+            {"g": "Dungeon Ruins", "name": "Chest 6", "m": true},
+            {"g": "Mountain Pass", "name": "Chest 1", "m": true},
+            {"g": "Mountain Pass", "name": "Chest 2", "m": true},
+            {"g": "Mountain Pass", "name": "Chest 3", "m": true},
+            {"g": "Mountain Pass", "name": "Chest 4", "m": true},
+            {"g": "Mountain Pass", "name": "Chest 5", "m": true},
+            {"g": "Mountain Pass", "name": "Chest 6", "m": true},
+            {"g": "Mountain Pass", "name": "Chest 7", "m": true},
+            {"g": "Bogshot Swamp", "name": "Chest 1", "m": true},
+            {"g": "Bogshot Swamp", "name": "Chest 2", "m": true},
+            {"g": "Bogshot Swamp", "name": "Chest 3", "m": true},
+            {"g": "Bogshot Sinkholes", "name": "Chest 1", "m": true},
+            {"g": "Bogshot Sinkholes", "name": "Chest 2", "m": true},
+            {"g": "Old Mine", "name": "Chest 1", "m": true},
+            {"g": "Old Mine", "name": "Chest 2", "m": true},
+            {"g": "Old Mine", "name": "Chest 3", "m": true},
+            {"g": "Old Mine", "name": "Chest 4", "m": true},
+            {"g": "Old Mine", "name": "Chest 5", "m": true},
+            {"g": "Steppe Plateau", "name": "Chest 1", "m": true},
+            {"g": "Steppe Plateau", "name": "Chest 2", "m": true},
+            {"g": "Steppe Plateau", "name": "Chest 3", "m": true},
+            {"g": "Werelupe Woods", "name": "Chest 1", "m": true},
+            {"g": "Werelupe Woods", "name": "Chest 2", "m": true},
+            {"g": "Werelupe Sinkholes", "name": "Chest 1", "m": true},
+            {"g": "Werelupe Sinkholes", "name": "Chest 2", "m": true},
+            {"g": "Werelupe Sinkholes", "name": "Chest 3", "m": true},
+            {"g": "Werelupe Sinkholes", "name": "Chest 4", "m": true},
+            {"g": "Werelupe Graveyard", "name": "Chest 1", "m": true},
+            {"g": "Werelupe Graveyard", "name": "Chest 2", "m": true},
+            {"g": "Crypt of the Fallen", "name": "Chest 1", "m": true},
+            {"g": "Crypt of the Fallen", "name": "Chest 2", "m": true},
+            {"g": "Crypt of the Fallen", "name": "Chest 3", "m": true},
+            {"g": "Crypt of the Fallen", "name": "Chest 4", "m": true},
+            {"g": "Crypt of the Fallen", "name": "Chest 5", "m": true},
+            {"g": "Crypt of the Fallen", "name": "Chest 6", "m": true},
+            {"g": "Crypt of the Sentries", "name": "Chest 1", "m": true},
+            {"g": "Crypt of the Sentries", "name": "Chest 2", "m": true},
+            {"g": "Crypt of the Sentries", "name": "Chest 3", "m": true},
+            {"g": "Crypt of the Sentries", "name": "Chest 4", "m": true},
+            {"g": "Crypt of the Sentries", "name": "Chest 5", "m": true},
+            {"g": "Crypt of the Sentries", "name": "Chest 6", "m": true},
+            {"g": "Crypt of the Sentries", "name": "Chest 7", "m": true},
+            {"g": "Crypt of the Sentries", "name": "Chest 8", "m": true},
+            {"g": "Crypt of the Sentries", "name": "Chest 9", "m": true},
+            {"g": "Crypt of the Exiled", "name": "Chest 1", "m": true},
+            {"g": "Crypt of the Exiled", "name": "Chest 2", "m": true},
+            {"g": "Crypt of the Exiled", "name": "Chest 3", "m": true},
+            {"g": "Crypt of the Exiled", "name": "Chest 4", "m": true},
+            {"g": "Crypt of the Exiled", "name": "Chest 5", "m": true},
+            {"g": "Crypt of the Exiled", "name": "Chest 6", "m": true},
+            {"g": "Crypt of the Exiled", "name": "Chest 7", "m": true},
+            {"g": "Crypt of the Exiled", "name": "Chest 8", "m": true},
+            {"g": "Crypt of the Exiled", "name": "Chest 9", "m": true},
+            {"g": "Werelupe Burrows Upper", "name": "Chest 1", "m": true},
+            {"g": "Werelupe Burrows Upper", "name": "Chest 2", "m": true},
+            {"g": "Werelupe Burrows Upper", "name": "Chest 3", "m": true},
+            {"g": "Werelupe Burrows Upper", "name": "Chest 4", "m": true},
+            {"g": "Werelupe Burrows Upper", "name": "Chest 5", "m": true},
+            {"g": "Werelupe Burrows Upper", "name": "Chest 6", "m": true},
+            {"g": "Werelupe Burrows Middle", "name": "Chest 1", "m": true},
+            {"g": "Werelupe Burrows Middle", "name": "Chest 2", "m": true},
+            {"g": "Werelupe Burrows Middle", "name": "Chest 3", "m": true},
+            {"g": "Werelupe Burrows Middle", "name": "Chest 4", "m": true},
+            {"g": "Werelupe Burrows Lower", "name": "Chest 1", "m": true},
+            {"g": "Werelupe Burrows Lower", "name": "Chest 2", "m": true},
+            {"g": "Werelupe Burrows Lower", "name": "Chest 3", "m": true},
+            {"g": "Werelupe Burrows Lower", "name": "Chest 4", "m": true},
+            {"g": "Werelupe Burrows Lower", "name": "Chest 5", "m": true},
+            {"g": "Werelupe Burrows Lower", "name": "Chest 6", "m": true},
+            {"g": "Abandoned Mines", "name": "Chest 1", "m": true},
+            {"g": "Abandoned Mines", "name": "Chest 2", "m": true},
+            {"g": "Meriload Mine", "name": "Chest 1", "m": true},
+            {"g": "Meriload Mine", "name": "Chest 2", "m": true},
+            {"g": "Black Keep Grounds", "name": "Chest 1", "m": true},
+            {"g": "Black Keep Grounds", "name": "Chest 2", "m": true},
+            {"g": "Black Keep Grounds", "name": "Chest 3", "m": true},
+            {"g": "Black Keep Grounds", "name": "Chest 4", "m": true},
+            {"g": "Black Keep Grounds", "name": "Chest 5", "m": true},
+            {"g": "Black Keep Grounds", "name": "Chest 6", "m": true},
+            {"g": "Black Keep Dungeon", "name": "Chest 1", "m": true},
+            {"g": "Black Keep Dungeon", "name": "Chest 2", "m": true},
+            {"g": "Black Keep Dungeon", "name": "Chest 3", "m": true},
+            {"g": "Black Keep Dungeon", "name": "Chest 4", "m": true},
+            {"g": "Black Keep Dungeon", "name": "Chest 5", "m": true},
+            {"g": "Black Keep Dungeon", "name": "Chest 6", "m": true},
+            {"g": "Black Keep Dungeon", "name": "Chest 7", "m": true},
+            {"g": "Rathbone Family Crypts", "name": "Chest 1", "m": true},
+            {"g": "Rathbone Family Crypts", "name": "Chest 2", "m": true},
+            {"g": "Rathbone Family Crypts", "name": "Chest 3", "m": true},
+            {"g": "Ancient Sewers", "name": "Chest 1", "m": true},
+            {"g": "Ancient Sewers", "name": "Chest 2", "m": true},
+            {"g": "Ancient Sewers", "name": "Chest 3", "m": true},
+            {"g": "Ancient Sewers", "name": "Chest 4", "m": true},
+            {"g": "Ancient Sewers", "name": "Chest 5", "m": true},
+            {"g": "Ancient Sewers", "name": "Chest 6", "m": true},
+            {"g": "Ruined Caves", "name": "Chest 1", "m": true},
+            {"g": "Ruined Caves", "name": "Chest 2", "m": true},
+            {"g": "Ruined Caves", "name": "Chest 3", "m": true},
+            {"g": "Ruined Caves", "name": "Chest 4", "m": true},
+            {"g": "Oubliette", "name": "Chest 1", "m": true},
+            {"g": "Oubliette", "name": "Chest 2", "m": true},
+            {"g": "Oubliette", "name": "Chest 3", "m": true},
+            {"g": "Oubliette", "name": "Chest 4", "m": true},
+            {"g": "Oubliette", "name": "Chest 5", "m": true},
+            {"g": "Oubliette", "name": "Chest 6", "m": true},
+            {"g": "Oubliette", "name": "Chest 7", "m": true},
+            {"g": "Oubliette", "name": "Chest 8", "m": true},
+            {"g": "Oubliette", "name": "Chest 9", "m": true},
+            {"g": "Oubliette", "name": "Chest 10", "m": true},
+            {"g": "Oubliette", "name": "Chest 11", "m": true},
+            {"g": "Oubliette", "name": "Chest 12", "m": true},
+            {"g": "Oubliette", "name": "Chest 13", "m": true},
+            {"g": "Oubliette", "name": "Chest 14", "m": true},
+            {"g": "Oubliette", "name": "Chest 15", "m": true},
+            {"g": "Meridell Treasure Vault", "name": "Chest 1", "m": true},
+            {"g": "Meridell Treasure Vault", "name": "Chest 2", "m": true},
+            {"g": "Meridell Treasure Vault", "name": "Chest 3", "m": true},
+            {"g": "Meridell Treasure Vault", "name": "Chest 4", "m": true}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "neggs",
+      "sections": [
+        {
+          "id": "neggs",
+          "cols": [ {"k": "name", "name": true},{"k": "effect"},{"k": "where"} ],
+          "items": [
+            {"name": "Red Negg", "m": true},
+            {"name": "Red Negg", "m": true},
+            {"name": "Striped Negg", "m": true},
+            {"name": "Silver Negg", "m": true}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "clovers",
+      "sections": [
+        {
+          "id": "clovers",
+          "cols": [ {"k": "name", "name": true},{"k": "where"} ],
+          "items": [
+            {"name": "4-Leaf Clover", "m": true},
+            {"name": "4-Leaf Clover", "m": true},
+            {"name": "12-Leaf Clover", "m": true}
+          ]
+        }
+      ]
+    }
+  ]
+};
+
+(window.DF_GAMES = window.DF_GAMES || {})[TRACKER_GAME.id] = TRACKER_GAME;

@@ -1,0 +1,848 @@
+{
+ "logo-name": "Darkest Faerie 100%",
+ "nav-acts": "Acts",
+ "nav-home": "Home",
+ "nav-tools": "Tools",
+ "gt-filter": "filter…",
+ "gt-hide-done": "hide completed",
+ "gt-missable-only": "missable only",
+ "gt-count": "%1 / %2 done",
+ "gt-overall": "Total: %1 / %2 (%3%)",
+ "gt-nothing": "Nothing matches the current filter.",
+ "gt-reset": "Reset all progress",
+ "gt-reset-confirm": "Reset ALL tracker progress for this game?",
+ "gt-toggle-all": "toggle all",
+ "gt-dash-title": "Progress overview",
+ "gt-dash-section": "Section",
+ "gt-dash-progress": "Progress",
+ "gt-th-progress": "Tracked progress",
+ "gt-auto-badge": "auto",
+ "gt-auto-tip": "Earned automatically from %1",
+ "gt-missable-badge": "missable",
+ "gt-missable-tip": "Missable — belongs to Act-locked content. Once you leave the Act you can no longer obtain it.",
+ "gt-element-tip": "%1 — weak to %2 (deal extra damage; block/deflect %2 attacks)",
+ "gt-section-for": "%1 — %2",
+ "gt-world-complete": "complete",
+ "page-title": "Darkest Faerie — Act 3 — Heroes United",
+ "df-title": "Act 3 — Heroes United",
+ "df-subtitle": "Treasure chests, quests, neggs and clovers for this Act. Items marked missable lock once you leave the Act.",
+ "kp-export": "Export progress",
+ "kp-import": "Import progress",
+ "kp-note": "Backs up / restores ALL Darkest Faerie tracker progress on this site as a JSON file.",
+ "kp-import-confirm": "Importing will overwrite the saved progress of every tracker on this site with the file's contents. Continue?",
+ "kp-import-error": "That file could not be read as a progress export.",
+ "theme-to-day": "Day",
+ "theme-to-night": "Night",
+ "theme-toggle-aria": "Toggle bright theme",
+ "tabbtn-quests": "Quests",
+ "tabbtn-worlds": "Zones",
+ "tabbtn-treasures": "Treasures",
+ "tabbtn-neggs": "Neggs",
+ "tabbtn-clovers": "Clovers",
+ "sec-quests": "Quests",
+ "sec-treasures": "Treasure Chests",
+ "sec-neggs": "Neggs",
+ "sec-clovers": "Clovers",
+ "th-quests-name": "Quest",
+ "th-quests-kind": "Type",
+ "th-quests-detail": "Where / how",
+ "th-quests-reward": "Reward",
+ "th-treasures-name": "Chest",
+ "th-treasures-where": "Zone",
+ "th-neggs-name": "Negg",
+ "th-neggs-effect": "Effect",
+ "th-neggs-where": "Where to find it",
+ "th-clovers-name": "Clover",
+ "th-clovers-where": "Where to find it",
+ "note-quests": "Main-story quests are listed in the order you unlock them; side quests are grouped by the town/zone where they become available. Side quests in Acts 1–3 are missable — finish them before leaving the Act.",
+ "note-treasures": "Every treasure chest in this Act, grouped by zone (counts from the RetroAchievements “Treasure Hunter” set). Use the Zones tab for a by-zone overview.",
+ "note-neggs": "Red Neggs raise Health, Starry Neggs raise Magic, and Golden Neggs raise both — permanently. Silver Neggs are consumables that fully restore HP & MP. Cumulative upgrade totals are tracked on the Achievements page. This list covers the guide-sourced neggs; more are hidden in the world.",
+ "note-clovers": "Clovers permanently raise your luck (drop rate). Cumulative luck-bar milestones are tracked on the Achievements page. This list covers the guide-sourced clovers; more are hidden in the world.",
+ "gt-worlds-title": "Collectibles by Zone",
+ "items": {
+  "treasures": [
+   {
+    "name": "Chest 1",
+    "where": "Western Brightvale"
+   },
+   {
+    "name": "Chest 2",
+    "where": "Western Brightvale"
+   },
+   {
+    "name": "Chest 1",
+    "where": "Crossroads"
+   },
+   {
+    "name": "Chest 2",
+    "where": "Crossroads"
+   },
+   {
+    "name": "Chest 1",
+    "where": "Brightvale Outskirts"
+   },
+   {
+    "name": "Chest 1",
+    "where": "Brightvale Castle"
+   },
+   {
+    "name": "Chest 2",
+    "where": "Brightvale Castle"
+   },
+   {
+    "name": "Chest 3",
+    "where": "Brightvale Castle"
+   },
+   {
+    "name": "Chest 4",
+    "where": "Brightvale Castle"
+   },
+   {
+    "name": "Chest 1",
+    "where": "Brightvale Coast"
+   },
+   {
+    "name": "Chest 2",
+    "where": "Brightvale Coast"
+   },
+   {
+    "name": "Chest 3",
+    "where": "Brightvale Coast"
+   },
+   {
+    "name": "Chest 1",
+    "where": "Dungeon Ruins"
+   },
+   {
+    "name": "Chest 2",
+    "where": "Dungeon Ruins"
+   },
+   {
+    "name": "Chest 3",
+    "where": "Dungeon Ruins"
+   },
+   {
+    "name": "Chest 4",
+    "where": "Dungeon Ruins"
+   },
+   {
+    "name": "Chest 5",
+    "where": "Dungeon Ruins"
+   },
+   {
+    "name": "Chest 6",
+    "where": "Dungeon Ruins"
+   },
+   {
+    "name": "Chest 1",
+    "where": "Mountain Pass"
+   },
+   {
+    "name": "Chest 2",
+    "where": "Mountain Pass"
+   },
+   {
+    "name": "Chest 3",
+    "where": "Mountain Pass"
+   },
+   {
+    "name": "Chest 4",
+    "where": "Mountain Pass"
+   },
+   {
+    "name": "Chest 5",
+    "where": "Mountain Pass"
+   },
+   {
+    "name": "Chest 6",
+    "where": "Mountain Pass"
+   },
+   {
+    "name": "Chest 7",
+    "where": "Mountain Pass"
+   },
+   {
+    "name": "Chest 1",
+    "where": "Bogshot Swamp"
+   },
+   {
+    "name": "Chest 2",
+    "where": "Bogshot Swamp"
+   },
+   {
+    "name": "Chest 3",
+    "where": "Bogshot Swamp"
+   },
+   {
+    "name": "Chest 1",
+    "where": "Bogshot Sinkholes"
+   },
+   {
+    "name": "Chest 2",
+    "where": "Bogshot Sinkholes"
+   },
+   {
+    "name": "Chest 1",
+    "where": "Old Mine"
+   },
+   {
+    "name": "Chest 2",
+    "where": "Old Mine"
+   },
+   {
+    "name": "Chest 3",
+    "where": "Old Mine"
+   },
+   {
+    "name": "Chest 4",
+    "where": "Old Mine"
+   },
+   {
+    "name": "Chest 5",
+    "where": "Old Mine"
+   },
+   {
+    "name": "Chest 1",
+    "where": "Steppe Plateau"
+   },
+   {
+    "name": "Chest 2",
+    "where": "Steppe Plateau"
+   },
+   {
+    "name": "Chest 3",
+    "where": "Steppe Plateau"
+   },
+   {
+    "name": "Chest 1",
+    "where": "Werelupe Woods"
+   },
+   {
+    "name": "Chest 2",
+    "where": "Werelupe Woods"
+   },
+   {
+    "name": "Chest 1",
+    "where": "Werelupe Sinkholes"
+   },
+   {
+    "name": "Chest 2",
+    "where": "Werelupe Sinkholes"
+   },
+   {
+    "name": "Chest 3",
+    "where": "Werelupe Sinkholes"
+   },
+   {
+    "name": "Chest 4",
+    "where": "Werelupe Sinkholes"
+   },
+   {
+    "name": "Chest 1",
+    "where": "Werelupe Graveyard"
+   },
+   {
+    "name": "Chest 2",
+    "where": "Werelupe Graveyard"
+   },
+   {
+    "name": "Chest 1",
+    "where": "Crypt of the Fallen"
+   },
+   {
+    "name": "Chest 2",
+    "where": "Crypt of the Fallen"
+   },
+   {
+    "name": "Chest 3",
+    "where": "Crypt of the Fallen"
+   },
+   {
+    "name": "Chest 4",
+    "where": "Crypt of the Fallen"
+   },
+   {
+    "name": "Chest 5",
+    "where": "Crypt of the Fallen"
+   },
+   {
+    "name": "Chest 6",
+    "where": "Crypt of the Fallen"
+   },
+   {
+    "name": "Chest 1",
+    "where": "Crypt of the Sentries"
+   },
+   {
+    "name": "Chest 2",
+    "where": "Crypt of the Sentries"
+   },
+   {
+    "name": "Chest 3",
+    "where": "Crypt of the Sentries"
+   },
+   {
+    "name": "Chest 4",
+    "where": "Crypt of the Sentries"
+   },
+   {
+    "name": "Chest 5",
+    "where": "Crypt of the Sentries"
+   },
+   {
+    "name": "Chest 6",
+    "where": "Crypt of the Sentries"
+   },
+   {
+    "name": "Chest 7",
+    "where": "Crypt of the Sentries"
+   },
+   {
+    "name": "Chest 8",
+    "where": "Crypt of the Sentries"
+   },
+   {
+    "name": "Chest 9",
+    "where": "Crypt of the Sentries"
+   },
+   {
+    "name": "Chest 1",
+    "where": "Crypt of the Exiled"
+   },
+   {
+    "name": "Chest 2",
+    "where": "Crypt of the Exiled"
+   },
+   {
+    "name": "Chest 3",
+    "where": "Crypt of the Exiled"
+   },
+   {
+    "name": "Chest 4",
+    "where": "Crypt of the Exiled"
+   },
+   {
+    "name": "Chest 5",
+    "where": "Crypt of the Exiled"
+   },
+   {
+    "name": "Chest 6",
+    "where": "Crypt of the Exiled"
+   },
+   {
+    "name": "Chest 7",
+    "where": "Crypt of the Exiled"
+   },
+   {
+    "name": "Chest 8",
+    "where": "Crypt of the Exiled"
+   },
+   {
+    "name": "Chest 9",
+    "where": "Crypt of the Exiled"
+   },
+   {
+    "name": "Chest 1",
+    "where": "Werelupe Burrows Upper"
+   },
+   {
+    "name": "Chest 2",
+    "where": "Werelupe Burrows Upper"
+   },
+   {
+    "name": "Chest 3",
+    "where": "Werelupe Burrows Upper"
+   },
+   {
+    "name": "Chest 4",
+    "where": "Werelupe Burrows Upper"
+   },
+   {
+    "name": "Chest 5",
+    "where": "Werelupe Burrows Upper"
+   },
+   {
+    "name": "Chest 6",
+    "where": "Werelupe Burrows Upper"
+   },
+   {
+    "name": "Chest 1",
+    "where": "Werelupe Burrows Middle"
+   },
+   {
+    "name": "Chest 2",
+    "where": "Werelupe Burrows Middle"
+   },
+   {
+    "name": "Chest 3",
+    "where": "Werelupe Burrows Middle"
+   },
+   {
+    "name": "Chest 4",
+    "where": "Werelupe Burrows Middle"
+   },
+   {
+    "name": "Chest 1",
+    "where": "Werelupe Burrows Lower"
+   },
+   {
+    "name": "Chest 2",
+    "where": "Werelupe Burrows Lower"
+   },
+   {
+    "name": "Chest 3",
+    "where": "Werelupe Burrows Lower"
+   },
+   {
+    "name": "Chest 4",
+    "where": "Werelupe Burrows Lower"
+   },
+   {
+    "name": "Chest 5",
+    "where": "Werelupe Burrows Lower"
+   },
+   {
+    "name": "Chest 6",
+    "where": "Werelupe Burrows Lower"
+   },
+   {
+    "name": "Chest 1",
+    "where": "Abandoned Mines"
+   },
+   {
+    "name": "Chest 2",
+    "where": "Abandoned Mines"
+   },
+   {
+    "name": "Chest 1",
+    "where": "Meriload Mine"
+   },
+   {
+    "name": "Chest 2",
+    "where": "Meriload Mine"
+   },
+   {
+    "name": "Chest 1",
+    "where": "Black Keep Grounds"
+   },
+   {
+    "name": "Chest 2",
+    "where": "Black Keep Grounds"
+   },
+   {
+    "name": "Chest 3",
+    "where": "Black Keep Grounds"
+   },
+   {
+    "name": "Chest 4",
+    "where": "Black Keep Grounds"
+   },
+   {
+    "name": "Chest 5",
+    "where": "Black Keep Grounds"
+   },
+   {
+    "name": "Chest 6",
+    "where": "Black Keep Grounds"
+   },
+   {
+    "name": "Chest 1",
+    "where": "Black Keep Dungeon"
+   },
+   {
+    "name": "Chest 2",
+    "where": "Black Keep Dungeon"
+   },
+   {
+    "name": "Chest 3",
+    "where": "Black Keep Dungeon"
+   },
+   {
+    "name": "Chest 4",
+    "where": "Black Keep Dungeon"
+   },
+   {
+    "name": "Chest 5",
+    "where": "Black Keep Dungeon"
+   },
+   {
+    "name": "Chest 6",
+    "where": "Black Keep Dungeon"
+   },
+   {
+    "name": "Chest 7",
+    "where": "Black Keep Dungeon"
+   },
+   {
+    "name": "Chest 1",
+    "where": "Rathbone Family Crypts"
+   },
+   {
+    "name": "Chest 2",
+    "where": "Rathbone Family Crypts"
+   },
+   {
+    "name": "Chest 3",
+    "where": "Rathbone Family Crypts"
+   },
+   {
+    "name": "Chest 1",
+    "where": "Ancient Sewers"
+   },
+   {
+    "name": "Chest 2",
+    "where": "Ancient Sewers"
+   },
+   {
+    "name": "Chest 3",
+    "where": "Ancient Sewers"
+   },
+   {
+    "name": "Chest 4",
+    "where": "Ancient Sewers"
+   },
+   {
+    "name": "Chest 5",
+    "where": "Ancient Sewers"
+   },
+   {
+    "name": "Chest 6",
+    "where": "Ancient Sewers"
+   },
+   {
+    "name": "Chest 1",
+    "where": "Ruined Caves"
+   },
+   {
+    "name": "Chest 2",
+    "where": "Ruined Caves"
+   },
+   {
+    "name": "Chest 3",
+    "where": "Ruined Caves"
+   },
+   {
+    "name": "Chest 4",
+    "where": "Ruined Caves"
+   },
+   {
+    "name": "Chest 1",
+    "where": "Oubliette"
+   },
+   {
+    "name": "Chest 2",
+    "where": "Oubliette"
+   },
+   {
+    "name": "Chest 3",
+    "where": "Oubliette"
+   },
+   {
+    "name": "Chest 4",
+    "where": "Oubliette"
+   },
+   {
+    "name": "Chest 5",
+    "where": "Oubliette"
+   },
+   {
+    "name": "Chest 6",
+    "where": "Oubliette"
+   },
+   {
+    "name": "Chest 7",
+    "where": "Oubliette"
+   },
+   {
+    "name": "Chest 8",
+    "where": "Oubliette"
+   },
+   {
+    "name": "Chest 9",
+    "where": "Oubliette"
+   },
+   {
+    "name": "Chest 10",
+    "where": "Oubliette"
+   },
+   {
+    "name": "Chest 11",
+    "where": "Oubliette"
+   },
+   {
+    "name": "Chest 12",
+    "where": "Oubliette"
+   },
+   {
+    "name": "Chest 13",
+    "where": "Oubliette"
+   },
+   {
+    "name": "Chest 14",
+    "where": "Oubliette"
+   },
+   {
+    "name": "Chest 15",
+    "where": "Oubliette"
+   },
+   {
+    "name": "Chest 1",
+    "where": "Meridell Treasure Vault"
+   },
+   {
+    "name": "Chest 2",
+    "where": "Meridell Treasure Vault"
+   },
+   {
+    "name": "Chest 3",
+    "where": "Meridell Treasure Vault"
+   },
+   {
+    "name": "Chest 4",
+    "where": "Meridell Treasure Vault"
+   }
+  ],
+  "quests": [
+   {
+    "name": "Need Research",
+    "kind": "Main",
+    "detail": "Scour the Brightvale Library for books about \"Purple clouds\"",
+    "reward": "—"
+   },
+   {
+    "name": "Plague Serpent",
+    "kind": "Main",
+    "detail": "Find out what is lurking in the Bogshot Swamp waters...and kill it!",
+    "reward": "—"
+   },
+   {
+    "name": "Bogberry Cure",
+    "kind": "Main",
+    "detail": "Cure Bogshot Village. Find the white, red and black bogberries growing in Bogshot Swamp, and return them to Apothecary Fautt",
+    "reward": "—"
+   },
+   {
+    "name": "Fang Necklace",
+    "kind": "Main",
+    "detail": "Find the Werelupe Fang Necklace in one of the crypts",
+    "reward": "—"
+   },
+   {
+    "name": "The Last Howl",
+    "kind": "Main",
+    "detail": "Defeat the Werelupe King",
+    "reward": "—"
+   },
+   {
+    "name": "Missing Farmers",
+    "kind": "Main",
+    "detail": "Save the farmers from a familiar enemy (though, a little darker this time...) and receive the reward from Hubert",
+    "reward": "—"
+   },
+   {
+    "name": "Missing Miners",
+    "kind": "Main",
+    "detail": "Defeat the Dark Ixi Chieftain",
+    "reward": "—"
+   },
+   {
+    "name": "Free Cogham Village",
+    "kind": "Main",
+    "detail": "Speak to Mayor Jurgin after clearing the dark clouds over Cogham to receive the Cloak of Heroes",
+    "reward": "—"
+   },
+   {
+    "name": "Free Illusen's Village",
+    "kind": "Main",
+    "detail": "Defeat the Gelert Assassin and rescue Illusen, the Earth Faerie, to free Illusen Village",
+    "reward": "—"
+   },
+   {
+    "name": "Knightfall at Market Town's Door",
+    "kind": "Main",
+    "detail": "Defeat the dark knights outside of Market Town. Now, you may enter!",
+    "reward": "—"
+   },
+   {
+    "name": "The Black Knight",
+    "kind": "Main",
+    "detail": "Get into the Black Knight's castle and put an end to his reign of terror. Return to the Trader's Guild to let them know they're safe",
+    "reward": "—"
+   },
+   {
+    "name": "Into Meridell",
+    "kind": "Main",
+    "detail": "Find a way to get into the dungeons beneath Meridell Castle by making a deal with Meerca thieves. THIS IS THE POINT OF NO RETURN",
+    "reward": "—"
+   },
+   {
+    "name": "Ancient Mechanisms",
+    "kind": "Main",
+    "detail": "Complete the door gear puzzle at the end of the Ancient Sewers and proceed forward into the Ruined Cave",
+    "reward": "—"
+   },
+   {
+    "name": "Freedom from the Oubliette",
+    "kind": "Main",
+    "detail": "What a nightmare! Complete the Oubliette and make your way to the exit",
+    "reward": "—"
+   },
+   {
+    "name": "The Forgotten Edge",
+    "kind": "Main",
+    "detail": "Obtain the Ancient Sword",
+    "reward": "—"
+   },
+   {
+    "name": "Fyora's Rod",
+    "kind": "Main",
+    "detail": "Defeat the Undead Draik Skeleton and then retrieve Fyora's Rod. Finally... after all of our searching, we have a weapon to fight the Darkest Faerie",
+    "reward": "—"
+   },
+   {
+    "name": "Shadow Sisters Fall",
+    "kind": "Main",
+    "detail": "Defeat the Darkest Faerie Sisters",
+    "reward": "—"
+   },
+   {
+    "name": "Save Queen Fyora",
+    "kind": "Main",
+    "detail": "Follow Queen Fyora's instructions and enter the portal to reach the conclusion of Act 3",
+    "reward": "—"
+   },
+   {
+    "name": "The Golden Rose",
+    "kind": "Side",
+    "detail": "Brightvale — deliver the Golden Rose to Princess Dona",
+    "reward": "Red Negg · Letters of Devotion"
+   },
+   {
+    "name": "Worried Sister",
+    "kind": "Side",
+    "detail": "Brightvale — find Primrose in Bogshot for Mistress Marrion",
+    "reward": "Striped Negg · Silver Negg"
+   },
+   {
+    "name": "Cynthia's Noil",
+    "kind": "Side",
+    "detail": "Brightvale — bring Cynthia a Noil petpet",
+    "reward": "4-Leaf Clover"
+   },
+   {
+    "name": "The Lighthouse",
+    "kind": "Side",
+    "detail": "Brightvale Coast — activate the lighthouse for Isaac",
+    "reward": "400 NP"
+   },
+   {
+    "name": "The Kreludan Blade",
+    "kind": "Side",
+    "detail": "Bogshot Village — return Kreludan metal to Grimnar",
+    "reward": "Kreludan Blade"
+   },
+   {
+    "name": "Poison Seeds",
+    "kind": "Side",
+    "detail": "Bogshot — get poison seeds from a Glooper flower for Fautt",
+    "reward": "750 NP"
+   },
+   {
+    "name": "Missing Kid",
+    "kind": "Side",
+    "detail": "Bogshot Swamp — find the missing kid",
+    "reward": "Unlocks Mortog Races"
+   },
+   {
+    "name": "The Thunderhammer",
+    "kind": "Side",
+    "detail": "Cogham Village — recover Ingmar the Smithy's hammer",
+    "reward": "Smithy reward"
+   },
+   {
+    "name": "Lodestone",
+    "kind": "Side",
+    "detail": "Cogham — help Giovanni the Explorer find the Lodestone",
+    "reward": "Silver Negg"
+   },
+   {
+    "name": "Mayor's Broken Watch",
+    "kind": "Side",
+    "detail": "Cogham — find a white crystal for Mayor Jurgin's watch",
+    "reward": "12-Leaf Clover"
+   },
+   {
+    "name": "Pink Posies",
+    "kind": "Side",
+    "detail": "Market Town — bring Nina her pink flowers",
+    "reward": "Silver Negg"
+   },
+   {
+    "name": "The Gelert Family Crypts",
+    "kind": "Side",
+    "detail": "Brightvale outskirts — find proof of Prince Tourin's lineage",
+    "reward": "Red Negg"
+   },
+   {
+    "name": "Into the Witch's Woods (Trader's Guild Delivery)",
+    "kind": "Side",
+    "detail": "Market Town — deliver to Sophie the Swamp Witch",
+    "reward": "400 NP"
+   },
+   {
+    "name": "Parts and Peepers (Trader's Guild Delivery)",
+    "kind": "Side",
+    "detail": "Market Town — deliver to Hubert, then Douglas",
+    "reward": "2,000 NP"
+   },
+   {
+    "name": "The King's Saviour (Trader's Guild Delivery)",
+    "kind": "Side",
+    "detail": "Market Town — thwart a plot and save the king",
+    "reward": "Silver Negg"
+   },
+   {
+    "name": "The Love Letters",
+    "kind": "Side",
+    "detail": "Market Town — deliver Princess Dona's letters to Prince Tourin",
+    "reward": "Quest reward"
+   }
+  ],
+  "neggs": [
+   {
+    "name": "Red Negg",
+    "effect": "+ Health (permanent)",
+    "where": "Reward: The Golden Rose"
+   },
+   {
+    "name": "Red Negg",
+    "effect": "+ Health (permanent)",
+    "where": "Reward: The Gelert Family Crypts"
+   },
+   {
+    "name": "Striped Negg",
+    "effect": "Sellable negg",
+    "where": "Reward: Worried Sister"
+   },
+   {
+    "name": "Silver Negg",
+    "effect": "Fully restores HP & MP (consumable)",
+    "where": "Rewards: Worried Sister · Lodestone · Pink Posies · The King's Saviour"
+   }
+  ],
+  "clovers": [
+   {
+    "name": "4-Leaf Clover",
+    "where": "Reward: Cynthia's Noil (Brightvale)"
+   },
+   {
+    "name": "4-Leaf Clover",
+    "where": "Abandoned Mines (Cogham)"
+   },
+   {
+    "name": "12-Leaf Clover",
+    "where": "Reward: Mayor's Broken Watch (Cogham)"
+   }
+  ]
+ }
+}

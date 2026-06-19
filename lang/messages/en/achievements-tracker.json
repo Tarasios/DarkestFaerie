@@ -1,0 +1,1213 @@
+{
+ "logo-name": "Darkest Faerie 100%",
+ "nav-acts": "Acts",
+ "nav-home": "Home",
+ "nav-tools": "Tools",
+ "gt-filter": "filter…",
+ "gt-hide-done": "hide completed",
+ "gt-missable-only": "missable only",
+ "gt-count": "%1 / %2 done",
+ "gt-overall": "Total: %1 / %2 (%3%)",
+ "gt-nothing": "Nothing matches the current filter.",
+ "gt-reset": "Reset all progress",
+ "gt-reset-confirm": "Reset ALL tracker progress for this game?",
+ "gt-toggle-all": "toggle all",
+ "gt-dash-title": "Progress overview",
+ "gt-dash-section": "Section",
+ "gt-dash-progress": "Progress",
+ "gt-th-progress": "Tracked progress",
+ "gt-auto-badge": "auto",
+ "gt-auto-tip": "Earned automatically from %1",
+ "gt-missable-badge": "missable",
+ "gt-missable-tip": "Missable — belongs to Act-locked content. Once you leave the Act you can no longer earn it.",
+ "gt-element-tip": "%1 — weak to %2 (deal extra damage; block/deflect %2 attacks)",
+ "gt-section-for": "%1 — %2",
+ "gt-world-complete": "complete",
+ "gt-worlds-title": "Collectibles by Zone",
+ "page-title": "Darkest Faerie — Achievements",
+ "df-title": "Achievements",
+ "df-subtitle": "All 188 RetroAchievements (929 points) for Neopets: The Darkest Faerie, split by Act in progression order. Items marked missable belong to Act-locked content — finish them before you leave the Act.",
+ "kp-export": "Export progress",
+ "kp-import": "Import progress",
+ "kp-note": "Backs up / restores ALL Darkest Faerie tracker progress on this site as a JSON file.",
+ "kp-import-confirm": "Importing will overwrite the saved progress of every tracker on this site with the file's contents. Continue?",
+ "kp-import-error": "That file could not be read as a progress export.",
+ "theme-to-day": "Day",
+ "theme-to-night": "Night",
+ "theme-toggle-aria": "Toggle bright theme",
+ "tabbtn-act1": "Act 1",
+ "sec-act1": "Act 1 — Achievements",
+ "th-act1-pts": "Pts",
+ "th-act1-name": "Achievement",
+ "th-act1-type": "Type",
+ "th-act1-desc": "Description",
+ "tabbtn-act2": "Act 2",
+ "sec-act2": "Act 2 — Achievements",
+ "th-act2-pts": "Pts",
+ "th-act2-name": "Achievement",
+ "th-act2-type": "Type",
+ "th-act2-desc": "Description",
+ "tabbtn-act3": "Act 3",
+ "sec-act3": "Act 3 — Achievements",
+ "th-act3-pts": "Pts",
+ "th-act3-name": "Achievement",
+ "th-act3-type": "Type",
+ "th-act3-desc": "Description",
+ "tabbtn-act4": "Act 4",
+ "sec-act4": "Act 4 — Achievements",
+ "th-act4-pts": "Pts",
+ "th-act4-name": "Achievement",
+ "th-act4-type": "Type",
+ "th-act4-desc": "Description",
+ "tabbtn-global": "Global",
+ "sec-global": "Global — Achievements",
+ "th-global-pts": "Pts",
+ "th-global-name": "Achievement",
+ "th-global-type": "Type",
+ "th-global-desc": "Description",
+ "note-act1": "Act 1 side quests, treasures and items lock when Act 1 ends (after Escape the Castle). A few Act 1 zones can be revisited in Act 3, but grab everything here to be safe.",
+ "note-act2": "Act 2 is short. Everything missable here locks when Act 2 ends (after Escape From Faerieland).",
+ "note-act3": "Act 3 is the largest Act. The point of no return is the quest “Into Meridell” — finish all side quests, treasures and items before starting it.",
+ "note-act4": "Act 4 (Altador) is the finale. Nothing locks by Act transition, but wrap up Altador before the final confrontation.",
+ "note-global": "Cumulative milestones earned across the whole game (NeoPoints on hand, Negg/clover bar upgrades, total chests, hoarding). Not individually missable, but they depend on the missable items in each Act.",
+ "items": {
+  "act1": [
+   {
+    "pts": "1",
+    "name": "A Hero's First Steps",
+    "type": "Progression",
+    "desc": "Obtain the Wooden Sword"
+   },
+   {
+    "pts": "0",
+    "name": "Today a Reader, Tomorrow a Leader",
+    "type": "",
+    "desc": "Open any book in the Ellis family home. The books throughout the world contain important information. It is highly recommended that you read them!"
+   },
+   {
+    "pts": "2",
+    "name": "Ellis Family Farm Treasure Hunter",
+    "type": "",
+    "desc": "Find and open 4 treasure chests in Ellis Family Farm"
+   },
+   {
+    "pts": "2",
+    "name": "Farm Road Treasure Hunter",
+    "type": "",
+    "desc": "Find and open 3 treasure chests in Farm Road"
+   },
+   {
+    "pts": "2",
+    "name": "Hide and Seek",
+    "type": "",
+    "desc": "Find Claire for a second time in a game of hide and seek"
+   },
+   {
+    "pts": "1",
+    "name": "Dangerous Weeds",
+    "type": "",
+    "desc": "Give the dangerous plants a good threshing for Farmer Tessa"
+   },
+   {
+    "pts": "1",
+    "name": "Root Cellar Treasure Hunter",
+    "type": "",
+    "desc": "Find and open 2 treasure chests in Root Cellar"
+   },
+   {
+    "pts": "2",
+    "name": "Noises in the Root Cellar",
+    "type": "",
+    "desc": "Provide Farmer Addison some peace by clearing out the Spyders in the cellar"
+   },
+   {
+    "pts": "1",
+    "name": "Protect Bogg's Field",
+    "type": "",
+    "desc": "Defeat the Crokabeks raiding Old Man Bogg's chokato patch"
+   },
+   {
+    "pts": "1",
+    "name": "Gallant Gallion",
+    "type": "",
+    "desc": "Tame a Gallion Petpet and enjoy the benefit of extra defense"
+   },
+   {
+    "pts": "2",
+    "name": "Bandit Caves Treasure Hunter",
+    "type": "",
+    "desc": "Find and open 4 treasure chests in Bandit Caves"
+   },
+   {
+    "pts": "3",
+    "name": "The Gelert Prince",
+    "type": "",
+    "desc": "Recover a golden rose from the highwaymen for Prince Tourin"
+   },
+   {
+    "pts": "1",
+    "name": "Dangerous Doglefox",
+    "type": "",
+    "desc": "Tame a Doglefox Petpet and enjoy the benefit of extra attack power"
+   },
+   {
+    "pts": "1",
+    "name": "Lucky Charm",
+    "type": "",
+    "desc": "Obtain any clover to increase your drop luck"
+   },
+   {
+    "pts": "1",
+    "name": "Meridell Outskirts Treasure Hunter",
+    "type": "",
+    "desc": "Find and open 1 treasure chest in Meridell Outskirts"
+   },
+   {
+    "pts": "4",
+    "name": "Deliver Package",
+    "type": "Progression",
+    "desc": "Deliver Dad's package to the Army Recruitment Centre in Meridell"
+   },
+   {
+    "pts": "5",
+    "name": "Champion of Meridell",
+    "type": "",
+    "desc": "Become the new Meridell Champion by defeating all Meridell Arena opponents"
+   },
+   {
+    "pts": "10",
+    "name": "Splintered Victory",
+    "type": "",
+    "desc": "Add insult to injury by defeating all Meridell Arena opponents with the wooden sword"
+   },
+   {
+    "pts": "2",
+    "name": "Sharper Ambitions",
+    "type": "",
+    "desc": "Obtain the Squire's Sword"
+   },
+   {
+    "pts": "2",
+    "name": "Wheel of Chance",
+    "type": "",
+    "desc": "Step right up! Win the grand prize at the spinning wheel in Meridell"
+   },
+   {
+    "pts": "3",
+    "name": "Becoming a Squire",
+    "type": "Progression",
+    "desc": "Take your sponsorship papers to Officer Kendrick"
+   },
+   {
+    "pts": "2",
+    "name": "Meridell Plains Treasure Hunter",
+    "type": "",
+    "desc": "Find and open 3 treasure chests in Meridell Plains"
+   },
+   {
+    "pts": "3",
+    "name": "Haunted Tombs Treasure Hunter",
+    "type": "",
+    "desc": "Find and open 5 treasure chests in Haunted Tombs"
+   },
+   {
+    "pts": "3",
+    "name": "A Magic Skull",
+    "type": "",
+    "desc": "Give Mistress Morag the magic skull for her new wand"
+   },
+   {
+    "pts": "4",
+    "name": "Drackon Ridge Treasure Hunter",
+    "type": "",
+    "desc": "Find and open 7 treasure chests in Drackon Ridge"
+   },
+   {
+    "pts": "3",
+    "name": "Hunting Drackonacks",
+    "type": "",
+    "desc": "Hunt Drackonacks for Douglas the Hunter and return their fangs to him, until he says you have hunted enough"
+   },
+   {
+    "pts": "5",
+    "name": "Spyder Venom",
+    "type": "",
+    "desc": "Bring 5 vials of Spyder Venom back to Gamon to assist him in creating his Spyder Juice Elixer"
+   },
+   {
+    "pts": "2",
+    "name": "Shadowglen Woods Treasure Hunter",
+    "type": "",
+    "desc": "Find and open 4 treasure chests in Shadowglen Woods"
+   },
+   {
+    "pts": "10",
+    "name": "Find Your Sister!",
+    "type": "Progression",
+    "desc": "Save your sister from some REAL trouble..."
+   },
+   {
+    "pts": "5",
+    "name": "Three Times the Luck",
+    "type": "",
+    "desc": "Collect a twelve-leaf clover"
+   },
+   {
+    "pts": "3",
+    "name": "Mystical Nourishment",
+    "type": "",
+    "desc": "Find your first Starry Negg or Golden Negg and enjoy the extra mana benefits!"
+   },
+   {
+    "pts": "5",
+    "name": "The Arbendus Flower",
+    "type": "",
+    "desc": "Deliver the rare Arbendus Flower to potion-maker Angus"
+   },
+   {
+    "pts": "3",
+    "name": "Negg-tastic Discovery",
+    "type": "Progression",
+    "desc": "Find your first Red Negg or Golden Negg and enjoy the extra health benefits!"
+   },
+   {
+    "pts": "1",
+    "name": "Cosmic Discovery",
+    "type": "",
+    "desc": "Find the elusive Nova Mote"
+   },
+   {
+    "pts": "1",
+    "name": "Meridell Castle 3rd Floor Treasure Hunter",
+    "type": "",
+    "desc": "Find and open 2 treasure chests in Meridell Castle 3rd Floor"
+   },
+   {
+    "pts": "5",
+    "name": "Catch the Miamice",
+    "type": "Progression",
+    "desc": "Catch all of the Miamice in the Castle Storeroom"
+   },
+   {
+    "pts": "2",
+    "name": "Meridell Castle Courtyard Treasure Hunter",
+    "type": "",
+    "desc": "Find and open 2 treasure chests in Meridell Castle Courtyard"
+   },
+   {
+    "pts": "2",
+    "name": "Meridell Sewers Treasure Hunter",
+    "type": "",
+    "desc": "Find and open 3 treasure chests in Meridell Sewers"
+   },
+   {
+    "pts": "5",
+    "name": "Clog Duty",
+    "type": "Progression",
+    "desc": "Enter the Castle Sewers and remove the drain clogs"
+   },
+   {
+    "pts": "3",
+    "name": "Courting Lady Prunella",
+    "type": "",
+    "desc": "Find Lady Prunella's charm and give it to Sir Cadmere or Sir Lawrence"
+   },
+   {
+    "pts": "3",
+    "name": "Squire Chores Over",
+    "type": "Progression",
+    "desc": "Complete all of the chores that Sir Torak assigns to you. Shew! What a day!"
+   },
+   {
+    "pts": "5",
+    "name": "Mote Quest",
+    "type": "",
+    "desc": "Gather all 12 types of motes to show Motara the Mote Merchant"
+   },
+   {
+    "pts": "3",
+    "name": "Robes of the Wise One",
+    "type": "",
+    "desc": "Obtain the Wizard's Gown"
+   },
+   {
+    "pts": "1",
+    "name": "Cogham Steppes Treasure Hunter",
+    "type": "",
+    "desc": "Find and open the treasure chest in Cogham Steppes near the boss area"
+   },
+   {
+    "pts": "10",
+    "name": "Ixi Raiders",
+    "type": "Progression",
+    "desc": "Venture into the Cogham Steppes and defeat the Ixi Raider Chieftain"
+   },
+   {
+    "pts": "5",
+    "name": "Growth Pod",
+    "type": "",
+    "desc": "Find a Growth Pod for Elspeth in Cogham to help her plants grow"
+   },
+   {
+    "pts": "3",
+    "name": "Ironclad Protector",
+    "type": "",
+    "desc": "Obtain the Iron Shield"
+   },
+   {
+    "pts": "3",
+    "name": "Sword of Chivalry",
+    "type": "",
+    "desc": "Obtain the Knight's Sword"
+   },
+   {
+    "pts": "5",
+    "name": "I Dub Thee, Sir Tormund!",
+    "type": "Progression",
+    "desc": "Receive a knighthood"
+   },
+   {
+    "pts": "2",
+    "name": "Illusen's Glade Treasure Hunter",
+    "type": "",
+    "desc": "Find and open 4 treasure chests in Illusen's Glade"
+   },
+   {
+    "pts": "10",
+    "name": "Beast Beneath the Blade",
+    "type": "Progression",
+    "desc": "Defeat the great beast Gnarfas"
+   },
+   {
+    "pts": "2",
+    "name": "Spark of the Cosmos",
+    "type": "",
+    "desc": "Find the Supernova Mote - the rarest mote of all!"
+   },
+   {
+    "pts": "10",
+    "name": "Escape the Castle",
+    "type": "Progression",
+    "desc": "RUN! RUN! RUN! Escape the castle and reach the conclusion of Act 1"
+   }
+  ],
+  "act2": [
+   {
+    "pts": "5",
+    "name": "Magic Training",
+    "type": "Progression",
+    "desc": "Have Master Seradar train you in the ways of magic"
+   },
+   {
+    "pts": "1",
+    "name": "Mystical Meowclops",
+    "type": "",
+    "desc": "Tame a Meowclops Petpet and enjoy the benefit of mana regeneration"
+   },
+   {
+    "pts": "2",
+    "name": "Faerie Dust Paint",
+    "type": "",
+    "desc": "Find some faerie dust for painter Howell's painting"
+   },
+   {
+    "pts": "2",
+    "name": "Harris Rescue",
+    "type": "",
+    "desc": "Find a way to get the Aisha's pet, Harris, out of the tree"
+   },
+   {
+    "pts": "5",
+    "name": "Sorcery Unleashed",
+    "type": "",
+    "desc": "Obtain the Sorcerer's Wand"
+   },
+   {
+    "pts": "5",
+    "name": "Faerie's Grace",
+    "type": "",
+    "desc": "Obtain the Faerie Dress"
+   },
+   {
+    "pts": "5",
+    "name": "Rescue the Aisha",
+    "type": "Progression",
+    "desc": "You have the heart of a hero. Save the Aisha from her torture"
+   },
+   {
+    "pts": "10",
+    "name": "Escape From Faerieland",
+    "type": "Progression",
+    "desc": "If only there were something to guide you... Find your way out of the Endless Staircase and escape on Solarin to reach the conclusion of Act 2"
+   }
+  ],
+  "act3": [
+   {
+    "pts": "1",
+    "name": "Western Brightvale Treasure Hunter",
+    "type": "",
+    "desc": "Find and open 2 treasure chests in Western Brightvale"
+   },
+   {
+    "pts": "1",
+    "name": "Crossroads Treasure Hunter",
+    "type": "",
+    "desc": "Find and open 2 treasure chests in Crossroads"
+   },
+   {
+    "pts": "1",
+    "name": "Brightvale Outskirts Treasure Hunter",
+    "type": "",
+    "desc": "Find and open 1 treasure chest in Brightvale Outskirts"
+   },
+   {
+    "pts": "3",
+    "name": "Defender of Honor",
+    "type": "",
+    "desc": "Obtain the Knight's Shield"
+   },
+   {
+    "pts": "3",
+    "name": "Woven in Magic",
+    "type": "",
+    "desc": "Obtain the Magic Robes"
+   },
+   {
+    "pts": "3",
+    "name": "Arcane Awakening",
+    "type": "",
+    "desc": "Obtain the Training Wand"
+   },
+   {
+    "pts": "4",
+    "name": "Challenge Accepted",
+    "type": "",
+    "desc": "What?! But... how? Succeed when challenged to clear the obstacle course in Brightvale within 45 seconds"
+   },
+   {
+    "pts": "5",
+    "name": "Wheel of Knowledge",
+    "type": "",
+    "desc": "Win the grand prize on the spinning wheel in Brightvale"
+   },
+   {
+    "pts": "1",
+    "name": "Brightvale Castle Treasure Hunter",
+    "type": "",
+    "desc": "Find and open 4 treasure chests in Brightvale Castle"
+   },
+   {
+    "pts": "5",
+    "name": "Need Research",
+    "type": "Progression",
+    "desc": "Scour the Brightvale Library for books about \"Purple clouds\""
+   },
+   {
+    "pts": "3",
+    "name": "The Golden Rose",
+    "type": "",
+    "desc": "Deliver the Golden Rose to Princess Dona in Brightvale castle"
+   },
+   {
+    "pts": "4",
+    "name": "Cynthia's Noil",
+    "type": "",
+    "desc": "Little Cynthia of Brightvale wants a Noil Petpet. Bring her one!"
+   },
+   {
+    "pts": "1",
+    "name": "Nurturing Noil",
+    "type": "",
+    "desc": "Tame a Noil Petpet and enjoy the benefit of health restoration"
+   },
+   {
+    "pts": "2",
+    "name": "Brightvale Coast Treasure Hunter",
+    "type": "",
+    "desc": "Find and open 3 treasure chests in Brightvale Coast"
+   },
+   {
+    "pts": "3",
+    "name": "Dungeon Ruins Treasure Hunter",
+    "type": "",
+    "desc": "Find and open 6 treasure chests in Dungeon Ruins"
+   },
+   {
+    "pts": "3",
+    "name": "The Lighthouse",
+    "type": "",
+    "desc": "Get into the Lighthouse cellar and activate the Lighthouse light for Isaac. He's a bit too big!"
+   },
+   {
+    "pts": "5",
+    "name": "Worried Sister",
+    "type": "",
+    "desc": "Mistress Marrion would like word from her sister Primrose in Bogshot. Find Primrose and put Marrion's mind at ease"
+   },
+   {
+    "pts": "4",
+    "name": "Mountain Passage Treasure Hunter",
+    "type": "",
+    "desc": "Find and open 7 treasure chests in Mountain Pass"
+   },
+   {
+    "pts": "2",
+    "name": "Bogshot Swamp Treasure Hunter",
+    "type": "",
+    "desc": "Find and open 3 treasure chests in Bogshot Swamp"
+   },
+   {
+    "pts": "1",
+    "name": "Bogshot Sinkholes Treasure Hunter",
+    "type": "",
+    "desc": "Find and open 2 treasure chests in Bogshot Sinkholes"
+   },
+   {
+    "pts": "10",
+    "name": "Plague Serpent",
+    "type": "Progression",
+    "desc": "Find out what is lurking in the Bogshot Swamp waters...and kill it!"
+   },
+   {
+    "pts": "5",
+    "name": "Bogberry Cure",
+    "type": "Progression",
+    "desc": "Cure Bogshot Village. Find the white, red and black bogberries growing in Bogshot Swamp, and return them to Apothecary Fautt"
+   },
+   {
+    "pts": "3",
+    "name": "Tome of Warding",
+    "type": "",
+    "desc": "Obtain the Tome of Warding"
+   },
+   {
+    "pts": "3",
+    "name": "Old Mine Treasure Hunter",
+    "type": "",
+    "desc": "Find and open 5 treasure chests in Old Mine"
+   },
+   {
+    "pts": "5",
+    "name": "The Kreludan Blade",
+    "type": "",
+    "desc": "A true Kreludan Blade! Find and return the Kreludan metal to Grimnar in Bogshot Village"
+   },
+   {
+    "pts": "2",
+    "name": "Steppe Plateau Treasure Hunter",
+    "type": "",
+    "desc": "Find and open 3 treasure chests in Steppe Plateau"
+   },
+   {
+    "pts": "5",
+    "name": "Poison Seeds",
+    "type": "",
+    "desc": "Apothecary Fautt needs four poison seeds from a poisonous Glooper flower. Get them for him and help cure Hank"
+   },
+   {
+    "pts": "5",
+    "name": "Missing Kid",
+    "type": "",
+    "desc": "Find the kid that is missing in the Bogshot Swamps!"
+   },
+   {
+    "pts": "1",
+    "name": "Leaping to Glory",
+    "type": "",
+    "desc": "Pick a winner in the Mortog Races in Bogshot Village"
+   },
+   {
+    "pts": "3",
+    "name": "Motara the Mote-Keeper",
+    "type": "",
+    "desc": "Give Sir Tallwick the hypothesis from Motara regarding the dark clouds"
+   },
+   {
+    "pts": "1",
+    "name": "Werelupe Woods Treasure Hunter",
+    "type": "",
+    "desc": "Find and open 2 treasure chests in Werelupe Woods"
+   },
+   {
+    "pts": "3",
+    "name": "The Witch's Favor",
+    "type": "",
+    "desc": "Obtain the Witch's Wand"
+   },
+   {
+    "pts": "2",
+    "name": "Werelupe Sinkholes Treasure Hunter",
+    "type": "",
+    "desc": "Find and open 4 treasure chests in Werelupe Sinkholes"
+   },
+   {
+    "pts": "2",
+    "name": "Werelupe Graveyard Treasure Hunter",
+    "type": "",
+    "desc": "Find and open 2 treasure chests in Werelupe Graveyard"
+   },
+   {
+    "pts": "3",
+    "name": "Crypt of the Fallen Treasure Hunter",
+    "type": "",
+    "desc": "Find and open 6 treasure chests in Crypt of the Fallen"
+   },
+   {
+    "pts": "3",
+    "name": "Crypt of the Sentries Treasure Hunter",
+    "type": "",
+    "desc": "Find and open 9 treasure chests in Crypt of the Sentries"
+   },
+   {
+    "pts": "3",
+    "name": "Crypt of the Exiled Treasure Hunter",
+    "type": "",
+    "desc": "Find and open 9 treasure chests in Crypt of the Exiled"
+   },
+   {
+    "pts": "5",
+    "name": "Fang Necklace",
+    "type": "Progression",
+    "desc": "Find the Werelupe Fang Necklace in one of the crypts"
+   },
+   {
+    "pts": "3",
+    "name": "Werelupe Burrows Upper Treasure Hunter",
+    "type": "",
+    "desc": "Find and open 6 treasure chests in Werelupe Burrows Upper"
+   },
+   {
+    "pts": "2",
+    "name": "Werelupe Burrows Middle Treasure Hunter",
+    "type": "",
+    "desc": "Find and open 4 treasure chests in Werelupe Burrows Middle"
+   },
+   {
+    "pts": "3",
+    "name": "Werelupe Burrows Lower Treasure Hunter",
+    "type": "",
+    "desc": "Find and open 6 treasure chests in Werelupe Burrows Lower"
+   },
+   {
+    "pts": "10",
+    "name": "The Last Howl",
+    "type": "Progression",
+    "desc": "Defeat the Werelupe King"
+   },
+   {
+    "pts": "10",
+    "name": "Missing Farmers",
+    "type": "Progression",
+    "desc": "Save the farmers from a familiar enemy (though, a little darker this time...) and receive the reward from Hubert"
+   },
+   {
+    "pts": "1",
+    "name": "Abandoned Mines Treasure Hunter",
+    "type": "",
+    "desc": "Find and open 2 treasure chests in Abandoned Mines"
+   },
+   {
+    "pts": "10",
+    "name": "Missing Miners",
+    "type": "Progression",
+    "desc": "Defeat the Dark Ixi Chieftain"
+   },
+   {
+    "pts": "5",
+    "name": "Free Cogham Village",
+    "type": "Progression",
+    "desc": "Speak to Mayor Jurgin after clearing the dark clouds over Cogham to receive the Cloak of Heroes"
+   },
+   {
+    "pts": "3",
+    "name": "Mystical Masterpiece",
+    "type": "",
+    "desc": "Obtain the Enchanter's Wand"
+   },
+   {
+    "pts": "5",
+    "name": "The Thunderhammer",
+    "type": "",
+    "desc": "Ingmar, the Cogham Smithy, has had his hammer stolen. Return it to him!"
+   },
+   {
+    "pts": "5",
+    "name": "Lodestone",
+    "type": "",
+    "desc": "Help out Giovanni the Explorer. Find the Lodestone and his assistant!"
+   },
+   {
+    "pts": "1",
+    "name": "Meriload Mine Treasure Hunter",
+    "type": "",
+    "desc": "Find and open 2 treasure chests in Meriload Mine"
+   },
+   {
+    "pts": "3",
+    "name": "Codex of Protection",
+    "type": "",
+    "desc": "Obtain the Codex of Protection"
+   },
+   {
+    "pts": "5",
+    "name": "Mayor's Broken Watch",
+    "type": "",
+    "desc": "Find a white crystal to replace the one in Mayor Jurgin's Pocketwatch, and get it repaired for him"
+   },
+   {
+    "pts": "10",
+    "name": "Free Illusen's Village",
+    "type": "Progression",
+    "desc": "Defeat the Gelert Assassin and rescue Illusen, the Earth Faerie, to free Illusen Village"
+   },
+   {
+    "pts": "5",
+    "name": "The Love Letters",
+    "type": "",
+    "desc": "Deliver Princess Dona's love letters to Prince Tourin"
+   },
+   {
+    "pts": "3",
+    "name": "Knightfall at Market Town's Door",
+    "type": "Progression",
+    "desc": "Defeat the dark knights outside of Market Town. Now, you may enter!"
+   },
+   {
+    "pts": "3",
+    "name": "Black Keep Grounds Treasure Hunter",
+    "type": "",
+    "desc": "Find and open 6 treasure chests in Black Keep Grounds"
+   },
+   {
+    "pts": "10",
+    "name": "The Black Knight",
+    "type": "Progression",
+    "desc": "Get into the Black Knight's castle and put an end to his reign of terror. Return to the Trader's Guild to let them know they're safe"
+   },
+   {
+    "pts": "4",
+    "name": "Black Keep Dungeon Treasure Hunter",
+    "type": "",
+    "desc": "Find and open 7 treasure chests in Black Keep Dungeon"
+   },
+   {
+    "pts": "3",
+    "name": "Blade of Valor",
+    "type": "",
+    "desc": "Obtain the Battle Blade"
+   },
+   {
+    "pts": "3",
+    "name": "Royal Guard",
+    "type": "",
+    "desc": "Obtain the Royal Armour"
+   },
+   {
+    "pts": "3",
+    "name": "Wand of Wonders",
+    "type": "",
+    "desc": "Obtain the Magician's Wand"
+   },
+   {
+    "pts": "3",
+    "name": "Golden Bastion",
+    "type": "",
+    "desc": "Obtain the Golden Shield"
+   },
+   {
+    "pts": "3",
+    "name": "Enchanted Elegance",
+    "type": "",
+    "desc": "Obtain the Noble Dress"
+   },
+   {
+    "pts": "1",
+    "name": "Talented Turmac",
+    "type": "",
+    "desc": "Tame a Turmac Petpet and enjoy the benefits of extra attack power, extra defense, health regeneration, and mana restoration"
+   },
+   {
+    "pts": "5",
+    "name": "Pink Posies",
+    "type": "",
+    "desc": "Sad little Nina misses her pink flowers...return a smile to her face by bringing her some"
+   },
+   {
+    "pts": "2",
+    "name": "Rathbone Family Crypts Treasure Hunter",
+    "type": "",
+    "desc": "Find and open 3 treasure chests in Rathbone Family Crypts"
+   },
+   {
+    "pts": "5",
+    "name": "The Gelert Family Crypts",
+    "type": "",
+    "desc": "Enter the crypts on the outskirts of Brightvale and find proof of Prince Tourin's lineage"
+   },
+   {
+    "pts": "5",
+    "name": "Into the Witch's Woods (Trader's Guild Delivery)",
+    "type": "",
+    "desc": "Deliver the creepy package to Sophie the Swamp Witch in the Werelupe Woods"
+   },
+   {
+    "pts": "5",
+    "name": "Parts and Peepers (Trader's Guild Delivery)",
+    "type": "",
+    "desc": "Deliver the spare parts to Tor's Dad, Hubert, and then take the Spyglass to Douglas in Drackon Ridge"
+   },
+   {
+    "pts": "5",
+    "name": "The King's Saviour (Trader's Guild Delivery)",
+    "type": "",
+    "desc": "Embark on a delivery and stumble upon a devious plot. Thwart it and save the king!"
+   },
+   {
+    "pts": "0",
+    "name": "Courtesy Message",
+    "type": "",
+    "desc": "WARNING! You are about to reach the point of no return. Make sure you've completed all quests and found all items before continuing"
+   },
+   {
+    "pts": "5",
+    "name": "Into Meridell",
+    "type": "Progression",
+    "desc": "Find a way to get into the dungeons beneath Meridell Castle by making a deal with Meerca thieves. THIS IS THE POINT OF NO RETURN"
+   },
+   {
+    "pts": "3",
+    "name": "Ancient Sewers Treasure Hunter",
+    "type": "",
+    "desc": "Find and open 6 treasure chests in Ancient Sewers"
+   },
+   {
+    "pts": "3",
+    "name": "Ancient Mechanisms",
+    "type": "Progression",
+    "desc": "Complete the door gear puzzle at the end of the Ancient Sewers and proceed forward into the Ruined Cave"
+   },
+   {
+    "pts": "2",
+    "name": "Ruined Caves Treasure Hunter",
+    "type": "",
+    "desc": "Find and open 4 treasure chests in Ruined Caves"
+   },
+   {
+    "pts": "5",
+    "name": "Oubliette Treasure Hunter",
+    "type": "",
+    "desc": "Find and open 15 treasure chests in Oubliette"
+   },
+   {
+    "pts": "10",
+    "name": "Freedom from the Oubliette",
+    "type": "Progression",
+    "desc": "What a nightmare! Complete the Oubliette and make your way to the exit"
+   },
+   {
+    "pts": "3",
+    "name": "The Forgotten Edge",
+    "type": "Progression",
+    "desc": "Obtain the Ancient Sword"
+   },
+   {
+    "pts": "1",
+    "name": "Meridell Treasure Vault Treasure Hunter",
+    "type": "",
+    "desc": "Find and open 4 treasure chests in Meridell Treasure Vault"
+   },
+   {
+    "pts": "3",
+    "name": "Gilded Guardian",
+    "type": "",
+    "desc": "Obtain the Golden Gilded Plating"
+   },
+   {
+    "pts": "10",
+    "name": "Fyora's Rod",
+    "type": "Progression",
+    "desc": "Defeat the Undead Draik Skeleton and then retrieve Fyora's Rod. Finally... after all of our searching, we have a weapon to fight the Darkest Faerie"
+   },
+   {
+    "pts": "10",
+    "name": "Shadow Sisters Fall",
+    "type": "Progression",
+    "desc": "Defeat the Darkest Faerie Sisters"
+   },
+   {
+    "pts": "10",
+    "name": "Save Queen Fyora",
+    "type": "Progression",
+    "desc": "Follow Queen Fyora's instructions and enter the portal to reach the conclusion of Act 3"
+   }
+  ],
+  "act4": [
+   {
+    "pts": "1",
+    "name": "Hall of Heroes Treasure Hunter",
+    "type": "",
+    "desc": "Find and open 1 treasure chest in Hall of Heroes"
+   },
+   {
+    "pts": "1",
+    "name": "Arena District Treasure Hunter",
+    "type": "",
+    "desc": "Find and open 2 treasure chests in Arena District"
+   },
+   {
+    "pts": "1",
+    "name": "Coliseum Treasure Hunter",
+    "type": "",
+    "desc": "Find and open 1 treasure chest in Coliseum"
+   },
+   {
+    "pts": "10",
+    "name": "The Gladiator Legend",
+    "type": "Progression",
+    "desc": "Awaken Torakar in the Arena District of Altador"
+   },
+   {
+    "pts": "10",
+    "name": "Champion of the Coliseum",
+    "type": "",
+    "desc": "Become the Coliseum Champion in the Arena District"
+   },
+   {
+    "pts": "3",
+    "name": "Razor Edge",
+    "type": "",
+    "desc": "Obtain the Razor Sword"
+   },
+   {
+    "pts": "3",
+    "name": "Keeper of the Arcane",
+    "type": "",
+    "desc": "Obtain the Wand of the Ancients"
+   },
+   {
+    "pts": "1",
+    "name": "Secret Sewers Treasure Hunter",
+    "type": "",
+    "desc": "Find and open 2 treasure chests in Secret Sewers"
+   },
+   {
+    "pts": "3",
+    "name": "Park District Treasure Hunter",
+    "type": "",
+    "desc": "Find and open 5 treasure chests in Park District"
+   },
+   {
+    "pts": "1",
+    "name": "Park Shrine Treasure Hunter",
+    "type": "",
+    "desc": "Find and open 1 treasure chest in Park Shrine"
+   },
+   {
+    "pts": "10",
+    "name": "The Petpet Legend",
+    "type": "Progression",
+    "desc": "Awaken Faun in the Park District of Altador"
+   },
+   {
+    "pts": "1",
+    "name": "Money District Treasure Hunter",
+    "type": "",
+    "desc": "Find and open 2 treasure chests in Bazaar District"
+   },
+   {
+    "pts": "1",
+    "name": "Treasury Treasure Hunter",
+    "type": "",
+    "desc": "Find and open 1 treasure chest in Treasury"
+   },
+   {
+    "pts": "10",
+    "name": "The Treasurer Legend",
+    "type": "Progression",
+    "desc": "Awaken Gordos in the Money District of Altador"
+   },
+   {
+    "pts": "5",
+    "name": "Wheel of Prosperity",
+    "type": "",
+    "desc": "Win the grand prize at the spinning wheel in the Money District of Altador"
+   },
+   {
+    "pts": "1",
+    "name": "Bazaar District Treasure Hunter",
+    "type": "",
+    "desc": "Find and open 2 treasure chests in Bazaar District"
+   },
+   {
+    "pts": "1",
+    "name": "Sewer Shrine Treasure Hunter",
+    "type": "",
+    "desc": "Find and open 2 treasure chests in Sewer Shrine"
+   },
+   {
+    "pts": "10",
+    "name": "The Rogue Legend",
+    "type": "Progression",
+    "desc": "Awaken Kellend in the Bazaar District of Altador"
+   },
+   {
+    "pts": "3",
+    "name": "Eternal Protector",
+    "type": "",
+    "desc": "Obtain the Legendary Shield"
+   },
+   {
+    "pts": "3",
+    "name": "Vestments of the Eternal Hero",
+    "type": "",
+    "desc": "Obtain the Legend Robes"
+   },
+   {
+    "pts": "3",
+    "name": "Altador's Guardian",
+    "type": "",
+    "desc": "Obtain the Altadorian Plate Armour"
+   },
+   {
+    "pts": "1",
+    "name": "Heroes Rest Treasure Hunter",
+    "type": "",
+    "desc": "Find and open 1 treasure chest in Heroes Rest"
+   },
+   {
+    "pts": "3",
+    "name": "Blade of Altador's Might",
+    "type": "Progression",
+    "desc": "Obtain King Altador's Sword"
+   },
+   {
+    "pts": "10",
+    "name": "Awaken Jerdana",
+    "type": "Progression",
+    "desc": "The legendary sorceress holds the key to stopping the Darkest Faerie. Awaken her!"
+   },
+   {
+    "pts": "25",
+    "name": "The Darkest Faerie",
+    "type": "Progression",
+    "desc": "Use Jerdana's orb to imprison the Darkest Faerie once and for all!"
+   },
+   {
+    "pts": "10",
+    "name": "The Grand Conclusion",
+    "type": "Win Condition",
+    "desc": "Reach the conclusion of Act 4. Congratulations, you completed the game!"
+   }
+  ],
+  "global": [
+   {
+    "pts": "3",
+    "name": "Banking Big in Neopia",
+    "type": "",
+    "desc": "Have 10,000 NeoPoints on hand"
+   },
+   {
+    "pts": "10",
+    "name": "Neopian Riches",
+    "type": "",
+    "desc": "Have 25,000 NeoPoints on hand"
+   },
+   {
+    "pts": "5",
+    "name": "Health Infusion",
+    "type": "",
+    "desc": "Increase your health bar 5 times by finding Red Neggs or Golden Neggs"
+   },
+   {
+    "pts": "10",
+    "name": "Vitality Boosted",
+    "type": "",
+    "desc": "Increase your health bar 10 times by finding Red Neggs or Golden Neggs"
+   },
+   {
+    "pts": "25",
+    "name": "Edge of Immortality",
+    "type": "",
+    "desc": "Increase your health bar 15 times by finding Red Neggs or Golden Neggs"
+   },
+   {
+    "pts": "10",
+    "name": "Stellar Power",
+    "type": "",
+    "desc": "Increase your mana bar 5 times by finding Starry Neggs or Golden Neggs"
+   },
+   {
+    "pts": "25",
+    "name": "Mana Overload",
+    "type": "",
+    "desc": "Increase your mana bar 10 times by finding Starry Neggs or Golden Neggs"
+   },
+   {
+    "pts": "5",
+    "name": "Fortune's Favourite",
+    "type": "",
+    "desc": "Increase your luck bar 10 times by finding clovers"
+   },
+   {
+    "pts": "10",
+    "name": "Clover King",
+    "type": "",
+    "desc": "Increase your luck bar 15 times by finding clovers"
+   },
+   {
+    "pts": "25",
+    "name": "Luckiest Neopian Alive",
+    "type": "",
+    "desc": "Increase your luck bar 20 times by finding clovers"
+   },
+   {
+    "pts": "5",
+    "name": "Treasure Expedition",
+    "type": "",
+    "desc": "Find and open 25 treasure chests"
+   },
+   {
+    "pts": "10",
+    "name": "Path of the Treasure Hunter",
+    "type": "",
+    "desc": "Find and open 50 treasure chests"
+   },
+   {
+    "pts": "25",
+    "name": "Treasure Seeker",
+    "type": "",
+    "desc": "Find and open 100 treasure chests"
+   },
+   {
+    "pts": "25",
+    "name": "Chests of Fortune",
+    "type": "",
+    "desc": "Find and open 150 treasure chests"
+   },
+   {
+    "pts": "50",
+    "name": "Looting Legend",
+    "type": "",
+    "desc": "Find and open 200 treasure chests"
+   },
+   {
+    "pts": "1",
+    "name": "Mote Enthusiast",
+    "type": "",
+    "desc": "Have 4000 of any mote"
+   },
+   {
+    "pts": "10",
+    "name": "Ultimate Hoarder",
+    "type": "",
+    "desc": "Have one of every item in your item bag"
+   },
+   {
+    "pts": "5",
+    "name": "Petpet World Tour",
+    "type": "",
+    "desc": "In a single session take a single Petpet type on a grand tour of the world without losing them, starting at Tor's Farm and visiting all of the following locations: Meridell Village, Cogham Village, Brightvale Village, Illusen's Glade, and Bogshot Village"
+   }
+  ]
+ }
+}
