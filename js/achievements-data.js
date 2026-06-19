@@ -1,15 +1,14 @@
 /* =====================================================================
    Neopets: The Darkest Faerie — Achievements tracker data (RetroAchievements
    set #20693, 188 achievements / 929 pts), for the generic engine
-   (js/df-tracker.js). Achievements are split into one tab per Act, in the
-   game's natural progression order, plus a Global tab for the cumulative
-   (collect-N / hoard) achievements that span the whole game.
+   (js/df-tracker.js). One tab per Act in the game's natural progression order,
+   plus a Global tab for the cumulative (collect-N / hoard) achievements.
 
-   Only structure + the stable English title (used as the item id) live here;
-   all display text (points, type, description) lives in
+   Display text (points, type, description) lives in
    lang/messages/en/achievements-tracker.json, matched by section id + index.
-   Items flagged "m": true are MISSABLE — they belong to Act-locked content
-   (Acts 1–3) that can no longer be completed once you leave the Act.
+   Items flagged "m": true are MISSABLE — Act-locked content (Acts 1–3) you can
+   no longer earn once you leave the Act. Act 1 treasure-chest achievements are
+   NOT flagged: you can revisit Act 1 areas in Act 3.
    ===================================================================== */
 var TRACKER_GAME = {
   "id": "achievements",
@@ -28,54 +27,54 @@ var TRACKER_GAME = {
           "items": [
             {"name": "A Hero's First Steps"},
             {"name": "Today a Reader, Tomorrow a Leader", "m": true},
-            {"name": "Ellis Family Farm Treasure Hunter", "m": true},
-            {"name": "Farm Road Treasure Hunter", "m": true},
+            {"name": "Ellis Family Farm Treasure Hunter"},
+            {"name": "Farm Road Treasure Hunter"},
             {"name": "Hide and Seek", "m": true},
             {"name": "Dangerous Weeds", "m": true},
-            {"name": "Root Cellar Treasure Hunter", "m": true},
+            {"name": "Root Cellar Treasure Hunter"},
             {"name": "Noises in the Root Cellar", "m": true},
             {"name": "Protect Bogg's Field", "m": true},
             {"name": "Gallant Gallion", "m": true},
-            {"name": "Bandit Caves Treasure Hunter", "m": true},
+            {"name": "Bandit Caves Treasure Hunter"},
             {"name": "The Gelert Prince", "m": true},
             {"name": "Dangerous Doglefox", "m": true},
             {"name": "Lucky Charm", "m": true},
-            {"name": "Meridell Outskirts Treasure Hunter", "m": true},
+            {"name": "Meridell Outskirts Treasure Hunter"},
             {"name": "Deliver Package"},
             {"name": "Champion of Meridell", "m": true},
             {"name": "Splintered Victory", "m": true},
             {"name": "Sharper Ambitions", "m": true},
             {"name": "Wheel of Chance", "m": true},
             {"name": "Becoming a Squire"},
-            {"name": "Meridell Plains Treasure Hunter", "m": true},
-            {"name": "Haunted Tombs Treasure Hunter", "m": true},
+            {"name": "Meridell Plains Treasure Hunter"},
+            {"name": "Haunted Tombs Treasure Hunter"},
             {"name": "A Magic Skull", "m": true},
-            {"name": "Drackon Ridge Treasure Hunter", "m": true},
+            {"name": "Drackon Ridge Treasure Hunter"},
             {"name": "Hunting Drackonacks", "m": true},
             {"name": "Spyder Venom", "m": true},
-            {"name": "Shadowglen Woods Treasure Hunter", "m": true},
+            {"name": "Shadowglen Woods Treasure Hunter"},
             {"name": "Find Your Sister!"},
             {"name": "Three Times the Luck", "m": true},
             {"name": "Mystical Nourishment", "m": true},
             {"name": "The Arbendus Flower", "m": true},
             {"name": "Negg-tastic Discovery"},
             {"name": "Cosmic Discovery", "m": true},
-            {"name": "Meridell Castle 3rd Floor Treasure Hunter", "m": true},
+            {"name": "Meridell Castle 3rd Floor Treasure Hunter"},
             {"name": "Catch the Miamice"},
-            {"name": "Meridell Castle Courtyard Treasure Hunter", "m": true},
-            {"name": "Meridell Sewers Treasure Hunter", "m": true},
+            {"name": "Meridell Castle Courtyard Treasure Hunter"},
+            {"name": "Meridell Sewers Treasure Hunter"},
             {"name": "Clog Duty"},
             {"name": "Courting Lady Prunella", "m": true},
             {"name": "Squire Chores Over"},
             {"name": "Mote Quest", "m": true},
             {"name": "Robes of the Wise One", "m": true},
-            {"name": "Cogham Steppes Treasure Hunter", "m": true},
+            {"name": "Cogham Steppes Treasure Hunter"},
             {"name": "Ixi Raiders"},
             {"name": "Growth Pod", "m": true},
             {"name": "Ironclad Protector", "m": true},
             {"name": "Sword of Chivalry", "m": true},
             {"name": "I Dub Thee, Sir Tormund!"},
-            {"name": "Illusen's Glade Treasure Hunter", "m": true},
+            {"name": "Illusen's Glade Treasure Hunter"},
             {"name": "Beast Beneath the Blade"},
             {"name": "Spark of the Cosmos", "m": true},
             {"name": "Escape the Castle"}

@@ -11,7 +11,7 @@ var TRACKER_GAME = {
   "storeKey": "df_act2_v1",
   "charKey": null,
   "chars": [],
-  "trophyAuto": null,
+  "trophyAuto": {},
   "worldSummary": { "worlds": [], "sections": ["treasures","neggs","clovers"] },
   "tabs": [
     {

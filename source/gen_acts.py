@@ -122,12 +122,16 @@ def build_act(act):
     data_items = {}   # sectionId -> list of structural items
     lang_items = {}   # sectionId -> list of lang dicts
 
-    # treasures: one row per chest, grouped by zone
+    # treasures: one row per chest, grouped by zone.
+    # Act 1 zones can be revisited in Act 3, so their chests are NOT missable;
+    # Act 3 chests lock at the "Into Meridell" point of no return; Act 4 is the
+    # finale. So only Act 3 treasures carry the missable flag.
+    t_miss = (act == "act3")
     t_items=[]; t_lang=[]
     for z,n in zones:
         for k in range(1,n+1):
             it={"g":z,"name":"Chest %d"%k}
-            if missable: it["m"]=True
+            if t_miss: it["m"]=True
             t_items.append(it); t_lang.append({"name":"Chest %d"%k,"where":z})
     data_items["treasures"]=t_items; lang_items["treasures"]=t_lang
 
@@ -217,7 +221,7 @@ def build_act(act):
       "th-neggs-name":"Negg","th-neggs-effect":"Effect","th-neggs-where":"Where to find it",
       "th-clovers-name":"Clover","th-clovers-where":"Where to find it",
       "note-quests":"Main-story quests are listed in the order you unlock them; side quests are grouped by the town/zone where they become available. Side quests in Acts 1–3 are missable — finish them before leaving the Act.",
-      "note-treasures":"Every treasure chest in this Act, grouped by zone (counts from the RetroAchievements “Treasure Hunter” set). Use the Zones tab for a by-zone overview.",
+      "note-treasures":("Every treasure chest in this Act, grouped by zone (counts from the RetroAchievements “Treasure Hunter” set). Use the Zones tab for a by-zone overview." + (" Act 1 areas can be revisited in Act 3, so these chests are not missable." if act=="act1" else (" Act 3 chests lock at the “Into Meridell” point of no return — grab them first." if act=="act3" else ""))),
       "note-neggs":"Red Neggs raise Health, Starry Neggs raise Magic, and Golden Neggs raise both — permanently. Silver Neggs are consumables that fully restore HP & MP. Cumulative upgrade totals are tracked on the Achievements page. This list covers the guide-sourced neggs; more are hidden in the world.",
       "note-clovers":"Clovers permanently raise your luck (drop rate). Cumulative luck-bar milestones are tracked on the Achievements page. This list covers the guide-sourced clovers; more are hidden in the world.",
       "gt-worlds-title":"Collectibles by Zone",

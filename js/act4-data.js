@@ -11,7 +11,7 @@ var TRACKER_GAME = {
   "storeKey": "df_act4_v1",
   "charKey": null,
   "chars": [],
-  "trophyAuto": null,
+  "trophyAuto": {},
   "worldSummary": { "worlds": ["Hall of Heroes", "Arena District", "Coliseum", "Secret Sewers", "Park District", "Park Shrine", "Bazaar District", "Treasury", "Bazaar District", "Sewer Shrine", "Heroes Rest"], "sections": ["treasures","neggs","clovers"] },
   "tabs": [
     {

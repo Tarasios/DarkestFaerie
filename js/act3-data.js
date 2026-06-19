@@ -11,7 +11,7 @@ var TRACKER_GAME = {
   "storeKey": "df_act3_v1",
   "charKey": null,
   "chars": [],
-  "trophyAuto": null,
+  "trophyAuto": {},
   "worldSummary": { "worlds": ["Western Brightvale", "Crossroads", "Brightvale Outskirts", "Brightvale Castle", "Brightvale Coast", "Dungeon Ruins", "Mountain Pass", "Bogshot Swamp", "Bogshot Sinkholes", "Old Mine", "Steppe Plateau", "Werelupe Woods", "Werelupe Sinkholes", "Werelupe Graveyard", "Crypt of the Fallen", "Crypt of the Sentries", "Crypt of the Exiled", "Werelupe Burrows Upper", "Werelupe Burrows Middle", "Werelupe Burrows Lower", "Abandoned Mines", "Meriload Mine", "Black Keep Grounds", "Black Keep Dungeon", "Rathbone Family Crypts", "Ancient Sewers", "Ruined Caves", "Oubliette", "Meridell Treasure Vault"], "sections": ["treasures","neggs","clovers"] },
   "tabs": [
     {
