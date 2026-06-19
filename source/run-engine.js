@@ -50,6 +50,7 @@ const pages = [
   ['act1-data.js','act1-tracker.json'], ['act2-data.js','act2-tracker.json'],
   ['act3-data.js','act3-tracker.json'], ['act4-data.js','act4-tracker.json'],
   ['achievements-data.js','achievements-tracker.json'], ['bestiary-data.js','bestiary-tracker.json'],
+  ['shops-data.js','shops-tracker.json'],
 ];
 
 (async () => {

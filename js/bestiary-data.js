@@ -1,11 +1,12 @@
 /* =====================================================================
-   Neopets: The Darkest Faerie — Bestiary & Elements reference, for the
-   generic engine (js/df-tracker.js). Enemies are grouped into one tab per
-   ELEMENT (Air, Earth, Dark, Fire, Light, Water) plus a Bosses tab; tick a
-   row to mark it encountered/defeated. Each element has an opposite —
-   Fire<->Water, Air<->Earth, Light<->Dark — shown on hover over the element
-   pill. Note act-variants: e.g. the Ixi Chieftain is Earth in Act 1 but
-   Dark in Act 3. Enemy elements & descriptions from prinisse's walkthrough.
+   Neopets: The Darkest Faerie — Bestiary & Elements reference (engine:
+   js/df-tracker.js). Enemies grouped by ELEMENT (Air/Earth/Dark/Fire/Light/
+   Water) + a Bosses tab; tick a row to mark it defeated. Each element has an
+   opposite shown as "Beat with": Fire<->Water, Air<->Earth, Light<->Dark.
+   Note act-variants (Ixi Chieftain: Earth in Act 1, Dark in Act 3).
+   Elements/descriptions from prinisse; zone locations from tris88. Where the
+   two guides disagree on an element it is flagged in the notes (kept on
+   prinisse's value pending confirmation).
    ===================================================================== */
 var TRACKER_GAME = {
   "id": "bestiary",
@@ -19,14 +20,14 @@ var TRACKER_GAME = {
       "sections": [
         {
           "id": "air",
-          "cols": [ { "k": "name", "name": true }, { "k": "el", "element": true }, { "k": "desc" } ],
+          "cols": [ { "k": "name", "name": true }, { "k": "el", "element": true }, { "k": "beat", "element": true }, { "k": "loc" }, { "k": "desc" } ],
           "items": [
-            {"name": "Crokabek", "el": "All"},
-            {"name": "Minion Archer (Blue)", "el": "All"},
-            {"name": "Minion Grunt (Blue)", "el": "All"},
-            {"name": "Minion Warrior (Blue)", "el": "All"},
-            {"name": "Mountain Crokabek", "el": "All"},
-            {"name": "Swamp Crokabek", "el": "All"}
+            {"name": "Crokabek", "el": "Air", "beat": "Earth"},
+            {"name": "Minion Archer (Blue)", "el": "Air", "beat": "Earth"},
+            {"name": "Minion Grunt (Blue)", "el": "Air", "beat": "Earth"},
+            {"name": "Minion Warrior (Blue)", "el": "Air", "beat": "Earth"},
+            {"name": "Mountain Crokabek", "el": "Air", "beat": "Earth"},
+            {"name": "Swamp Crokabek", "el": "Air", "beat": "Earth"}
           ]
         }
       ]
@@ -36,23 +37,23 @@ var TRACKER_GAME = {
       "sections": [
         {
           "id": "earth",
-          "cols": [ { "k": "name", "name": true }, { "k": "el", "element": true }, { "k": "desc" } ],
+          "cols": [ { "k": "name", "name": true }, { "k": "el", "element": true }, { "k": "beat", "element": true }, { "k": "loc" }, { "k": "desc" } ],
           "items": [
-            {"name": "Flower Monster", "el": "All"},
-            {"name": "Flower Monster (Walking)", "el": "All"},
-            {"name": "Ixi Spearman", "el": "All"},
-            {"name": "Ixi Archer", "el": "All"},
-            {"name": "Ixi Henchman", "el": "All"},
-            {"name": "Minion Archer (Yellow)", "el": "All"},
-            {"name": "Minion Artillery (Green)", "el": "All"},
-            {"name": "Minion Brute (Yellow)", "el": "All"},
-            {"name": "Minion Grunt (Green)", "el": "All"},
-            {"name": "Minion Warrior (Light Blue)", "el": "All"},
-            {"name": "Plant Gunner", "el": "All"},
-            {"name": "Poison Flower Monster", "el": "All"},
-            {"name": "Poison Flower Monster (Walking)", "el": "All"},
-            {"name": "Poison Spyder", "el": "All"},
-            {"name": "Spore Monster", "el": "All"}
+            {"name": "Flower Monster", "el": "Earth", "beat": "Air"},
+            {"name": "Flower Monster (Walking)", "el": "Earth", "beat": "Air"},
+            {"name": "Ixi Spearman", "el": "Earth", "beat": "Air"},
+            {"name": "Ixi Archer", "el": "Earth", "beat": "Air"},
+            {"name": "Ixi Henchman", "el": "Earth", "beat": "Air"},
+            {"name": "Minion Archer (Yellow)", "el": "Earth", "beat": "Air"},
+            {"name": "Minion Artillery (Green)", "el": "Earth", "beat": "Air"},
+            {"name": "Minion Brute (Yellow)", "el": "Earth", "beat": "Air"},
+            {"name": "Minion Grunt (Green)", "el": "Earth", "beat": "Air"},
+            {"name": "Minion Warrior (Light Blue)", "el": "Earth", "beat": "Air"},
+            {"name": "Plant Gunner", "el": "Earth", "beat": "Air"},
+            {"name": "Poison Flower Monster", "el": "Earth", "beat": "Air"},
+            {"name": "Poison Flower Monster (Walking)", "el": "Earth", "beat": "Air"},
+            {"name": "Poison Spyder", "el": "Earth", "beat": "Air"},
+            {"name": "Spore Monster", "el": "Earth", "beat": "Air"}
           ]
         }
       ]
@@ -62,26 +63,26 @@ var TRACKER_GAME = {
       "sections": [
         {
           "id": "dark",
-          "cols": [ { "k": "name", "name": true }, { "k": "el", "element": true }, { "k": "desc" } ],
+          "cols": [ { "k": "name", "name": true }, { "k": "el", "element": true }, { "k": "beat", "element": true }, { "k": "loc" }, { "k": "desc" } ],
           "items": [
-            {"name": "Bandit", "el": "All"},
-            {"name": "Drub", "el": "All"},
-            {"name": "Dark Knight", "el": "All"},
-            {"name": "Darrick the Blade", "el": "All"},
-            {"name": "Dumb Skeleton", "el": "All"},
-            {"name": "Evil Harris", "el": "All"},
-            {"name": "Minion Archer (Purple)", "el": "All"},
-            {"name": "Minion Artillery (Purple)", "el": "All"},
-            {"name": "Minion Grunt (Purple)", "el": "All"},
-            {"name": "Restless Spirit", "el": "All"},
-            {"name": "Rogue", "el": "All"},
-            {"name": "Sid the Vicious", "el": "All"},
-            {"name": "Skeleton Wizard", "el": "All"},
-            {"name": "Skeleton Fighter", "el": "All"},
-            {"name": "Spirit Skull", "el": "All"},
-            {"name": "Spirit Sword", "el": "All"},
-            {"name": "Spyder", "el": "All"},
-            {"name": "Thief", "el": "All"}
+            {"name": "Bandit", "el": "Dark", "beat": "Light"},
+            {"name": "Drub", "el": "Dark", "beat": "Light"},
+            {"name": "Dark Knight", "el": "Dark", "beat": "Light"},
+            {"name": "Darrick the Blade", "el": "Dark", "beat": "Light"},
+            {"name": "Dumb Skeleton", "el": "Dark", "beat": "Light"},
+            {"name": "Evil Harris", "el": "Dark", "beat": "Light"},
+            {"name": "Minion Archer (Purple)", "el": "Dark", "beat": "Light"},
+            {"name": "Minion Artillery (Purple)", "el": "Dark", "beat": "Light"},
+            {"name": "Minion Grunt (Purple)", "el": "Dark", "beat": "Light"},
+            {"name": "Restless Spirit", "el": "Dark", "beat": "Light"},
+            {"name": "Rogue", "el": "Dark", "beat": "Light"},
+            {"name": "Sid the Vicious", "el": "Dark", "beat": "Light"},
+            {"name": "Skeleton Wizard", "el": "Dark", "beat": "Light"},
+            {"name": "Skeleton Fighter", "el": "Dark", "beat": "Light"},
+            {"name": "Spirit Skull", "el": "Dark", "beat": "Light"},
+            {"name": "Spirit Sword", "el": "Dark", "beat": "Light"},
+            {"name": "Spyder", "el": "Dark", "beat": "Light"},
+            {"name": "Thief", "el": "Dark", "beat": "Light"}
           ]
         }
       ]
@@ -91,19 +92,19 @@ var TRACKER_GAME = {
       "sections": [
         {
           "id": "fire",
-          "cols": [ { "k": "name", "name": true }, { "k": "el", "element": true }, { "k": "desc" } ],
+          "cols": [ { "k": "name", "name": true }, { "k": "el", "element": true }, { "k": "beat", "element": true }, { "k": "loc" }, { "k": "desc" } ],
           "items": [
-            {"name": "Drackonack", "el": "All"},
-            {"name": "Giant Drackonack", "el": "All"},
-            {"name": "Minion Archer (Red)", "el": "All"},
-            {"name": "Minion Artillery (Red)", "el": "All"},
-            {"name": "Minion Brute (Red)", "el": "All"},
-            {"name": "Minion Magician (Red)", "el": "All"},
-            {"name": "Minion Warrior (Orange)", "el": "All"},
-            {"name": "Minion Wizard (Red)", "el": "All"},
-            {"name": "Werelupe Basher", "el": "All"},
-            {"name": "Werelupe Bone Thrower", "el": "All"},
-            {"name": "Werelupe Elite", "el": "All"}
+            {"name": "Drackonack", "el": "Fire", "beat": "Water"},
+            {"name": "Giant Drackonack", "el": "Fire", "beat": "Water"},
+            {"name": "Minion Archer (Red)", "el": "Fire", "beat": "Water"},
+            {"name": "Minion Artillery (Red)", "el": "Fire", "beat": "Water"},
+            {"name": "Minion Brute (Red)", "el": "Fire", "beat": "Water"},
+            {"name": "Minion Magician (Red)", "el": "Fire", "beat": "Water"},
+            {"name": "Minion Warrior (Orange)", "el": "Fire", "beat": "Water"},
+            {"name": "Minion Wizard (Red)", "el": "Fire", "beat": "Water"},
+            {"name": "Werelupe Basher", "el": "Fire", "beat": "Water"},
+            {"name": "Werelupe Bone Thrower", "el": "Fire", "beat": "Water"},
+            {"name": "Werelupe Elite", "el": "Fire", "beat": "Water"}
           ]
         }
       ]
@@ -113,11 +114,11 @@ var TRACKER_GAME = {
       "sections": [
         {
           "id": "light",
-          "cols": [ { "k": "name", "name": true }, { "k": "el", "element": true }, { "k": "desc" } ],
+          "cols": [ { "k": "name", "name": true }, { "k": "el", "element": true }, { "k": "beat", "element": true }, { "k": "loc" }, { "k": "desc" } ],
           "items": [
-            {"name": "Minion Grunt (Yellow)", "el": "All"},
-            {"name": "Minion Magician (Yellow)", "el": "All"},
-            {"name": "Minion Wizard (Yellow)", "el": "All"}
+            {"name": "Minion Grunt (Yellow)", "el": "Light", "beat": "Dark"},
+            {"name": "Minion Magician (Yellow)", "el": "Light", "beat": "Dark"},
+            {"name": "Minion Wizard (Yellow)", "el": "Light", "beat": "Dark"}
           ]
         }
       ]
@@ -127,14 +128,14 @@ var TRACKER_GAME = {
       "sections": [
         {
           "id": "water",
-          "cols": [ { "k": "name", "name": true }, { "k": "el", "element": true }, { "k": "desc" } ],
+          "cols": [ { "k": "name", "name": true }, { "k": "el", "element": true }, { "k": "beat", "element": true }, { "k": "loc" }, { "k": "desc" } ],
           "items": [
-            {"name": "Minion Brute (Blue)", "el": "All"},
-            {"name": "Minion Magician (Blue)", "el": "All"},
-            {"name": "Slorg", "el": "All"},
-            {"name": "Sludgy", "el": "All"},
-            {"name": "Swamp Tentacle", "el": "All"},
-            {"name": "Tentacle", "el": "All"}
+            {"name": "Minion Brute (Blue)", "el": "Water", "beat": "Fire"},
+            {"name": "Minion Magician (Blue)", "el": "Water", "beat": "Fire"},
+            {"name": "Slorg", "el": "Water", "beat": "Fire"},
+            {"name": "Sludgy", "el": "Water", "beat": "Fire"},
+            {"name": "Swamp Tentacle", "el": "Water", "beat": "Fire"},
+            {"name": "Tentacle", "el": "Water", "beat": "Fire"}
           ]
         }
       ]
@@ -144,20 +145,20 @@ var TRACKER_GAME = {
       "sections": [
         {
           "id": "bosses",
-          "cols": [ { "k": "name", "name": true }, { "k": "el", "element": true }, { "k": "act" }, { "k": "loc" } ],
+          "cols": [ { "k": "name", "name": true }, { "k": "el", "element": true }, { "k": "beat", "element": true }, { "k": "act" }, { "k": "loc" } ],
           "items": [
-            {"name": "Juppie Monster (Act 1)", "el": "Earth"},
-            {"name": "Ixi Chieftan (Act 1)", "el": "Earth"},
-            {"name": "Gnarfas", "el": "Fire"},
-            {"name": "Plague Serpent", "el": "Water"},
-            {"name": "Werelupe King", "el": "Fire"},
-            {"name": "Juppie Monster (Act 3)", "el": "Earth"},
-            {"name": "Ixi Chieftan (Act 3)", "el": "Dark"},
-            {"name": "Gelert Assassin", "el": "Dark"},
-            {"name": "Black Knight", "el": "Dark"},
-            {"name": "Undead Draik Skeleton", "el": "Fire / Water"},
-            {"name": "Dark Faerie Sisters", "el": "Dark"},
-            {"name": "The Darkest Faerie", "el": "All"}
+            {"name": "Juppie Monster (Act 1)", "el": "Earth", "beat": "Air"},
+            {"name": "Ixi Chieftan (Act 1)", "el": "Earth", "beat": "Air"},
+            {"name": "Gnarfas", "el": "Fire", "beat": "Water"},
+            {"name": "Plague Serpent", "el": "Water", "beat": "Fire"},
+            {"name": "Werelupe King", "el": "Fire", "beat": "Water"},
+            {"name": "Juppie Monster (Act 3)", "el": "Earth", "beat": "Air"},
+            {"name": "Ixi Chieftan (Act 3)", "el": "Dark", "beat": "Light"},
+            {"name": "Gelert Assassin", "el": "Dark", "beat": "Light"},
+            {"name": "Black Knight", "el": "Dark", "beat": "Light"},
+            {"name": "Undead Draik Skeleton", "el": "Fire / Water", "beat": ""},
+            {"name": "Dark Faerie Sisters", "el": "Dark", "beat": "Light"},
+            {"name": "The Darkest Faerie", "el": "All", "beat": ""}
           ]
         }
       ]

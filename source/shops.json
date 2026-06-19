@@ -1,0 +1,875 @@
+{
+ "order": [
+  "Altador",
+  "Bogshot Village",
+  "Brightvale",
+  "Cogham Village",
+  "Drackon Ridge",
+  "Faerieland",
+  "Illusen's Glade",
+  "Gord the Merchant",
+  "Market Town",
+  "Meridell"
+ ],
+ "data": {
+  "Altador": [
+   [
+    "Arena District · Altador Magic Shop",
+    "Light Mote",
+    "130 NP"
+   ],
+   [
+    "Arena District · Altador Magic Shop",
+    "Fog Mote",
+    "100 NP"
+   ],
+   [
+    "Arena District · Altador Magic Shop",
+    "Smoke Mote",
+    "120 NP"
+   ],
+   [
+    "Arena District · Altador Magic Shop",
+    "Bubble Mote",
+    "80 NP"
+   ],
+   [
+    "Arena District · Altador Magic Shop",
+    "Supernova Mote",
+    "750 NP"
+   ],
+   [
+    "Arena District · Altador Magic Shop",
+    "Fire Mote",
+    "110 NP"
+   ],
+   [
+    "Arena District · Altador Magic Shop",
+    "Park District Treasure Map",
+    "150 NP"
+   ],
+   [
+    "Arena District · Altador Food Shop",
+    "Red Juppie",
+    "25 NP"
+   ],
+   [
+    "Arena District · Altador Food Shop",
+    "Starberry",
+    "40 NP"
+   ],
+   [
+    "Arena District · Altador Food Shop",
+    "Purple Juppie",
+    "20 NP"
+   ],
+   [
+    "Arena District · Altador Food Shop",
+    "Chokato",
+    "60 NP"
+   ],
+   [
+    "Arena District · Altador Blacksmith",
+    "Wand of the Ancients",
+    "4,500 NP"
+   ],
+   [
+    "Arena District · Altador Blacksmith",
+    "Razor Sword",
+    "4,000 NP"
+   ],
+   [
+    "Bazaar District · Altador Armory",
+    "Altadorian Plate",
+    "6,000 NP"
+   ],
+   [
+    "Bazaar District · Altador Armory",
+    "Legendary Robes",
+    "5,500 NP"
+   ],
+   [
+    "Bazaar District · Rogin the Wretched (white skeith)",
+    "Arena District Treasure Map",
+    "200 NP"
+   ],
+   [
+    "Bazaar District · Rogin the Wretched (white skeith)",
+    "Park District Treasure Map",
+    "200 NP"
+   ],
+   [
+    "Bazaar District · Rogin the Wretched (white skeith)",
+    "Money District Treasure Map",
+    "300 NP"
+   ],
+   [
+    "Bazaar District · Altador Trove",
+    "Money District Treasure Map",
+    "210 NP"
+   ],
+   [
+    "Bazaar District · Altador Trove",
+    "Potion of Power",
+    "400 NP"
+   ],
+   [
+    "Bazaar District · Altador Trove",
+    "Nova Mote",
+    "400 NP"
+   ],
+   [
+    "Bazaar District · Altador Trove",
+    "Legendary Shield",
+    "2,500 NP"
+   ],
+   [
+    "Bazaar District · The Curious Aisha",
+    "4-Leaf Clover",
+    "400 NP"
+   ],
+   [
+    "Bazaar District · The Curious Aisha",
+    "Park District Treasure Map",
+    "260 NP"
+   ],
+   [
+    "Bazaar District · The Curious Aisha",
+    "Meerca Speed Potion",
+    "500 NP"
+   ],
+   [
+    "Bazaar District · The Curious Aisha",
+    "Starlight Potion",
+    "300 NP"
+   ],
+   [
+    "Money District · Altador Magic Shop",
+    "Rock Mote",
+    "230 NP"
+   ],
+   [
+    "Money District · Altador Magic Shop",
+    "Water Mote",
+    "270 NP"
+   ],
+   [
+    "Money District · Altador Magic Shop",
+    "Sun Mote",
+    "280 NP"
+   ],
+   [
+    "Money District · Altador Magic Shop",
+    "Wind Mote",
+    "250 NP"
+   ],
+   [
+    "Money District · Altador Magic Shop",
+    "Lava Mote",
+    "260 NP"
+   ],
+   [
+    "Money District · Altador Magic Shop",
+    "Bazaar District Treasure Map",
+    "200 NP"
+   ],
+   [
+    "Money District · Altador Potion Shop",
+    "Park District Treasure Map",
+    "120 NP"
+   ],
+   [
+    "Money District · Altador Potion Shop",
+    "Fyora's Potion",
+    "600 NP"
+   ],
+   [
+    "Money District · Altador Potion Shop",
+    "Potion of Revival",
+    "150 NP"
+   ],
+   [
+    "Money District · Altador Potion Shop",
+    "Unguent of Curing",
+    "300 NP"
+   ],
+   [
+    "Money District · Altador Potion Shop",
+    "Kauvara's Potion",
+    "800 NP"
+   ],
+   [
+    "Park District · Altador Food Shop",
+    "Ergyfruit",
+    "100 NP"
+   ],
+   [
+    "Park District · Altador Food Shop",
+    "Peachpa",
+    "150 NP"
+   ],
+   [
+    "Park District · Altador Food Shop",
+    "Bagguss",
+    "50 NP"
+   ],
+   [
+    "Park District · Altador Neggery",
+    "Bazaar District Treasure Map",
+    "250 NP"
+   ],
+   [
+    "Park District · Altador Neggery",
+    "Golden Negg",
+    "2,000 NP"
+   ],
+   [
+    "Park District · Altador Neggery",
+    "Striped Negg",
+    "250 NP"
+   ],
+   [
+    "Park District · Altador Neggery",
+    "Silver Negg",
+    "600 NP"
+   ],
+   [
+    "Park District · Altador Potion Shop",
+    "Spyder Juice Elixir",
+    "150 NP"
+   ],
+   [
+    "Park District · Altador Potion Shop",
+    "Ointment of Quickness",
+    "150 NP"
+   ],
+   [
+    "Park District · Altador Potion Shop",
+    "Arena District Map",
+    "200 NP"
+   ],
+   [
+    "Park District · Altador Potion Shop",
+    "Dispelling Potion",
+    "150 NP"
+   ],
+   [
+    "Park District · Altador Potion Shop",
+    "Potion of Revival",
+    "100 NP"
+   ]
+  ],
+  "Bogshot Village": [
+   [
+    "Sunnyfields Fine Foods",
+    "Red Juppie",
+    "28 NP"
+   ],
+   [
+    "Sunnyfields Fine Foods",
+    "Purple Juppie",
+    "22 NP"
+   ],
+   [
+    "Sunnyfields Fine Foods",
+    "Ergyfruit",
+    "125 NP"
+   ],
+   [
+    "Sunnyfields Fine Foods",
+    "Speckled Negg",
+    "100 NP"
+   ],
+   [
+    "Sunnyfields Fine Foods",
+    "Bagguss",
+    "25 NP"
+   ],
+   [
+    "Curious Curios",
+    "Meridell Farms Treasure Map",
+    "375 NP"
+   ],
+   [
+    "Curious Curios",
+    "Red Negg",
+    "1,000 NP"
+   ],
+   [
+    "Curious Curios",
+    "Starlight Potion",
+    "300 NP"
+   ],
+   [
+    "Curious Curios",
+    "Werelupe Woods Treasure Map",
+    "200 NP"
+   ],
+   [
+    "Curious Curios",
+    "Tome of Warding",
+    "2,500 NP"
+   ],
+   [
+    "Bogshot Apothecary",
+    "Spyder Juice Elixir",
+    "150 NP"
+   ],
+   [
+    "Bogshot Apothecary",
+    "Potion of Revival",
+    "100 NP"
+   ]
+  ],
+  "Brightvale": [
+   [
+    "Fruits of Brightvale",
+    "Bagguss",
+    "50 NP"
+   ],
+   [
+    "Fruits of Brightvale",
+    "Red Juppie",
+    "25 NP"
+   ],
+   [
+    "Fruits of Brightvale",
+    "Purple Juppie",
+    "20 NP"
+   ],
+   [
+    "Fruits of Brightvale",
+    "Starberry",
+    "40 NP"
+   ],
+   [
+    "Fruits of Brightvale",
+    "Chokato",
+    "60 NP"
+   ],
+   [
+    "Brightvale Motery",
+    "Smoke Mote",
+    "120 NP"
+   ],
+   [
+    "Brightvale Motery",
+    "Light Mote",
+    "130 NP"
+   ],
+   [
+    "Brightvale Motery",
+    "Fire Mote",
+    "110 NP"
+   ],
+   [
+    "Brightvale Motery",
+    "Wind Mote",
+    "80 NP"
+   ],
+   [
+    "Brightvale Motery",
+    "Leaf Mote",
+    "90 NP"
+   ],
+   [
+    "Brightvale Motery",
+    "Nova Mote",
+    "400 NP"
+   ],
+   [
+    "Matkin's Maps",
+    "Bogshot Treasure Map",
+    "220 NP"
+   ],
+   [
+    "Matkin's Maps",
+    "Brightvale Treasure Map",
+    "200 NP"
+   ],
+   [
+    "Matkin's Maps",
+    "Brightvale Road Treasure Map",
+    "240 NP"
+   ],
+   [
+    "Matkin's Maps",
+    "Crossroads Treasure Map",
+    "280 NP"
+   ],
+   [
+    "Matkin's Maps",
+    "Werelupe Woods Treasure Map",
+    "300 NP"
+   ],
+   [
+    "The Royal Potionry",
+    "Spyder Juice Elixir",
+    "150 NP"
+   ],
+   [
+    "The Royal Potionry",
+    "Potion of Power",
+    "400 NP"
+   ],
+   [
+    "Brightvale Armoury",
+    "Knight's Shield",
+    "1,500 NP"
+   ],
+   [
+    "Brightvale Armoury",
+    "Magic Robes",
+    "2,000 NP"
+   ]
+  ],
+  "Cogham Village": [
+   [
+    "The Peachpa Hut",
+    "Purple Juppie",
+    "20 NP"
+   ],
+   [
+    "The Peachpa Hut",
+    "Red Juppie",
+    "25 NP"
+   ],
+   [
+    "The Peachpa Hut",
+    "Peachpa",
+    "150 NP"
+   ],
+   [
+    "Brennan's Anvil",
+    "Knight's Sword",
+    "1,500 NP"
+   ],
+   [
+    "Brennan's Anvil",
+    "Enchanter's Wand",
+    "2,000 NP"
+   ],
+   [
+    "Treasures and Trinkets",
+    "Starlight Potion",
+    "300 NP"
+   ],
+   [
+    "Treasures and Trinkets",
+    "Potion of Revival",
+    "100 NP"
+   ],
+   [
+    "Treasures and Trinkets",
+    "Starry Negg",
+    "800 NP"
+   ],
+   [
+    "Treasures and Trinkets",
+    "Shadowglen Treasure Map",
+    "225 NP"
+   ],
+   [
+    "Treasures and Trinkets",
+    "Meridell Farms Treasure Map",
+    "260 NP"
+   ],
+   [
+    "Ingmar's Armoury",
+    "Iron Shield",
+    "800 NP"
+   ]
+  ],
+  "Drackon Ridge": [
+   [
+    "Motara's Marvelous Motes",
+    "Sun Mote",
+    "280 NP"
+   ],
+   [
+    "Motara's Marvelous Motes",
+    "Lava Mote",
+    "260 NP"
+   ],
+   [
+    "Motara's Marvelous Motes",
+    "Shadow Mote",
+    "240 NP"
+   ],
+   [
+    "Motara's Marvelous Motes",
+    "Wind Mote",
+    "250 NP"
+   ],
+   [
+    "Motara's Marvelous Motes",
+    "Rock Mote",
+    "230 NP"
+   ],
+   [
+    "Motara's Marvelous Motes",
+    "Wizard's Gown",
+    "6,000 NP"
+   ]
+  ],
+  "Faerieland": [
+   [
+    "Potionmaker Fizlar",
+    "Potion of Meerca Speed",
+    "500 NP"
+   ],
+   [
+    "Potionmaker Fizlar",
+    "Dispelling Potion",
+    "180 NP"
+   ],
+   [
+    "Potionmaker Fizlar",
+    "Spyder Juice Elixir",
+    "150 NP"
+   ],
+   [
+    "Shopkeep Visal",
+    "Purple Juppie",
+    "20 NP"
+   ],
+   [
+    "Shopkeep Visal",
+    "Speckled Negg",
+    "75 NP"
+   ],
+   [
+    "Shopkeep Visal",
+    "Starberry",
+    "40 NP"
+   ],
+   [
+    "Shopkeep Visal",
+    "Red Juppie",
+    "25 NP"
+   ],
+   [
+    "Shopkeep Visal",
+    "Chokato",
+    "60 NP"
+   ],
+   [
+    "Hidden Tower",
+    "Sorcerer's Wand",
+    "7,000 NP"
+   ],
+   [
+    "Hidden Tower",
+    "Faerie Dress",
+    "8,000 NP"
+   ],
+   [
+    "Hidden Tower",
+    "Golden Shield",
+    "4,000 NP"
+   ],
+   [
+    "Hidden Tower",
+    "Silver Negg",
+    "1,500 NP"
+   ],
+   [
+    "Hidden Tower",
+    "Golden Negg",
+    "5,000 NP"
+   ],
+   [
+    "Hidden Tower",
+    "Fyora's Potion",
+    "1,500 NP"
+   ],
+   [
+    "Hidden Tower",
+    "Kauvara's Potion",
+    "2,000 NP"
+   ]
+  ],
+  "Illusen's Glade": [
+   [
+    "Nothin but Neggs!",
+    "Speckled Negg",
+    "75 NP"
+   ],
+   [
+    "Nothin but Neggs!",
+    "Silver Negg",
+    "600 NP"
+   ],
+   [
+    "Nothin but Neggs!",
+    "Golden Negg",
+    "2,000 NP"
+   ],
+   [
+    "Nothin but Neggs!",
+    "Striped Negg",
+    "250 NP"
+   ]
+  ],
+  "Gord the Merchant": [],
+  "Market Town": [
+   [
+    "The Magic Anvil",
+    "Battle Blade",
+    "4,000 NP"
+   ],
+   [
+    "The Magic Anvil",
+    "Magician's Wand",
+    "4,000 NP"
+   ],
+   [
+    "Market Town Armourer",
+    "Noble Press",
+    "6,500 NP"
+   ],
+   [
+    "Market Town Armourer",
+    "Golden Shield",
+    "2,000 NP"
+   ],
+   [
+    "Market Town Armourer",
+    "Royal Armour",
+    "4,500 NP"
+   ],
+   [
+    "Even Curiouser Curios",
+    "Starry Negg",
+    "1,000 NP"
+   ],
+   [
+    "Even Curiouser Curios",
+    "Red Negg",
+    "1,250 NP"
+   ],
+   [
+    "Even Curiouser Curios",
+    "Brightvale Treasure Map",
+    "325 NP"
+   ],
+   [
+    "Even Curiouser Curios",
+    "Steppe Plateau Treasure Map",
+    "350 NP"
+   ],
+   [
+    "Even Curiouser Curios",
+    "Werelupe Woods Treasure Map",
+    "425 NP"
+   ],
+   [
+    "Market Town Grocers",
+    "Peachpa",
+    "125 NP"
+   ],
+   [
+    "Market Town Grocers",
+    "Ergyfruit",
+    "125 NP"
+   ],
+   [
+    "Market Town Grocers",
+    "Striped Negg",
+    "275 NP"
+   ],
+   [
+    "The Bubbling Cauldron",
+    "Potion of Meerca Speed",
+    "500 NP"
+   ],
+   [
+    "The Bubbling Cauldron",
+    "Unguent of Curing",
+    "350 NP"
+   ],
+   [
+    "The Bubbling Cauldron",
+    "Starlight Potion",
+    "350 NP"
+   ],
+   [
+    "The Bubbling Cauldron",
+    "Fyora's Potion",
+    "600 NP"
+   ],
+   [
+    "The Bubbling Cauldron",
+    "Kauvara's Potion",
+    "800 NP"
+   ],
+   [
+    "Monty (found on the rooftops near Market Town Grocers)",
+    "Black Keep Treasure Map",
+    "350 NP"
+   ],
+   [
+    "Monty (found on the rooftops near Market Town Grocers)",
+    "Werelupe Woods Treasure Map",
+    "400 NP"
+   ],
+   [
+    "Monty (found on the rooftops near Market Town Grocers)",
+    "Shadowglen Treasure Map",
+    "300 NP"
+   ]
+  ],
+  "Meridell": [
+   [
+    "Rory the Shady Guy (shadow kacheek)",
+    "Drackon Ridge Treasure Map x2",
+    "200 NP"
+   ],
+   [
+    "Rory the Shady Guy (shadow kacheek)",
+    "Meridell Plains Treasure Map",
+    "200 NP"
+   ],
+   [
+    "Rory the Shady Guy (shadow kacheek)",
+    "Meri Acres Farm Treasure Map",
+    "200 NP"
+   ],
+   [
+    "Rory the Shady Guy (shadow kacheek)",
+    "Illusen's Glade Treasure Map",
+    "300 NP"
+   ],
+   [
+    "Rory the Shady Guy (shadow kacheek)",
+    "Meridell Farms Treasure Map",
+    "200 NP"
+   ],
+   [
+    "Angus' Apothecary",
+    "Spyder Juice Elixir",
+    "125 NP"
+   ],
+   [
+    "Angus' Apothecary",
+    "Potion of Power",
+    "400 NP"
+   ],
+   [
+    "Angus' Apothecary",
+    "Potion of Meerca Speed",
+    "500 NP"
+   ],
+   [
+    "Meridell Food 'n Slop",
+    "Red Juppie",
+    "22 NP"
+   ],
+   [
+    "Meridell Food 'n Slop",
+    "Starberry",
+    "40 NP"
+   ],
+   [
+    "Meridell Food 'n Slop",
+    "Bagguss",
+    "40 NP"
+   ],
+   [
+    "Meridell Food 'n Slop",
+    "Chokato",
+    "50 NP"
+   ],
+   [
+    "Meridell Food 'n Slop",
+    "Purple Juppie",
+    "20 NP"
+   ],
+   [
+    "Mistress Morag's Magical Merchandise",
+    "Light Mote",
+    "130 NP"
+   ],
+   [
+    "Mistress Morag's Magical Merchandise",
+    "Fire Mote",
+    "110 NP"
+   ],
+   [
+    "Mistress Morag's Magical Merchandise",
+    "Smoke Mote",
+    "120 NP"
+   ],
+   [
+    "Mistress Morag's Magical Merchandise",
+    "Bubble Mote",
+    "80 NP"
+   ],
+   [
+    "Mistress Morag's Magical Merchandise",
+    "Leaf Mote",
+    "90 NP"
+   ],
+   [
+    "Mistress Morag's Magical Merchandise",
+    "Sorcerer's Wand",
+    "7,000 NP"
+   ],
+   [
+    "Meridell Smithy",
+    "Squire Sword",
+    "500 NP"
+   ],
+   [
+    "The Village Armoury",
+    "Wooden Shield",
+    "400 NP"
+   ],
+   [
+    "Shoppe of Curious Wonders",
+    "Speckled Negg",
+    "70 NP"
+   ],
+   [
+    "Shoppe of Curious Wonders",
+    "Ointment of Quickness",
+    "125 NP"
+   ],
+   [
+    "Shoppe of Curious Wonders",
+    "Dispelling Potion",
+    "125 NP"
+   ],
+   [
+    "Shoppe of Curious Wonders",
+    "Meridell Castle Treasure Map",
+    "200 NP"
+   ],
+   [
+    "Shoppe of Curious Wonders",
+    "Lava Mote",
+    "250 NP"
+   ],
+   [
+    "Shoppe of Curious Wonders",
+    "Smoke Mote",
+    "100 NP"
+   ],
+   [
+    "Shoppe of Curious Wonders",
+    "Starry Negg",
+    "800 NP"
+   ],
+   [
+    "Shoppe of Curious Wonders",
+    "Fire Mote",
+    "120 NP"
+   ],
+   [
+    "Shoppe of Curious Wonders",
+    "Witch's Wand",
+    "3,000 NP"
+   ]
+  ]
+ }
+}

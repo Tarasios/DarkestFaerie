@@ -1,0 +1,142 @@
+[
+ {
+  "name": "Bandit",
+  "loc": "Meridell Plains",
+  "el": "Dark",
+  "offend": "Light",
+  "defend": "Dark"
+ },
+ {
+  "name": "Crokabek",
+  "loc": "Meridell Outskirts",
+  "el": "Air",
+  "offend": "Earth",
+  "defend": "Air"
+ },
+ {
+  "name": "Dumb Skeleton",
+  "loc": "Haunted Tombs",
+  "el": "Dark",
+  "offend": "Light",
+  "defend": "Dark"
+ },
+ {
+  "name": "Drackonack",
+  "loc": "Drackonack Ridge",
+  "el": "Earth",
+  "offend": "Air",
+  "defend": "Earth"
+ },
+ {
+  "name": "Flower Monster",
+  "loc": "Ellis Family Farm(only once), Shadowglen",
+  "el": "Earth",
+  "offend": "Air",
+  "defend": "Earth"
+ },
+ {
+  "name": "Flower Monster(walker)",
+  "loc": "Shadowglen",
+  "el": "Earth",
+  "offend": "Air",
+  "defend": "Earth"
+ },
+ {
+  "name": "Giant Drackonack",
+  "loc": "Drackonack Ridge",
+  "el": "Earth",
+  "offend": "Air",
+  "defend": "Earth"
+ },
+ {
+  "name": "Ixi Spearman",
+  "loc": "Cogham Village(one time), Cogham Steppes",
+  "el": "Earth",
+  "offend": "Air",
+  "defend": "Earth"
+ },
+ {
+  "name": "Ixi Archer",
+  "loc": "Cogham Village(one time), Cogham Steppes",
+  "el": "Earth",
+  "offend": "Air",
+  "defend": "Earth"
+ },
+ {
+  "name": "Minion Archer",
+  "loc": "",
+  "el": "Veries",
+  "offend": "",
+  "defend": ""
+ },
+ {
+  "name": "Moutain Crokabek",
+  "loc": "Cogham Steppes",
+  "el": "Air",
+  "offend": "Earth",
+  "defend": "Air"
+ },
+ {
+  "name": "Poison Flower Monster",
+  "loc": "Shadowglen",
+  "el": "Earth",
+  "offend": "",
+  "defend": ""
+ },
+ {
+  "name": "Poison Spyder",
+  "loc": "Drackonack Ridge",
+  "el": "Earth",
+  "offend": "Air",
+  "defend": "Earth"
+ },
+ {
+  "name": "Skeleton Fighter",
+  "loc": "Haunted Tomb,",
+  "el": "Dark",
+  "offend": "Light",
+  "defend": "Dark"
+ },
+ {
+  "name": "Skeleton Wizard",
+  "loc": "Haunted Tomb,",
+  "el": "Dark",
+  "offend": "Light",
+  "defend": "Dark"
+ },
+ {
+  "name": "Slorg",
+  "loc": "Meridell Sewers,",
+  "el": "Earth",
+  "offend": "Air",
+  "defend": "Earth"
+ },
+ {
+  "name": "Sludgy",
+  "loc": "Meridell Arena(one time)",
+  "el": "Water",
+  "offend": "",
+  "defend": ""
+ },
+ {
+  "name": "Spore Monster",
+  "loc": "Shadowglen",
+  "el": "Earth",
+  "offend": "",
+  "defend": ""
+ },
+ {
+  "name": "Tentacle",
+  "loc": "Juppie Boss Battle, Meridell Sewers",
+  "el": "Air",
+  "offend": "",
+  "defend": ""
+ },
+ {
+  "name": "Werelupe Basher",
+  "loc": "Illusen's Glade",
+  "el": "Earth",
+  "offend": "",
+  "defend": ""
+ }
+]

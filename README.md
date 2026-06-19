@@ -24,10 +24,14 @@ tracker, but organised around this game's two defining quirks:
   quests with their rewards), **Treasure Chests** by zone, **Neggs** and
   **Clovers**, plus a **Zones** summary that buckets collectibles by area.
 - **Bestiary & Elements** — every enemy and boss grouped by **element**
-  (Air, Earth, Dark, Fire, Light, Water). The game hides elements, but they
-  matter: each has an opposite — **Fire ↔ Water, Air ↔ Earth, Light ↔ Dark** —
-  shown on hover. Note the act-variants (e.g. the Ixi Chieftain is Earth in
-  Act 1 but Dark in Act 3).
+  (Air, Earth, Dark, Fire, Light, Water), each with a **"Beat with"** column
+  (the opposing element) and an Act-1 location. The game hides elements, but
+  they matter: each has an opposite — **Fire ↔ Water, Air ↔ Earth, Light ↔
+  Dark**. Note the act-variants (e.g. the Ixi Chieftain is Earth in Act 1 but
+  Dark in Act 3). Where the two source guides disagree on an element it is
+  flagged in the notes pending confirmation.
+- **Shops** — every shop's stock by town, with prices. Tick items off as you
+  buy them — handy for the "Ultimate Hoarder" achievement.
 
 ## Your data stays yours
 
@@ -58,6 +62,7 @@ index.html                  Landing page — overall + per-tracker progress
 tools/act1.html … act4.html One tracker page per Act
 tools/achievements.html     The 188-achievement checklist, by Act
 tools/bestiary.html         Enemies & bosses by element + the element system
+tools/shops.html            Every shop's stock by town, with prices
 css/main.css                Shared theme (night + day palettes, landing)
 css/df.css                  Tracker styles (tables, element pills, missable)
 js/i18n.js                  Language system (loads one JSON per page)
@@ -104,7 +109,9 @@ node source/run-engine.js
 
 ### Status
 
-Achievements, treasure-by-zone, main quests, the bestiary and the element
-system are complete. Neggs and clovers list the guide-sourced entries so far;
-per-zone enemy encounter tables (which differ for Act 1 zones revisited in
-Act 3) are a planned enrichment.
+Achievements, treasure-by-zone, main quests, the bestiary (with elements,
+"beat with" and Act-1 locations) and shops are complete. Still being enriched:
+per-chest location hints, full per-zone neggs/clovers across all Acts, and
+enemy locations for Acts 2–4 (the second guide only covers Act 1). The missable
+flag currently covers all non-story content in Acts 1–3; revisitable Act 1
+zones are pending confirmation before being exempted.

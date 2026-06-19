@@ -1,0 +1,765 @@
+{
+ "logo-name": "Darkest Faerie 100%",
+ "nav-acts": "Acts",
+ "nav-home": "Home",
+ "nav-tools": "Tools",
+ "gt-filter": "filter…",
+ "gt-hide-done": "hide owned",
+ "gt-missable-only": "missable only",
+ "gt-count": "%1 / %2 owned",
+ "gt-overall": "Total: %1 / %2 (%3%)",
+ "gt-nothing": "Nothing matches the current filter.",
+ "gt-reset": "Reset all progress",
+ "gt-reset-confirm": "Reset ALL tracker progress for this game?",
+ "gt-toggle-all": "toggle all",
+ "gt-dash-title": "Progress overview",
+ "gt-dash-section": "Section",
+ "gt-dash-progress": "Progress",
+ "gt-th-progress": "Tracked progress",
+ "gt-auto-badge": "auto",
+ "gt-auto-tip": "Earned automatically from %1",
+ "gt-missable-badge": "missable",
+ "gt-missable-tip": "Missable content.",
+ "gt-element-tip": "%1 — weak to %2",
+ "gt-section-for": "%1 — %2",
+ "gt-world-complete": "complete",
+ "page-title": "Darkest Faerie — Shops",
+ "df-title": "Shops",
+ "df-subtitle": "Every shop's stock by town, with prices. Tick items you've bought — useful for the “Ultimate Hoarder” achievement. Prices are post-discount where the game discounts them.",
+ "kp-export": "Export progress",
+ "kp-import": "Import progress",
+ "kp-note": "Backs up / restores ALL Darkest Faerie tracker progress on this site as a JSON file.",
+ "kp-import-confirm": "Importing will overwrite the saved progress of every tracker on this site with the file's contents. Continue?",
+ "kp-import-error": "That file could not be read as a progress export.",
+ "theme-to-day": "Day",
+ "theme-to-night": "Night",
+ "theme-toggle-aria": "Toggle bright theme",
+ "tabbtn-altador": "Altador",
+ "sec-altador": "Altador shops",
+ "th-altador-name": "Item",
+ "th-altador-price": "Price",
+ "tabbtn-bogshotvillage": "Bogshot Village",
+ "sec-bogshotvillage": "Bogshot Village shops",
+ "th-bogshotvillage-name": "Item",
+ "th-bogshotvillage-price": "Price",
+ "tabbtn-brightvale": "Brightvale",
+ "sec-brightvale": "Brightvale shops",
+ "th-brightvale-name": "Item",
+ "th-brightvale-price": "Price",
+ "tabbtn-coghamvillage": "Cogham Village",
+ "sec-coghamvillage": "Cogham Village shops",
+ "th-coghamvillage-name": "Item",
+ "th-coghamvillage-price": "Price",
+ "tabbtn-drackonridge": "Drackon Ridge",
+ "sec-drackonridge": "Drackon Ridge shops",
+ "th-drackonridge-name": "Item",
+ "th-drackonridge-price": "Price",
+ "tabbtn-faerieland": "Faerieland",
+ "sec-faerieland": "Faerieland shops",
+ "th-faerieland-name": "Item",
+ "th-faerieland-price": "Price",
+ "tabbtn-illusensglade": "Illusen's Glade",
+ "sec-illusensglade": "Illusen's Glade shops",
+ "th-illusensglade-name": "Item",
+ "th-illusensglade-price": "Price",
+ "tabbtn-markettown": "Market Town",
+ "sec-markettown": "Market Town shops",
+ "th-markettown-name": "Item",
+ "th-markettown-price": "Price",
+ "tabbtn-meridell": "Meridell",
+ "sec-meridell": "Meridell shops",
+ "th-meridell-name": "Item",
+ "th-meridell-price": "Price",
+ "items": {
+  "altador": [
+   {
+    "name": "Light Mote",
+    "price": "130 NP"
+   },
+   {
+    "name": "Fog Mote",
+    "price": "100 NP"
+   },
+   {
+    "name": "Smoke Mote",
+    "price": "120 NP"
+   },
+   {
+    "name": "Bubble Mote",
+    "price": "80 NP"
+   },
+   {
+    "name": "Supernova Mote",
+    "price": "750 NP"
+   },
+   {
+    "name": "Fire Mote",
+    "price": "110 NP"
+   },
+   {
+    "name": "Park District Treasure Map",
+    "price": "150 NP"
+   },
+   {
+    "name": "Red Juppie",
+    "price": "25 NP"
+   },
+   {
+    "name": "Starberry",
+    "price": "40 NP"
+   },
+   {
+    "name": "Purple Juppie",
+    "price": "20 NP"
+   },
+   {
+    "name": "Chokato",
+    "price": "60 NP"
+   },
+   {
+    "name": "Wand of the Ancients",
+    "price": "4,500 NP"
+   },
+   {
+    "name": "Razor Sword",
+    "price": "4,000 NP"
+   },
+   {
+    "name": "Altadorian Plate",
+    "price": "6,000 NP"
+   },
+   {
+    "name": "Legendary Robes",
+    "price": "5,500 NP"
+   },
+   {
+    "name": "Arena District Treasure Map",
+    "price": "200 NP"
+   },
+   {
+    "name": "Park District Treasure Map",
+    "price": "200 NP"
+   },
+   {
+    "name": "Money District Treasure Map",
+    "price": "300 NP"
+   },
+   {
+    "name": "Money District Treasure Map",
+    "price": "210 NP"
+   },
+   {
+    "name": "Potion of Power",
+    "price": "400 NP"
+   },
+   {
+    "name": "Nova Mote",
+    "price": "400 NP"
+   },
+   {
+    "name": "Legendary Shield",
+    "price": "2,500 NP"
+   },
+   {
+    "name": "4-Leaf Clover",
+    "price": "400 NP"
+   },
+   {
+    "name": "Park District Treasure Map",
+    "price": "260 NP"
+   },
+   {
+    "name": "Meerca Speed Potion",
+    "price": "500 NP"
+   },
+   {
+    "name": "Starlight Potion",
+    "price": "300 NP"
+   },
+   {
+    "name": "Rock Mote",
+    "price": "230 NP"
+   },
+   {
+    "name": "Water Mote",
+    "price": "270 NP"
+   },
+   {
+    "name": "Sun Mote",
+    "price": "280 NP"
+   },
+   {
+    "name": "Wind Mote",
+    "price": "250 NP"
+   },
+   {
+    "name": "Lava Mote",
+    "price": "260 NP"
+   },
+   {
+    "name": "Bazaar District Treasure Map",
+    "price": "200 NP"
+   },
+   {
+    "name": "Park District Treasure Map",
+    "price": "120 NP"
+   },
+   {
+    "name": "Fyora's Potion",
+    "price": "600 NP"
+   },
+   {
+    "name": "Potion of Revival",
+    "price": "150 NP"
+   },
+   {
+    "name": "Unguent of Curing",
+    "price": "300 NP"
+   },
+   {
+    "name": "Kauvara's Potion",
+    "price": "800 NP"
+   },
+   {
+    "name": "Ergyfruit",
+    "price": "100 NP"
+   },
+   {
+    "name": "Peachpa",
+    "price": "150 NP"
+   },
+   {
+    "name": "Bagguss",
+    "price": "50 NP"
+   },
+   {
+    "name": "Bazaar District Treasure Map",
+    "price": "250 NP"
+   },
+   {
+    "name": "Golden Negg",
+    "price": "2,000 NP"
+   },
+   {
+    "name": "Striped Negg",
+    "price": "250 NP"
+   },
+   {
+    "name": "Silver Negg",
+    "price": "600 NP"
+   },
+   {
+    "name": "Spyder Juice Elixir",
+    "price": "150 NP"
+   },
+   {
+    "name": "Ointment of Quickness",
+    "price": "150 NP"
+   },
+   {
+    "name": "Arena District Map",
+    "price": "200 NP"
+   },
+   {
+    "name": "Dispelling Potion",
+    "price": "150 NP"
+   },
+   {
+    "name": "Potion of Revival",
+    "price": "100 NP"
+   }
+  ],
+  "bogshotvillage": [
+   {
+    "name": "Red Juppie",
+    "price": "28 NP"
+   },
+   {
+    "name": "Purple Juppie",
+    "price": "22 NP"
+   },
+   {
+    "name": "Ergyfruit",
+    "price": "125 NP"
+   },
+   {
+    "name": "Speckled Negg",
+    "price": "100 NP"
+   },
+   {
+    "name": "Bagguss",
+    "price": "25 NP"
+   },
+   {
+    "name": "Meridell Farms Treasure Map",
+    "price": "375 NP"
+   },
+   {
+    "name": "Red Negg",
+    "price": "1,000 NP"
+   },
+   {
+    "name": "Starlight Potion",
+    "price": "300 NP"
+   },
+   {
+    "name": "Werelupe Woods Treasure Map",
+    "price": "200 NP"
+   },
+   {
+    "name": "Tome of Warding",
+    "price": "2,500 NP"
+   },
+   {
+    "name": "Spyder Juice Elixir",
+    "price": "150 NP"
+   },
+   {
+    "name": "Potion of Revival",
+    "price": "100 NP"
+   }
+  ],
+  "brightvale": [
+   {
+    "name": "Bagguss",
+    "price": "50 NP"
+   },
+   {
+    "name": "Red Juppie",
+    "price": "25 NP"
+   },
+   {
+    "name": "Purple Juppie",
+    "price": "20 NP"
+   },
+   {
+    "name": "Starberry",
+    "price": "40 NP"
+   },
+   {
+    "name": "Chokato",
+    "price": "60 NP"
+   },
+   {
+    "name": "Smoke Mote",
+    "price": "120 NP"
+   },
+   {
+    "name": "Light Mote",
+    "price": "130 NP"
+   },
+   {
+    "name": "Fire Mote",
+    "price": "110 NP"
+   },
+   {
+    "name": "Wind Mote",
+    "price": "80 NP"
+   },
+   {
+    "name": "Leaf Mote",
+    "price": "90 NP"
+   },
+   {
+    "name": "Nova Mote",
+    "price": "400 NP"
+   },
+   {
+    "name": "Bogshot Treasure Map",
+    "price": "220 NP"
+   },
+   {
+    "name": "Brightvale Treasure Map",
+    "price": "200 NP"
+   },
+   {
+    "name": "Brightvale Road Treasure Map",
+    "price": "240 NP"
+   },
+   {
+    "name": "Crossroads Treasure Map",
+    "price": "280 NP"
+   },
+   {
+    "name": "Werelupe Woods Treasure Map",
+    "price": "300 NP"
+   },
+   {
+    "name": "Spyder Juice Elixir",
+    "price": "150 NP"
+   },
+   {
+    "name": "Potion of Power",
+    "price": "400 NP"
+   },
+   {
+    "name": "Knight's Shield",
+    "price": "1,500 NP"
+   },
+   {
+    "name": "Magic Robes",
+    "price": "2,000 NP"
+   }
+  ],
+  "coghamvillage": [
+   {
+    "name": "Purple Juppie",
+    "price": "20 NP"
+   },
+   {
+    "name": "Red Juppie",
+    "price": "25 NP"
+   },
+   {
+    "name": "Peachpa",
+    "price": "150 NP"
+   },
+   {
+    "name": "Knight's Sword",
+    "price": "1,500 NP"
+   },
+   {
+    "name": "Enchanter's Wand",
+    "price": "2,000 NP"
+   },
+   {
+    "name": "Starlight Potion",
+    "price": "300 NP"
+   },
+   {
+    "name": "Potion of Revival",
+    "price": "100 NP"
+   },
+   {
+    "name": "Starry Negg",
+    "price": "800 NP"
+   },
+   {
+    "name": "Shadowglen Treasure Map",
+    "price": "225 NP"
+   },
+   {
+    "name": "Meridell Farms Treasure Map",
+    "price": "260 NP"
+   },
+   {
+    "name": "Iron Shield",
+    "price": "800 NP"
+   }
+  ],
+  "drackonridge": [
+   {
+    "name": "Sun Mote",
+    "price": "280 NP"
+   },
+   {
+    "name": "Lava Mote",
+    "price": "260 NP"
+   },
+   {
+    "name": "Shadow Mote",
+    "price": "240 NP"
+   },
+   {
+    "name": "Wind Mote",
+    "price": "250 NP"
+   },
+   {
+    "name": "Rock Mote",
+    "price": "230 NP"
+   },
+   {
+    "name": "Wizard's Gown",
+    "price": "6,000 NP"
+   }
+  ],
+  "faerieland": [
+   {
+    "name": "Potion of Meerca Speed",
+    "price": "500 NP"
+   },
+   {
+    "name": "Dispelling Potion",
+    "price": "180 NP"
+   },
+   {
+    "name": "Spyder Juice Elixir",
+    "price": "150 NP"
+   },
+   {
+    "name": "Purple Juppie",
+    "price": "20 NP"
+   },
+   {
+    "name": "Speckled Negg",
+    "price": "75 NP"
+   },
+   {
+    "name": "Starberry",
+    "price": "40 NP"
+   },
+   {
+    "name": "Red Juppie",
+    "price": "25 NP"
+   },
+   {
+    "name": "Chokato",
+    "price": "60 NP"
+   },
+   {
+    "name": "Sorcerer's Wand",
+    "price": "7,000 NP"
+   },
+   {
+    "name": "Faerie Dress",
+    "price": "8,000 NP"
+   },
+   {
+    "name": "Golden Shield",
+    "price": "4,000 NP"
+   },
+   {
+    "name": "Silver Negg",
+    "price": "1,500 NP"
+   },
+   {
+    "name": "Golden Negg",
+    "price": "5,000 NP"
+   },
+   {
+    "name": "Fyora's Potion",
+    "price": "1,500 NP"
+   },
+   {
+    "name": "Kauvara's Potion",
+    "price": "2,000 NP"
+   }
+  ],
+  "illusensglade": [
+   {
+    "name": "Speckled Negg",
+    "price": "75 NP"
+   },
+   {
+    "name": "Silver Negg",
+    "price": "600 NP"
+   },
+   {
+    "name": "Golden Negg",
+    "price": "2,000 NP"
+   },
+   {
+    "name": "Striped Negg",
+    "price": "250 NP"
+   }
+  ],
+  "markettown": [
+   {
+    "name": "Battle Blade",
+    "price": "4,000 NP"
+   },
+   {
+    "name": "Magician's Wand",
+    "price": "4,000 NP"
+   },
+   {
+    "name": "Noble Press",
+    "price": "6,500 NP"
+   },
+   {
+    "name": "Golden Shield",
+    "price": "2,000 NP"
+   },
+   {
+    "name": "Royal Armour",
+    "price": "4,500 NP"
+   },
+   {
+    "name": "Starry Negg",
+    "price": "1,000 NP"
+   },
+   {
+    "name": "Red Negg",
+    "price": "1,250 NP"
+   },
+   {
+    "name": "Brightvale Treasure Map",
+    "price": "325 NP"
+   },
+   {
+    "name": "Steppe Plateau Treasure Map",
+    "price": "350 NP"
+   },
+   {
+    "name": "Werelupe Woods Treasure Map",
+    "price": "425 NP"
+   },
+   {
+    "name": "Peachpa",
+    "price": "125 NP"
+   },
+   {
+    "name": "Ergyfruit",
+    "price": "125 NP"
+   },
+   {
+    "name": "Striped Negg",
+    "price": "275 NP"
+   },
+   {
+    "name": "Potion of Meerca Speed",
+    "price": "500 NP"
+   },
+   {
+    "name": "Unguent of Curing",
+    "price": "350 NP"
+   },
+   {
+    "name": "Starlight Potion",
+    "price": "350 NP"
+   },
+   {
+    "name": "Fyora's Potion",
+    "price": "600 NP"
+   },
+   {
+    "name": "Kauvara's Potion",
+    "price": "800 NP"
+   },
+   {
+    "name": "Black Keep Treasure Map",
+    "price": "350 NP"
+   },
+   {
+    "name": "Werelupe Woods Treasure Map",
+    "price": "400 NP"
+   },
+   {
+    "name": "Shadowglen Treasure Map",
+    "price": "300 NP"
+   }
+  ],
+  "meridell": [
+   {
+    "name": "Drackon Ridge Treasure Map x2",
+    "price": "200 NP"
+   },
+   {
+    "name": "Meridell Plains Treasure Map",
+    "price": "200 NP"
+   },
+   {
+    "name": "Meri Acres Farm Treasure Map",
+    "price": "200 NP"
+   },
+   {
+    "name": "Illusen's Glade Treasure Map",
+    "price": "300 NP"
+   },
+   {
+    "name": "Meridell Farms Treasure Map",
+    "price": "200 NP"
+   },
+   {
+    "name": "Spyder Juice Elixir",
+    "price": "125 NP"
+   },
+   {
+    "name": "Potion of Power",
+    "price": "400 NP"
+   },
+   {
+    "name": "Potion of Meerca Speed",
+    "price": "500 NP"
+   },
+   {
+    "name": "Red Juppie",
+    "price": "22 NP"
+   },
+   {
+    "name": "Starberry",
+    "price": "40 NP"
+   },
+   {
+    "name": "Bagguss",
+    "price": "40 NP"
+   },
+   {
+    "name": "Chokato",
+    "price": "50 NP"
+   },
+   {
+    "name": "Purple Juppie",
+    "price": "20 NP"
+   },
+   {
+    "name": "Light Mote",
+    "price": "130 NP"
+   },
+   {
+    "name": "Fire Mote",
+    "price": "110 NP"
+   },
+   {
+    "name": "Smoke Mote",
+    "price": "120 NP"
+   },
+   {
+    "name": "Bubble Mote",
+    "price": "80 NP"
+   },
+   {
+    "name": "Leaf Mote",
+    "price": "90 NP"
+   },
+   {
+    "name": "Sorcerer's Wand",
+    "price": "7,000 NP"
+   },
+   {
+    "name": "Squire Sword",
+    "price": "500 NP"
+   },
+   {
+    "name": "Wooden Shield",
+    "price": "400 NP"
+   },
+   {
+    "name": "Speckled Negg",
+    "price": "70 NP"
+   },
+   {
+    "name": "Ointment of Quickness",
+    "price": "125 NP"
+   },
+   {
+    "name": "Dispelling Potion",
+    "price": "125 NP"
+   },
+   {
+    "name": "Meridell Castle Treasure Map",
+    "price": "200 NP"
+   },
+   {
+    "name": "Lava Mote",
+    "price": "250 NP"
+   },
+   {
+    "name": "Smoke Mote",
+    "price": "100 NP"
+   },
+   {
+    "name": "Starry Negg",
+    "price": "800 NP"
+   },
+   {
+    "name": "Fire Mote",
+    "price": "120 NP"
+   },
+   {
+    "name": "Witch's Wand",
+    "price": "3,000 NP"
+   }
+  ]
+ }
+}

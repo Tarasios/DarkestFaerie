@@ -25,7 +25,7 @@
  "gt-world-complete": "complete",
  "page-title": "Darkest Faerie — Bestiary & Elements",
  "df-title": "Bestiary & Elements",
- "df-subtitle": "Every enemy and boss, grouped by element. The game hides elements, but they matter: each element has an OPPOSITE — Fire ↔ Water, Air ↔ Earth, Light ↔ Dark. Hit a foe with its opposite element for extra damage; wear/equip the matching element to reduce damage and deflect attacks with a shield. Hover an element pill to see its opposite.",
+ "df-subtitle": "Every enemy and boss, grouped by element. The game hides elements, but they matter: each has an OPPOSITE — Fire ↔ Water, Air ↔ Earth, Light ↔ Dark. Attack with the “Beat with” element for extra damage; equip that element to reduce damage and deflect with a shield. Elements are cross-checked from two community guides; a few are uncertain — corrections welcome.",
  "kp-export": "Export progress",
  "kp-import": "Import progress",
  "kp-note": "Backs up / restores ALL Darkest Faerie tracker progress on this site as a JSON file.",
@@ -38,32 +38,32 @@
  "sec-air": "Air enemies",
  "th-air-name": "Enemy",
  "th-air-el": "Element",
- "th-air-desc": "Appearance / how to beat it",
+ "th-air-desc": "Appearance / notes",
  "tabbtn-earth": "Earth",
  "sec-earth": "Earth enemies",
  "th-earth-name": "Enemy",
  "th-earth-el": "Element",
- "th-earth-desc": "Appearance / how to beat it",
+ "th-earth-desc": "Appearance / notes",
  "tabbtn-dark": "Dark",
  "sec-dark": "Dark enemies",
  "th-dark-name": "Enemy",
  "th-dark-el": "Element",
- "th-dark-desc": "Appearance / how to beat it",
+ "th-dark-desc": "Appearance / notes",
  "tabbtn-fire": "Fire",
  "sec-fire": "Fire enemies",
  "th-fire-name": "Enemy",
  "th-fire-el": "Element",
- "th-fire-desc": "Appearance / how to beat it",
+ "th-fire-desc": "Appearance / notes",
  "tabbtn-light": "Light",
  "sec-light": "Light enemies",
  "th-light-name": "Enemy",
  "th-light-el": "Element",
- "th-light-desc": "Appearance / how to beat it",
+ "th-light-desc": "Appearance / notes",
  "tabbtn-water": "Water",
  "sec-water": "Water enemies",
  "th-water-name": "Enemy",
  "th-water-el": "Element",
- "th-water-desc": "Appearance / how to beat it",
+ "th-water-desc": "Appearance / notes",
  "tabbtn-bosses": "Bosses",
  "sec-bosses": "Bosses",
  "th-bosses-name": "Boss",
@@ -81,249 +81,308 @@
   "air": [
    {
     "name": "Crokabek",
+    "loc": "Meridell Outskirts",
     "desc": "Really just a large crow petpet. Jump attacks seem most effective."
    },
    {
     "name": "Minion Archer (Blue)",
+    "loc": "",
     "desc": "A flying blue skeith. Deflect it's air based attacks with a shield."
    },
    {
     "name": "Minion Grunt (Blue)",
+    "loc": "",
     "desc": "A small, flying blue skeith that attacks you at will."
    },
    {
     "name": "Minion Warrior (Blue)",
+    "loc": "",
     "desc": "A small, heavy-built blue skeith that attacks you with combos."
    },
    {
     "name": "Mountain Crokabek",
+    "loc": "Cogham Steppes",
     "desc": "A large brown crow found in the mountains. Jump attacks."
    },
    {
     "name": "Swamp Crokabek",
+    "loc": "",
     "desc": "A large green crow found in swampy areas. Jump attacks."
    }
   ],
   "earth": [
    {
     "name": "Flower Monster",
+    "loc": "Shadowglen",
     "desc": "A flower with a face! Simply attack."
    },
    {
     "name": "Flower Monster (Walking)",
+    "loc": "Shadowglen",
     "desc": "Pretty much a walking flower monster. Simply attack."
    },
    {
     "name": "Ixi Spearman",
+    "loc": "Cogham Village(one time), Cogham Steppes",
     "desc": "An ixi with a spear, dodge its attacks."
    },
    {
     "name": "Ixi Archer",
+    "loc": "Cogham Village(one time), Cogham Steppes",
     "desc": "An ixi with a bow and arrow. Deflect its arrows."
    },
    {
     "name": "Ixi Henchman",
+    "loc": "",
     "desc": "Pretty much the same thing as a spearman, but more powerful?"
    },
    {
     "name": "Minion Archer (Yellow)",
+    "loc": "",
     "desc": "A flying yellow skeith, deflect its attacks."
    },
    {
     "name": "Minion Artillery (Green)",
+    "loc": "",
     "desc": "A huge green skeith that fires ammo which you can deflect, but watch out for its charge attack!"
    },
    {
     "name": "Minion Brute (Yellow)",
+    "loc": "",
     "desc": "A huge, yellow heavy-built skeith. Watch for its huge arms."
    },
    {
     "name": "Minion Grunt (Green)",
+    "loc": "",
     "desc": "A small, flying skeith that attacks at will."
    },
    {
     "name": "Minion Warrior (Light Blue)",
+    "loc": "",
     "desc": "A small, heavy-built skeith. Watch out for its's combo!"
    },
    {
     "name": "Plant Gunner",
+    "loc": "",
     "desc": "A weird, walking plant that fires its attacks which you can deflect."
    },
    {
     "name": "Poison Flower Monster",
+    "loc": "Shadowglen",
     "desc": "A planted flower with a face that can shoot poisionous gas at you."
    },
    {
     "name": "Poison Flower Monster (Walking)",
+    "loc": "Shadowglen",
     "desc": "Pretty much a walking flower monster that has poisionous attacks."
    },
    {
     "name": "Poison Spyder",
+    "loc": "Drackonack Ridge",
     "desc": "A spider with poisionous bites; they have a green tint to them"
    },
    {
     "name": "Spore Monster",
+    "loc": "Shadowglen",
     "desc": "A weird, walking plant that fires its attacks which you can deflect."
    }
   ],
   "dark": [
    {
     "name": "Bandit",
+    "loc": "Meridell Plains",
     "desc": "A monster with a club for a weapon."
    },
    {
     "name": "Drub",
+    "loc": "",
     "desc": "A one time monster, just a thief with a name."
    },
    {
     "name": "Dark Knight",
+    "loc": "",
     "desc": "A huge, skulking monster with tons of armor and a big sword."
    },
    {
     "name": "Darrick the Blade",
+    "loc": "",
     "desc": "A one time monster, just a rogue with a name."
    },
    {
     "name": "Dumb Skeleton",
+    "loc": "Haunted Tombs",
     "desc": "A skeith skeleton that rises up from the ground."
    },
    {
     "name": "Evil Harris",
+    "loc": "",
     "desc": "Pretty much what an evil harris would look like-dark and evil looking."
    },
    {
     "name": "Minion Archer (Purple)",
+    "loc": "",
     "desc": "A small, flying purple skeith that fires ammo at you which you can deflect."
    },
    {
     "name": "Minion Artillery (Purple)",
+    "loc": "",
     "desc": "A huge purple skeith that fires ammo which you can deflect, but watch out for its charge attack!"
    },
    {
     "name": "Minion Grunt (Purple)",
+    "loc": "",
     "desc": "A small, flying Purple skeith that attacks you at will."
    },
    {
     "name": "Restless Spirit",
+    "loc": "",
     "desc": "Pretty much a floating ghostly figure that is transparent. Can drain energy from you."
    },
    {
     "name": "Rogue",
+    "loc": "",
     "desc": "A monster equipped with a blade."
    },
    {
     "name": "Sid the Vicious",
+    "loc": "",
     "desc": "A one time monster, just a bandit with a name."
    },
    {
     "name": "Skeleton Wizard",
+    "loc": "Haunted Tomb",
     "desc": "A techo skeleton that fires spells which you can deflect."
    },
    {
     "name": "Skeleton Fighter",
+    "loc": "Haunted Tomb",
     "desc": "A tall skeith skeleton, I think, that has a sword and shield."
    },
    {
     "name": "Spirit Skull",
+    "loc": "",
     "desc": "EXTREMELY annoying floating skull, surrounded by items which can be thrown at you."
    },
    {
     "name": "Spirit Sword",
+    "loc": "",
     "desc": "Your average floating sword that attacks."
    },
    {
     "name": "Spyder",
+    "loc": "",
     "desc": "Just a regular plain old spider that bites."
    },
    {
     "name": "Thief",
+    "loc": "",
     "desc": "A monster equipped with a dagger, attacks can open up your pockets."
    }
   ],
   "fire": [
    {
     "name": "Drackonack",
-    "desc": "A purple dragon with black stripes that is vicious, and charges pretty quickly, too."
+    "loc": "Drackonack Ridge",
+    "desc": "A purple dragon with black stripes that is vicious, and charges pretty quickly, too. [Element disputed: tris88 lists Earth — beat with Air.]"
    },
    {
     "name": "Giant Drackonack",
-    "desc": "Just a larger version of the Drackonack."
+    "loc": "Drackonack Ridge",
+    "desc": "Just a larger version of the Drackonack. [Element disputed: tris88 lists Earth — beat with Air.]"
    },
    {
     "name": "Minion Archer (Red)",
+    "loc": "",
     "desc": "A tiny flying skeith that fires arrows at you which you can deflect"
    },
    {
     "name": "Minion Artillery (Red)",
+    "loc": "",
     "desc": "A huge, red skeith that fires ammo which you can deflect, just watch out for its charging attack if you get too close!"
    },
    {
     "name": "Minion Brute (Red)",
+    "loc": "",
     "desc": "A ginourmous red skeith with hulking arms."
    },
    {
     "name": "Minion Magician (Red)",
+    "loc": "",
     "desc": "A floating, red skeith that fires magic spells at you which you can deflect. Also can make other minions appear."
    },
    {
     "name": "Minion Warrior (Orange)",
+    "loc": "",
     "desc": "A small, heavy-built orange skeith that attacks you with combos."
    },
    {
     "name": "Minion Wizard (Red)",
+    "loc": "",
     "desc": "A floating, red skeith that has a kind of \"coat\". The most annoying of the minions, you CANNOT deflect its attacks, even if you use a nova mote. It also can change a fellow minion's magical alignment."
    },
    {
     "name": "Werelupe Basher",
-    "desc": "A red lupe, which attacks you with its claws."
+    "loc": "Illusen's Glade",
+    "desc": "A red lupe, which attacks you with its claws. [Element disputed: tris88 lists Earth — beat with Air.]"
    },
    {
     "name": "Werelupe Bone Thrower",
+    "loc": "",
     "desc": "A red lupe that throws bones at you which you can deflect."
    },
    {
     "name": "Werelupe Elite",
+    "loc": "",
     "desc": "A black lupe with bones for armor, and vicious attacks."
    }
   ],
   "light": [
    {
     "name": "Minion Grunt (Yellow)",
+    "loc": "",
     "desc": "A small, flying yellow skeith that attacks you at will."
    },
    {
     "name": "Minion Magician (Yellow)",
+    "loc": "",
     "desc": "A flying yellow skeith that fires magic spells at you which you can deflect."
    },
    {
     "name": "Minion Wizard (Yellow)",
+    "loc": "",
     "desc": "A floating, yellow skeith that has a kind of \"coat\". The most annoying"
    }
   ],
   "water": [
    {
     "name": "Minion Brute (Blue)",
+    "loc": "",
     "desc": "A huge, blue skeith with hulking arms."
    },
    {
     "name": "Minion Magician (Blue)",
+    "loc": "",
     "desc": "A flying, blue skeith that fires spells at you which you can deflect."
    },
    {
     "name": "Slorg",
-    "desc": "A mean, green slug that fires spitballs at you!"
+    "loc": "Meridell Sewers",
+    "desc": "A mean, green slug that fires spitballs at you! [Element disputed: tris88 lists Earth — beat with Air.]"
    },
    {
     "name": "Sludgy",
+    "loc": "Meridell Arena(one time)",
     "desc": "A..well pile of brown sludgy stuff that fires sludgeballs at you and can freeze you in place!"
    },
    {
     "name": "Swamp Tentacle",
+    "loc": "",
     "desc": "A octopus looking green tentacle usually found in swamps"
    },
    {
     "name": "Tentacle",
-    "desc": "A smaller version of the Swamp Tentacle found in other watery places"
+    "loc": "Juppie Boss Battle, Meridell Sewers",
+    "desc": "A smaller version of the Swamp Tentacle found in other watery places [Element disputed: tris88 lists Air — beat with Earth.]"
    }
   ],
   "bosses": [
@@ -388,5 +447,18 @@
     "act": "Act 4"
    }
   ]
- }
+ },
+ "th-air-beat": "Beat with",
+ "th-air-loc": "Where (Act 1)",
+ "th-earth-beat": "Beat with",
+ "th-earth-loc": "Where (Act 1)",
+ "th-dark-beat": "Beat with",
+ "th-dark-loc": "Where (Act 1)",
+ "th-fire-beat": "Beat with",
+ "th-fire-loc": "Where (Act 1)",
+ "th-light-beat": "Beat with",
+ "th-light-loc": "Where (Act 1)",
+ "th-water-beat": "Beat with",
+ "th-water-loc": "Where (Act 1)",
+ "th-bosses-beat": "Beat with"
 }

@@ -20,11 +20,12 @@ document.addEventListener("DOMContentLoaded", async function () {
     act3:         { page: "tools/act3.html",         banner: "act3.jpg" },
     act4:         { page: "tools/act4.html",         banner: "act4.jpg" },
     achievements: { page: "tools/achievements.html", banner: "achievements.jpg" },
-    bestiary:     { page: "tools/bestiary.html",     banner: "bestiary.jpg" }
+    bestiary:     { page: "tools/bestiary.html",     banner: "bestiary.jpg" },
+    shops:        { page: "tools/shops.html",         banner: "shops.jpg" }
   };
   var COLLECTIONS = [
     { id: "story",     games: ["act1", "act2", "act3", "act4"] },
-    { id: "reference", games: ["achievements", "bestiary"] }
+    { id: "reference", games: ["achievements", "bestiary", "shops"] }
   ];
 
   function pct(done, total) { return total ? Math.round(100 * done / total) : 0; }
